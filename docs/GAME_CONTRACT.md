@@ -23,7 +23,7 @@ npm run games:list                      # what is imported, from which commit
    the hub does not have installed.
 5. Writes `imported/<id>/game.json` (card data, routes, source commit) and swaps it in. A failed import leaves the last
    good one in place.
-6. Regenerates `api/<id>/**` (one entry per route, re-exporting the game's handler), `api/_cyd/<id>.ts` (env setup),
+6. Regenerates `api/<id>.ts` (one function per game that dispatches to its handlers, since Vercel Hobby allows 12 per deployment), `api/_cyd/<id>.ts` (env setup),
    `vercel.json` and `apps/web/src/games.generated.ts`, which drives the hub cards.
 
 Commit `imported/` and the generated files. Vercel deploys the hub on its own and cannot see the game projects.

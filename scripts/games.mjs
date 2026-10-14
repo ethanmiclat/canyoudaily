@@ -289,7 +289,10 @@ function importedGames() {
 function generateApi(games) {
   // Everything under api/_cyd and api/<imported id> is generated; anything else in api/ is the hub's own.
   fs.rmSync(path.join(API, '_cyd'), { recursive: true, force: true });
-  for (const g of games) fs.rmSync(path.join(API, g.id), { recursive: true, force: true });
+  for (const g of games) {
+    fs.rmSync(path.join(API, g.id), { recursive: true, force: true });
+    fs.rmSync(path.join(API, `${g.id}.ts`), { force: true });
+  }
 
   for (const g of games) {
     const base = `imported/${g.id}/server`;
@@ -306,18 +309,39 @@ process.env.${g.envPrefix}_DATA_DIR ||= path.join(root, '.data/${g.id}');
 process.env.${g.envPrefix}_KEY_PREFIX ||= '${g.id}:';
 `,
     );
-    for (const route of g.routes) {
-      const entry = path.join(API, g.id, `${route}.ts`);
-      const up = path.relative(path.dirname(entry), HUB).split(path.sep).join('/');
-      const setup = path.relative(path.dirname(entry), path.join(API, '_cyd', g.id)).split(path.sep).join('/');
-      writeFile(
-        entry,
-        `${GENERATED_HEADER}
-import '${setup.startsWith('.') ? setup : `./${setup}`}.js';
-export { default } from '${up}/${base}/${g.apiDir}/${route}.js';
+    // One function per game (the Hobby plan caps a deployment at 12): api/<id>.ts dispatches to the game's
+    // handlers. vercel.json rewrites /api/<id>/<route> to it with the route in ?__route.
+    const imports = g.routes.map((route, i) => `import h${i} from '../${base}/${g.apiDir}/${route}.js';`);
+    const table = g.routes.map((route, i) => `  '${route}': h${i},`);
+    writeFile(
+      path.join(API, `${g.id}.ts`),
+      `${GENERATED_HEADER}
+import './_cyd/${g.id}.js';
+${imports.join('\n')}
+
+type Req = { url?: string; query?: Record<string, unknown> };
+type Handler = (req: any, res: any) => unknown;
+
+const routes: Record<string, Handler> = {
+${table.join('\n')}
+};
+
+export default function handler(req: Req, res: { statusCode: number; setHeader(k: string, v: string): void; end(body: string): void }) {
+  // Vercel passes the route from the rewrite; the hub's dev server calls this with the original URL.
+  const fromQuery = req.query?.__route;
+  if (req.query) delete req.query.__route;
+  const path = typeof fromQuery === 'string' ? fromQuery : new URL(req.url ?? '/', 'http://hub').pathname.slice('/api/${g.id}/'.length);
+  const run = routes[path.split('/').filter(Boolean).join('/')];
+  if (!run) {
+    res.statusCode = 404;
+    res.setHeader('Content-Type', 'application/json; charset=utf-8');
+    res.end(JSON.stringify({ error: 'Not found' }));
+    return;
+  }
+  return run(req, res);
+}
 `,
-      );
-    }
+    );
   }
 }
 
@@ -327,9 +351,10 @@ function generateVercel(games) {
     buildCommand: 'npm run build',
     outputDirectory: 'apps/web/dist',
     functions: Object.fromEntries(
-      games.map((g) => [`api/${g.id}/**/*.ts`, { includeFiles: `imported/${g.id}/server/${g.contentDir}/**` }]),
+      games.map((g) => [`api/${g.id}.ts`, { includeFiles: `imported/${g.id}/server/${g.contentDir}/**` }]),
     ),
     rewrites: [
+      ...games.map((g) => ({ source: `/api/${g.id}/:route*`, destination: `/api/${g.id}?__route=:route*` })),
       // Static files win over rewrites on Vercel, so these only catch a game's client-side routes.
       ...games.flatMap((g) => [
         { source: `/${g.id}`, destination: `/${g.id}/index.html` },

@@ -2,14 +2,22 @@
   "buildCommand": "npm run build",
   "outputDirectory": "apps/web/dist",
   "functions": {
-    "api/survive/**/*.ts": {
+    "api/survive.ts": {
       "includeFiles": "imported/survive/server/content/**"
     },
-    "api/remember/**/*.ts": {
+    "api/remember.ts": {
       "includeFiles": "imported/remember/server/content/**"
     }
   },
   "rewrites": [
+    {
+      "source": "/api/survive/:route*",
+      "destination": "/api/survive?__route=:route*"
+    },
+    {
+      "source": "/api/remember/:route*",
+      "destination": "/api/remember?__route=:route*"
+    },
     {
       "source": "/survive",
       "destination": "/survive/index.html"

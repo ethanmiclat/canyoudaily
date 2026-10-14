@@ -59,8 +59,13 @@ async function readBody(req: IncomingMessage): Promise<unknown> {
 async function serveApi(server: ViteDevServer, hubRoot: string, req: IncomingMessage, res: ServerResponse): Promise<boolean> {
   const url = new URL(req.url ?? '/', 'http://hub');
   if (!url.pathname.startsWith('/api/')) return false;
-  const base = path.normalize(path.join(hubRoot, url.pathname));
-  const entry = [`${base}.ts`, path.join(base, 'index.ts')].find((f) => f.startsWith(path.join(hubRoot, 'api')) && fs.existsSync(f));
+  // Like Vercel's rewrites: /api/<id>/<route> falls back to the nearest api/<...>.ts above it (a game's router).
+  const segments = url.pathname.split('/').filter(Boolean);
+  let entry: string | undefined;
+  for (let n = segments.length; n >= 2 && !entry; n--) {
+    const base = path.normalize(path.join(hubRoot, ...segments.slice(0, n)));
+    entry = [`${base}.ts`, path.join(base, 'index.ts')].find((f) => f.startsWith(path.join(hubRoot, 'api')) && fs.existsSync(f));
+  }
   if (!entry || path.basename(path.dirname(entry)) === '_cyd') {
     res.statusCode = 404;
     res.setHeader('Content-Type', 'application/json; charset=utf-8');
