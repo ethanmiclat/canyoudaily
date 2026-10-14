@@ -1,0 +1,105 @@
+{
+  "launchDate": "2026-10-08",
+  "timezone": "America/Chicago",
+  "pairsPerDay": 10,
+  "pairSeconds": 12,
+  "graceMs": 500,
+  "revealMs": 3000,
+  "bands": {
+    "easy": [
+      0.25,
+      0.6
+    ],
+    "medium": [
+      0.1,
+      0.25
+    ],
+    "hard": [
+      0.02,
+      0.1
+    ]
+  },
+  "bandMix": {
+    "easy": 3,
+    "medium": 4,
+    "hard": 3
+  },
+  "minCategories": 6,
+  "maxPerCategory": 2,
+  "itemCooldownDays": 30,
+  "familyCooldownDays": 1,
+  "pairCooldownDays": 365,
+  "toleranceMargin": 2,
+  "lowQuestionShare": 0.3,
+  "aheadDays": 14,
+  "crowdMinAnswers": 50,
+  "generatorSeed": "cyc-v1",
+  "requireVerified": true,
+  "categories": {
+    "sports": {
+      "label": "Sports",
+      "icon": "trophy"
+    },
+    "landmarks": {
+      "label": "Landmarks",
+      "icon": "landmark"
+    },
+    "geography": {
+      "label": "Geography",
+      "icon": "globe"
+    },
+    "movies": {
+      "label": "Screen & stage",
+      "icon": "clapperboard"
+    },
+    "music": {
+      "label": "Music",
+      "icon": "music"
+    },
+    "money": {
+      "label": "Money & business",
+      "icon": "banknote"
+    },
+    "science": {
+      "label": "Science & nature",
+      "icon": "atom"
+    },
+    "history": {
+      "label": "History",
+      "icon": "hourglass"
+    },
+    "food": {
+      "label": "Food & everyday",
+      "icon": "utensils"
+    },
+    "animals": {
+      "label": "Animals",
+      "icon": "paw-print"
+    },
+    "games": {
+      "label": "Games & toys",
+      "icon": "gamepad"
+    },
+    "places": {
+      "label": "Places",
+      "icon": "map-pin"
+    }
+  },
+  "calibration": {
+    "minAnswers": 100,
+    "expectedAccuracy": {
+      "easy": [
+        0.8,
+        1.0
+      ],
+      "medium": [
+        0.6,
+        0.85
+      ],
+      "hard": [
+        0.4,
+        0.7
+      ]
+    }
+  }
+}

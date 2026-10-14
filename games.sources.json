@@ -7,6 +7,10 @@
     {
       "id": "remember",
       "source": "../canyouremember"
+    },
+    {
+      "id": "compare",
+      "source": "../canyoucompare"
     }
   ]
 }

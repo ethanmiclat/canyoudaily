@@ -12,6 +12,15 @@ export const importedGames: ImportedGame[] = [
     "href": "/survive/"
   },
   {
+    "id": "compare",
+    "name": "Can You Compare",
+    "tagline": "Ten bouts. Two contenders. You make the call.",
+    "kind": "knowledge",
+    "accentColor": "#365f88",
+    "launchDate": "2026-10-08",
+    "href": "/compare/"
+  },
+  {
     "id": "remember",
     "name": "Can You Remember",
     "tagline": "A different memory puzzle every day. One practice, one real try.",

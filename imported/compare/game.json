@@ -1,0 +1,27 @@
+{
+  "id": "compare",
+  "name": "Can You Compare",
+  "tagline": "Ten bouts. Two contenders. You make the call.",
+  "kind": "knowledge",
+  "accentColor": "#365f88",
+  "launchDate": "2026-10-08",
+  "href": "/compare/",
+  "envPrefix": "CYC",
+  "apiDir": "api/compare",
+  "contentDir": "content",
+  "routes": [
+    "admin",
+    "answer",
+    "pair",
+    "report",
+    "result",
+    "run",
+    "today"
+  ],
+  "source": {
+    "path": "../canyoucompare",
+    "commit": null,
+    "dirty": null
+  },
+  "importedAt": "2026-10-14T21:55:16.640Z"
+}

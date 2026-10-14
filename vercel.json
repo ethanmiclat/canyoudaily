@@ -5,6 +5,9 @@
     "api/survive.ts": {
       "includeFiles": "imported/survive/server/content/**"
     },
+    "api/compare.ts": {
+      "includeFiles": "imported/compare/server/content/**"
+    },
     "api/remember.ts": {
       "includeFiles": "imported/remember/server/content/**"
     }
@@ -13,6 +16,10 @@
     {
       "source": "/api/survive/:route*",
       "destination": "/api/survive?__route=:route*"
+    },
+    {
+      "source": "/api/compare/:route*",
+      "destination": "/api/compare?__route=:route*"
     },
     {
       "source": "/api/remember/:route*",
@@ -25,6 +32,14 @@
     {
       "source": "/survive/:path*",
       "destination": "/survive/index.html"
+    },
+    {
+      "source": "/compare",
+      "destination": "/compare/index.html"
+    },
+    {
+      "source": "/compare/:path*",
+      "destination": "/compare/index.html"
     },
     {
       "source": "/remember",
