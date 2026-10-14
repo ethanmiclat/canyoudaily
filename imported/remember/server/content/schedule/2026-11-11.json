@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-11",
+  "type": "laser",
+  "skin": "museum",
+  "level": 1,
+  "params": {
+    "trials": 4,
+    "lanes": 4,
+    "cols": [
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "seedRef": "r1",
+  "feature": false,
+  "debut": true,
+  "hard": false,
+  "generated_at": "2026-10-13T18:01:59.871Z",
+  "reviewed": false
+}

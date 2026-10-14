@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-31",
+  "approved": false,
+  "activity": "stop-the-needle",
+  "winRate": 0.6233,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "pokemon_gen1:contains:i",
+      "datasetId": "pokemon_gen1",
+      "prompt": "Name an original-151 Pokémon with the letter I in its name",
+      "size": 57,
+      "answers": ["arcanine", "articuno", "beedrill", "blastoise", "caterpie", "charizard", "clefairy", "diglett", "ditto", "dodrio", "dragonair", "dragonite", "dratini", "dugtrio", "grimer", "growlithe", "hitmonchan", "hitmonlee", "ivysaur", "jigglypuff", "kingler", "koffing", "lickitung", "magikarp", "magnemite", "mr-mime", "nidoking", "nidoqueen", "nidoran-f", "nidoran-m", "nidorina", "nidorino", "ninetales", "oddish", "onix", "persian", "pidgeot", "pidgeotto", "pidgey", "pikachu", "pinsir", "poliwag", "poliwhirl", "poliwrath", "primeape", "raichu", "rapidash", "raticate", "seaking", "squirtle", "starmie", "victreebel", "vileplume", "vulpix", "weepinbell", "weezing", "wigglytuff"]
+    },
+    {
+      "round": 2,
+      "questionId": "greek_myth:tag:titan",
+      "datasetId": "greek_myth",
+      "prompt": "Name one of the twelve first-generation Titans (children of Uranus and Gaia)",
+      "size": 12,
+      "answers": ["titan-coeus", "titan-crius", "titan-cronus", "titan-hyperion", "titan-iapetus", "titan-mnemosyne", "titan-oceanus", "titan-phoebe", "titan-rhea", "titan-tethys", "titan-theia", "titan-themis"]
+    },
+    {
+      "round": 3,
+      "questionId": "nato_alphabet:contains:r",
+      "datasetId": "nato_alphabet",
+      "prompt": "Name a NATO phonetic alphabet word containing the letter R",
+      "size": 10,
+      "answers": ["bravo", "charlie", "foxtrot", "november", "oscar", "romeo", "sierra", "uniform", "victor", "x-ray"]
+    },
+    {
+      "round": 4,
+      "questionId": "state_capitals:contains:f",
+      "datasetId": "state_capitals",
+      "prompt": "Name a US state capital with the letter F in its name",
+      "size": 5,
+      "answers": ["frankfort", "hartford", "jefferson-city", "santa-fe", "springfield"]
+    },
+    {
+      "round": 5,
+      "questionId": "nfl:tag:div:nfc-south",
+      "datasetId": "nfl",
+      "prompt": "Name a team in the NFC South",
+      "size": 4,
+      "answers": ["atlanta-falcons", "carolina-panthers", "new-orleans-saints", "tampa-bay-buccaneers"]
+    },
+    {
+      "round": 6,
+      "questionId": "zodiac:contains:n@chinese",
+      "datasetId": "zodiac",
+      "prompt": "Name a Chinese zodiac animal with the letter N in it",
+      "size": 3,
+      "answers": ["chinese-dragon", "chinese-monkey", "chinese-snake"]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-29",
+  "type": "witness",
+  "skin": "farm",
+  "level": 1,
+  "params": {
+    "trials": 3,
+    "events": [
+      4,
+      5,
+      6
+    ],
+    "questions": 3,
+    "gapMs": 1550
+  },
+  "seedRef": "r1",
+  "feature": false,
+  "debut": false,
+  "hard": false,
+  "generated_at": "2026-10-13T18:01:59.900Z",
+  "reviewed": false
+}

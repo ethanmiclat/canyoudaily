@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-19",
+  "approved": false,
+  "activity": "five-keys",
+  "winRate": 0.6261,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "pokemon_gen2:lacks:s",
+      "datasetId": "pokemon_gen2",
+      "prompt": "Name a Johto Pokémon (#152 to #251) with no letter S in its name",
+      "size": 65,
+      "answers": ["aipom", "azumarill", "bayleef", "celebi", "chikorita", "chinchou", "cleffa", "crobat", "croconaw", "cyndaquil", "delibird", "donphan", "elekid", "entei", "feraligatr", "flaaffy", "furret", "girafarig", "gligar", "granbull", "hitmontop", "ho-oh", "hoothoot", "hoppip", "houndoom", "houndour", "igglybuff", "jumpluff", "kingdra", "lanturn", "larvitar", "ledian", "ledyba", "lugia", "magby", "magcargo", "mantine", "mareep", "marill", "meganium", "miltank", "murkrow", "natu", "noctowl", "octillery", "phanpy", "pichu", "pineco", "politoed", "porygon2", "pupitar", "quilava", "raikou", "remoraid", "togepi", "togetic", "totodile", "tyranitar", "tyrogue", "umbreon", "unown", "wobbuffet", "wooper", "xatu", "yanma"]
+    },
+    {
+      "round": 2,
+      "questionId": "nato_alphabet:range:pos:1-13",
+      "datasetId": "nato_alphabet",
+      "prompt": "Name a NATO phonetic alphabet word for a letter from A to M",
+      "size": 13,
+      "answers": ["alfa", "bravo", "charlie", "delta", "echo", "foxtrot", "golf", "hotel", "india", "juliett", "kilo", "lima", "mike"]
+    },
+    {
+      "round": 3,
+      "questionId": "shakespeare:tag:tragedy",
+      "datasetId": "shakespeare",
+      "prompt": "Name a Shakespeare tragedy (Troilus and Cressida and Cymbeline don't count)",
+      "size": 10,
+      "answers": ["antony-and-cleopatra", "coriolanus", "hamlet", "julius-caesar", "king-lear", "macbeth", "othello", "romeo-and-juliet", "timon-of-athens", "titus-andronicus"]
+    },
+    {
+      "round": 4,
+      "questionId": "india_states:starts:m@state",
+      "datasetId": "india_states",
+      "prompt": "Name an Indian state that starts with the letter M",
+      "size": 5,
+      "answers": ["madhya-pradesh", "maharashtra", "manipur", "meghalaya", "mizoram"]
+    },
+    {
+      "round": 5,
+      "questionId": "german_states:lacks:r",
+      "datasetId": "german_states",
+      "prompt": "Name a German state with no letter R in its English name",
+      "size": 4,
+      "answers": ["hesse", "saxony", "saxony-anhalt", "schleswig-holstein"]
+    },
+    {
+      "round": 6,
+      "questionId": "state_capitals:starts:j",
+      "datasetId": "state_capitals",
+      "prompt": "Name a US state capital that starts with the letter J",
+      "size": 3,
+      "answers": ["jackson", "jefferson-city", "juneau"]
+    }
+  ]
+}

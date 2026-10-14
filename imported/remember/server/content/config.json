@@ -1,0 +1,16 @@
+{
+  "launchDate": "2026-10-12",
+  "timezone": "America/Chicago",
+  "typeCooldownDays": 10,
+  "familyGapDays": 1,
+  "skinCooldownDays": 7,
+  "featureDaysPerWeek": 1,
+  "minFeatureTypesForFeatureDays": 3,
+  "aheadDays": 14,
+  "launchPlanDays": 60,
+  "maxPlaySeconds": 120,
+  "submitGraceMs": 2500,
+  "studyToleranceMs": 400,
+  "targetMedian": 65,
+  "seedVersion": "v1"
+}

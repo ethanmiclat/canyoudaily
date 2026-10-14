@@ -1,0 +1,16 @@
+{
+  "name": "@cyd/remember",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./card": "./src/Card.tsx"
+  },
+  "peerDependencies": {
+    "react": "*"
+  },
+  "dependencies": {
+    "@cyd/shared": "*",
+    "@fontsource-variable/bricolage-grotesque": "^5.3.0"
+  }
+}

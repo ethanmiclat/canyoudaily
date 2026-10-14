@@ -1,0 +1,8 @@
+node_modules
+dist
+.vercel
+.env*
+.DS_Store
+.data
+imported/.staging-*
+!.env.example

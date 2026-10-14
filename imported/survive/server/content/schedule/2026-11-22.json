@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-22",
+  "approved": false,
+  "activity": "elevator",
+  "winRate": 0.6258,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "elements:lacks:b",
+      "datasetId": "elements",
+      "prompt": "Name an element with no letter B in its name",
+      "size": 100,
+      "answers": ["actinium", "aluminium", "americium", "antimony", "argon", "arsenic", "astatine", "cadmium", "caesium", "calcium", "californium", "cerium", "chlorine", "chromium", "copernicium", "copper", "curium", "darmstadtium", "dysprosium", "einsteinium", "europium", "fermium", "flerovium", "fluorine", "francium", "gadolinium", "gallium", "germanium", "gold", "hafnium", "hassium", "helium", "holmium", "hydrogen", "indium", "iodine", "iridium", "iron", "krypton", "lanthanum", "lawrencium", "lead", "lithium", "livermorium", "lutetium", "magnesium", "manganese", "meitnerium", "mendelevium", "mercury", "moscovium", "neodymium", "neon", "neptunium", "nickel", "nihonium", "nitrogen", "oganesson", "osmium", "oxygen", "palladium", "phosphorus", "platinum", "plutonium", "polonium", "potassium", "praseodymium", "promethium", "protactinium", "radium", "radon", "rhenium", "rhodium", "roentgenium", "ruthenium", "rutherfordium", "samarium", "scandium", "selenium", "silicon", "silver", "sodium", "strontium", "sulfur", "tantalum", "technetium", "tellurium", "tennessine", "thallium", "thorium", "thulium", "tin", "titanium", "tungsten", "uranium", "vanadium", "xenon", "yttrium", "zinc", "zirconium"]
+    },
+    {
+      "round": 2,
+      "questionId": "tarot:contains:t",
+      "datasetId": "tarot",
+      "prompt": "Name a Major Arcana card with the letter T in its name",
+      "size": 12,
+      "answers": ["death", "judgement", "justice", "strength", "temperance", "the-chariot", "the-hermit", "the-hierophant", "the-high-priestess", "the-star", "the-tower", "wheel-of-fortune"]
+    },
+    {
+      "round": 3,
+      "questionId": "pixar:contains:l",
+      "datasetId": "pixar",
+      "prompt": "Name a Pixar feature (before 2026) with the letter L in its title",
+      "size": 10,
+      "answers": ["a-bug-s-life", "elemental", "elio", "incredibles-2", "lightyear", "luca", "ratatouille", "soul", "the-incredibles", "wall-e"]
+    },
+    {
+      "round": 4,
+      "questionId": "us_presidents:contains:f~surname",
+      "datasetId": "us_presidents",
+      "prompt": "Name a US president with the letter F in their last name",
+      "size": 5,
+      "answers": ["gerald-ford", "james-a-garfield", "millard-fillmore", "thomas-jefferson", "william-howard-taft"]
+    },
+    {
+      "round": 5,
+      "questionId": "greek_alphabet:contains:n",
+      "datasetId": "greek_alphabet",
+      "prompt": "Name a Greek letter with the letter N in its name",
+      "size": 4,
+      "answers": ["epsilon", "nu", "omicron", "upsilon"]
+    },
+    {
+      "round": 6,
+      "questionId": "us_states:contains:p",
+      "datasetId": "us_states",
+      "prompt": "Name a US state with the letter P in its name",
+      "size": 3,
+      "answers": ["mississippi", "new-hampshire", "pennsylvania"]
+    }
+  ]
+}

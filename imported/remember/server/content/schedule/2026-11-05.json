@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-05",
+  "type": "mines",
+  "skin": "ice",
+  "level": 0,
+  "params": {
+    "trials": 4,
+    "size": 4,
+    "mines": [
+      3,
+      4,
+      4,
+      5
+    ]
+  },
+  "seedRef": "r1",
+  "feature": false,
+  "debut": false,
+  "hard": false,
+  "generated_at": "2026-10-13T18:01:59.862Z",
+  "reviewed": false
+}

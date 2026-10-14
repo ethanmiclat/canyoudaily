@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-21",
+  "approved": false,
+  "activity": "spin-the-wheel",
+  "winRate": 0.6428,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "numbers:range:n:1-150@odd",
+      "datasetId": "numbers",
+      "prompt": "Name an odd number from 1 to 150",
+      "size": 75,
+      "answers": ["n1", "n101", "n103", "n105", "n107", "n109", "n11", "n111", "n113", "n115", "n117", "n119", "n121", "n123", "n125", "n127", "n129", "n13", "n131", "n133", "n135", "n137", "n139", "n141", "n143", "n145", "n147", "n149", "n15", "n17", "n19", "n21", "n23", "n25", "n27", "n29", "n3", "n31", "n33", "n35", "n37", "n39", "n41", "n43", "n45", "n47", "n49", "n5", "n51", "n53", "n55", "n57", "n59", "n61", "n63", "n65", "n67", "n69", "n7", "n71", "n73", "n75", "n77", "n79", "n81", "n83", "n85", "n87", "n89", "n9", "n91", "n93", "n95", "n97", "n99"]
+    },
+    {
+      "round": 2,
+      "questionId": "mexico_states:lacks:c",
+      "datasetId": "mexico_states",
+      "prompt": "Name a Mexican state (or Mexico City) with no letter C in its name",
+      "size": 14,
+      "answers": ["durango", "guanajuato", "guerrero", "hidalgo", "morelos", "nayarit", "nuevo-leon", "puebla", "queretaro", "quintana-roo", "san-luis-potosi", "sinaloa", "sonora", "tamaulipas"]
+    },
+    {
+      "round": 3,
+      "questionId": "space:tag:saturn-moon",
+      "datasetId": "space",
+      "prompt": "Name one of Saturn's seven major moons",
+      "size": 7,
+      "answers": ["dione", "enceladus", "iapetus", "mimas", "rhea", "tethys", "titan"]
+    },
+    {
+      "round": 4,
+      "questionId": "famous_groups:tag:friends",
+      "datasetId": "famous_groups",
+      "prompt": "Name one of the six main characters of Friends",
+      "size": 6,
+      "answers": ["friends-chandler-bing", "friends-joey-tribbiani", "friends-monica-geller", "friends-phoebe-buffay", "friends-rachel-green", "friends-ross-geller"]
+    },
+    {
+      "round": 5,
+      "questionId": "nba:tag:div:northwest",
+      "datasetId": "nba",
+      "prompt": "Name an NBA team in the Northwest Division",
+      "size": 5,
+      "answers": ["denver-nuggets", "minnesota-timberwolves", "oklahoma-city-thunder", "portland-trail-blazers", "utah-jazz"]
+    },
+    {
+      "round": 6,
+      "questionId": "world_capitals:starts:d@continent:africa",
+      "datasetId": "world_capitals",
+      "prompt": "Name an African capital that starts with the letter D",
+      "size": 3,
+      "answers": ["dakar", "djibouti", "dodoma"]
+    }
+  ]
+}

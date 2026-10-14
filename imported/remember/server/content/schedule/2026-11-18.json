@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-18",
+  "type": "jigsaw",
+  "skin": "town",
+  "level": 1,
+  "params": {
+    "trials": 3,
+    "grids": [
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        3
+      ]
+    ]
+  },
+  "seedRef": "r1",
+  "feature": false,
+  "debut": true,
+  "hard": false,
+  "generated_at": "2026-10-13T18:01:59.882Z",
+  "reviewed": false
+}

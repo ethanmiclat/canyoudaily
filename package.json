@@ -1,0 +1,25 @@
+{
+  "name": "can-you-daily",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "games/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w @cyd/web",
+    "build": "npm run build -w @cyd/web",
+    "preview": "npm run preview -w @cyd/web",
+    "typecheck": "tsc -p apps/web --noEmit",
+    "test": "vitest run",
+    "games:import": "node scripts/games.mjs import",
+    "games:check": "node scripts/games.mjs check",
+    "games:list": "node scripts/games.mjs list"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.4"
+  }
+}

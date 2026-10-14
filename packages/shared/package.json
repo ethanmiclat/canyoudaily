@@ -1,0 +1,15 @@
+{
+  "name": "@cyd/shared",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./ui": "./src/ui/index.ts",
+    "./server": "./src/server/index.ts",
+    "./theme/tokens.css": "./src/theme/tokens.css"
+  },
+  "peerDependencies": {
+    "react": "*"
+  }
+}

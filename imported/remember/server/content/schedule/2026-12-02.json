@@ -1,0 +1,25 @@
+{
+  "date": "2026-12-02",
+  "type": "cipher",
+  "skin": "runes",
+  "level": 1,
+  "params": {
+    "trials": 3,
+    "symbols": [
+      4,
+      5,
+      5
+    ],
+    "message": [
+      4,
+      5,
+      6
+    ]
+  },
+  "seedRef": "r1",
+  "feature": false,
+  "debut": false,
+  "hard": false,
+  "generated_at": "2026-10-13T18:01:59.905Z",
+  "reviewed": false
+}

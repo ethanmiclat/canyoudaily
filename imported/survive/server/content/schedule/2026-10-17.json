@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-17",
+  "approved": false,
+  "activity": "bomb-wires",
+  "winRate": 0.633,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "elements:range:number:1-92",
+      "datasetId": "elements",
+      "prompt": "Name an element with atomic number 1 to 92",
+      "size": 92,
+      "answers": ["actinium", "aluminium", "antimony", "argon", "arsenic", "astatine", "barium", "beryllium", "bismuth", "boron", "bromine", "cadmium", "caesium", "calcium", "carbon", "cerium", "chlorine", "chromium", "cobalt", "copper", "dysprosium", "erbium", "europium", "fluorine", "francium", "gadolinium", "gallium", "germanium", "gold", "hafnium", "helium", "holmium", "hydrogen", "indium", "iodine", "iridium", "iron", "krypton", "lanthanum", "lead", "lithium", "lutetium", "magnesium", "manganese", "mercury", "molybdenum", "neodymium", "neon", "nickel", "niobium", "nitrogen", "osmium", "oxygen", "palladium", "phosphorus", "platinum", "polonium", "potassium", "praseodymium", "promethium", "protactinium", "radium", "radon", "rhenium", "rhodium", "rubidium", "ruthenium", "samarium", "scandium", "selenium", "silicon", "silver", "sodium", "strontium", "sulfur", "tantalum", "technetium", "tellurium", "terbium", "thallium", "thorium", "thulium", "tin", "titanium", "tungsten", "uranium", "vanadium", "xenon", "ytterbium", "yttrium", "zinc", "zirconium"]
+    },
+    {
+      "round": 2,
+      "questionId": "india_states:tag:state",
+      "datasetId": "india_states",
+      "prompt": "Name one of India's 28 states (not a union territory)",
+      "size": 28,
+      "answers": ["andhra-pradesh", "arunachal-pradesh", "assam", "bihar", "chhattisgarh", "goa", "gujarat", "haryana", "himachal-pradesh", "jharkhand", "karnataka", "kerala", "madhya-pradesh", "maharashtra", "manipur", "meghalaya", "mizoram", "nagaland", "odisha", "punjab", "rajasthan", "sikkim", "tamil-nadu", "telangana", "tripura", "uttar-pradesh", "uttarakhand", "west-bengal"]
+    },
+    {
+      "round": 3,
+      "questionId": "pixar:range:year:2020-2025",
+      "datasetId": "pixar",
+      "prompt": "Name a Pixar feature released from 2020 to 2025",
+      "size": 8,
+      "answers": ["elemental", "elio", "inside-out-2", "lightyear", "luca", "onward", "soul", "turning-red"]
+    },
+    {
+      "round": 4,
+      "questionId": "us_presidents:starts:w~first",
+      "datasetId": "us_presidents",
+      "prompt": "Name a US president whose first name starts with the letter W",
+      "size": 5,
+      "answers": ["warren-g-harding", "william-henry-harrison", "william-howard-taft", "william-mckinley", "woodrow-wilson"]
+    },
+    {
+      "round": 5,
+      "questionId": "olympics:tag:winter+continent:asia",
+      "datasetId": "olympics",
+      "prompt": "Name an Asian city that has hosted the Winter Olympics",
+      "size": 4,
+      "answers": ["beijing", "nagano", "pyeongchang", "sapporo"]
+    },
+    {
+      "round": 6,
+      "questionId": "german_states:contains:x",
+      "datasetId": "german_states",
+      "prompt": "Name a German state with the letter X in its English name",
+      "size": 3,
+      "answers": ["lower-saxony", "saxony", "saxony-anhalt"]
+    }
+  ]
+}

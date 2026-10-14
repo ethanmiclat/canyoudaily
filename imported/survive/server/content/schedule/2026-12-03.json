@@ -1,0 +1,56 @@
+{
+  "date": "2026-12-03",
+  "approved": false,
+  "activity": "poison-cups",
+  "winRate": 0.618,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "numbers:range:n:1-250@odd",
+      "datasetId": "numbers",
+      "prompt": "Name an odd number from 1 to 250",
+      "size": 125,
+      "answers": ["n1", "n101", "n103", "n105", "n107", "n109", "n11", "n111", "n113", "n115", "n117", "n119", "n121", "n123", "n125", "n127", "n129", "n13", "n131", "n133", "n135", "n137", "n139", "n141", "n143", "n145", "n147", "n149", "n15", "n151", "n153", "n155", "n157", "n159", "n161", "n163", "n165", "n167", "n169", "n17", "n171", "n173", "n175", "n177", "n179", "n181", "n183", "n185", "n187", "n189", "n19", "n191", "n193", "n195", "n197", "n199", "n201", "n203", "n205", "n207", "n209", "n21", "n211", "n213", "n215", "n217", "n219", "n221", "n223", "n225", "n227", "n229", "n23", "n231", "n233", "n235", "n237", "n239", "n241", "n243", "n245", "n247", "n249", "n25", "n27", "n29", "n3", "n31", "n33", "n35", "n37", "n39", "n41", "n43", "n45", "n47", "n49", "n5", "n51", "n53", "n55", "n57", "n59", "n61", "n63", "n65", "n67", "n69", "n7", "n71", "n73", "n75", "n77", "n79", "n81", "n83", "n85", "n87", "n89", "n9", "n91", "n93", "n95", "n97", "n99"]
+    },
+    {
+      "round": 2,
+      "questionId": "si_units:tag:prefix+big",
+      "datasetId": "si_units",
+      "prompt": "Name an SI prefix for a multiple larger than one (deca- and up)",
+      "size": 12,
+      "answers": ["prefix-deca", "prefix-exa", "prefix-giga", "prefix-hecto", "prefix-kilo", "prefix-mega", "prefix-peta", "prefix-quetta", "prefix-ronna", "prefix-tera", "prefix-yotta", "prefix-zetta"]
+    },
+    {
+      "round": 3,
+      "questionId": "board_games:any:color:brown+color:light-blue+color:pink",
+      "datasetId": "board_games",
+      "prompt": "Name a brown, light blue or pink property in classic US Monopoly",
+      "size": 8,
+      "answers": ["monopoly-baltic-avenue", "monopoly-connecticut-avenue", "monopoly-mediterranean-avenue", "monopoly-oriental-avenue", "monopoly-st-charles-place", "monopoly-states-avenue", "monopoly-vermont-avenue", "monopoly-virginia-avenue"]
+    },
+    {
+      "round": 4,
+      "questionId": "us_states:tag:gulf-coast",
+      "datasetId": "us_states",
+      "prompt": "Name a US state with a Gulf of Mexico coastline",
+      "size": 5,
+      "answers": ["alabama", "florida", "louisiana", "mississippi", "texas"]
+    },
+    {
+      "round": 5,
+      "questionId": "constellations:starts:v",
+      "datasetId": "constellations",
+      "prompt": "Name a constellation that starts with the letter V",
+      "size": 4,
+      "answers": ["vela", "virgo", "volans", "vulpecula"]
+    },
+    {
+      "round": 6,
+      "questionId": "amino_acids:contains:m",
+      "datasetId": "amino_acids",
+      "prompt": "Name a standard amino acid with the letter M in its name",
+      "size": 3,
+      "answers": ["glutamic-acid", "glutamine", "methionine"]
+    }
+  ]
+}

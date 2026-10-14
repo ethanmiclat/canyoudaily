@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-25",
+  "type": "pixel",
+  "skin": "quilt",
+  "level": 2,
+  "params": {
+    "trials": 3,
+    "sizes": [
+      6,
+      6,
+      7
+    ],
+    "colors": 3,
+    "fill": 0.46
+  },
+  "seedRef": "r1",
+  "feature": false,
+  "debut": true,
+  "hard": false,
+  "generated_at": "2026-10-13T18:01:59.850Z",
+  "reviewed": false
+}

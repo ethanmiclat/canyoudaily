@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-27",
+  "type": "dots",
+  "skin": "marbles",
+  "level": 1,
+  "params": {
+    "trials": 5,
+    "dots": 9,
+    "targets": [
+      3,
+      3,
+      4,
+      4,
+      4
+    ],
+    "speed": 44,
+    "moveMs": 6000
+  },
+  "seedRef": "r1",
+  "feature": false,
+  "debut": false,
+  "hard": false,
+  "generated_at": "2026-10-13T18:01:59.897Z",
+  "reviewed": false
+}

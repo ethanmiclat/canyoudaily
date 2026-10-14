@@ -1,0 +1,47 @@
+{
+  "launchDate": "2026-10-07",
+  "timezone": "America/Chicago",
+  "typedRounds": [
+    {
+      "round": 1,
+      "min": 50,
+      "max": 250
+    },
+    {
+      "round": 2,
+      "min": 12,
+      "max": 35
+    },
+    {
+      "round": 3,
+      "min": 7,
+      "max": 10
+    },
+    {
+      "round": 4,
+      "min": 5,
+      "max": 6
+    },
+    {
+      "round": 5,
+      "min": 4,
+      "max": 5
+    },
+    {
+      "round": 6,
+      "min": 3,
+      "max": 4
+    }
+  ],
+  "activitySurvival": 0.8,
+  "playerHits": 3,
+  "winRateGuard": [
+    0.5,
+    0.65
+  ],
+  "datasetCooldownDays": 5,
+  "questionCooldownDays": 90,
+  "aheadDays": 14,
+  "typedRoundSeconds": 30,
+  "generatorSeed": "cys-v1"
+}

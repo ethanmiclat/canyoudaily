@@ -1,0 +1,148 @@
+/* Can You Remember hub card. Colors follow the game's Memory Path tokens (web/src/memory-path.css). */
+
+.cyr-card {
+  --bg: #fbf8f1;
+  --line: #d7cee8;
+  --ink: #25243d;
+  --mute: #686077;
+  --accent: #7150c2;
+  --accent-ink: #fff;
+  --lavender: #8867d3;
+  --gold: #efc34c;
+  --seafoam: #79c4b1;
+  --coral: #e8797f;
+  --scenery-plant: #acd0bf;
+  --road: #eee8ed;
+  --road-dash: #fffdf9;
+
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 24px;
+  min-height: 440px;
+  box-sizing: border-box;
+  padding: 36px;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'Bricolage Grotesque Variable', ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Same dark values as the game; the hub sets data-theme on <html>. */
+[data-theme='dark'] .cyr-card {
+  --bg: #1b1c2d;
+  --line: #514c68;
+  --ink: #f5f0e6;
+  --mute: #bfb7ce;
+  --accent: #b9a0f0;
+  --accent-ink: #241b38;
+  --road: #29283e;
+  --road-dash: #383449;
+  --scenery-plant: #3b625d;
+}
+
+/* Winding road with shape tokens along the bottom, as on the game's pages. */
+.cyr-path {
+  position: absolute;
+  inset: auto 0 0;
+  z-index: -1;
+  width: 100%;
+  height: 62%;
+  opacity: 0.85;
+  pointer-events: none;
+}
+.cyr-road {
+  stroke: var(--road);
+  stroke-width: 44;
+  fill: none;
+}
+.cyr-dash {
+  stroke: var(--road-dash);
+  stroke-width: 3;
+  stroke-dasharray: 8 14;
+  stroke-linecap: round;
+  fill: none;
+}
+
+.cyr-head {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.cyr-eyebrow {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--mute);
+}
+.cyr-title {
+  margin: 0;
+  font-size: clamp(40px, 5.4vw, 60px);
+  font-weight: 750;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  text-wrap: balance;
+}
+.cyr-accent { color: var(--accent); }
+.cyr-gold { color: var(--gold); }
+.cyr-tagline {
+  margin: 0;
+  max-width: 420px;
+  font-size: 18px;
+  line-height: 1.45;
+  color: var(--mute);
+}
+
+.cyr-foot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.cyr-status {
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--bg) 85%, transparent);
+  font-size: 15px;
+  font-weight: 550;
+  color: var(--mute);
+}
+.cyr-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 50px;
+  padding: 10px 22px;
+  border-radius: 12px;
+  background: var(--accent);
+  color: var(--accent-ink);
+  font-size: 17px;
+  font-weight: 650;
+  text-decoration: none;
+  white-space: nowrap;
+  box-shadow: 0 2px 0 color-mix(in srgb, var(--accent) 60%, var(--ink));
+  transition: background-color 0.15s, transform 0.1s;
+}
+.cyr-button:hover {
+  background: color-mix(in srgb, var(--accent) 88%, var(--ink));
+}
+.cyr-button:active {
+  transform: scale(0.98);
+}
+.cyr-button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+@media (max-width: 420px) {
+  .cyr-card { padding: 28px 24px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .cyr-button { transition: none; }
+}

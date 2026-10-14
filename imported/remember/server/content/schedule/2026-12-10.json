@@ -1,0 +1,30 @@
+{
+  "date": "2026-12-10",
+  "type": "missing",
+  "skin": "tray",
+  "level": 2,
+  "params": {
+    "trials": 5,
+    "items": [
+      8,
+      9,
+      10,
+      10,
+      11
+    ],
+    "missing": [
+      1,
+      2,
+      2,
+      2,
+      3
+    ],
+    "decoys": 4
+  },
+  "seedRef": "r1",
+  "feature": false,
+  "debut": false,
+  "hard": false,
+  "generated_at": "2026-10-13T18:01:59.921Z",
+  "reviewed": false
+}

@@ -1,0 +1,58 @@
+/* Design tokens (hub v2 hand-off). Minimal white hub; games bring their own card designs.
+   Light values are exact from the hand-off; dark values are derived to match. */
+
+:root {
+  --bg: #ffffff;
+  --surface: #f6f5f2; /* selected row, placeholder card */
+  --text: #141414;
+  --text-idle: #55544f; /* unselected list titles, body copy */
+  --text-muted: #6b6a66;
+  --text-soft: #9a9893; /* issue numbers, the wordmark's ? */
+  --border: #ecebe7; /* dividers */
+  --border-strong: #e5e4e0; /* theme toggle */
+  --focus: #141414;
+
+  --accent-default: #141414;
+  --on-accent: #ffffff;
+
+  --radius: 16px;
+  --gutter: clamp(20px, 6vw, 100px);
+  --max-width: 1100px;
+  --font-sans: 'Schibsted Grotesk', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-display: var(--font-sans);
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --bg: #000000;
+    --surface: #141413;
+    --text: #f2f1ed;
+    --text-idle: #b3b1ab;
+    --text-muted: #a19f99;
+    --text-soft: #75736e;
+    --border: #232321;
+    --border-strong: #2e2d2a;
+    --focus: #f2f1ed;
+    --accent-default: #f2f1ed;
+    --on-accent: #000000;
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme='dark'] {
+  --bg: #000000;
+  --surface: #141413;
+  --text: #f2f1ed;
+  --text-idle: #b3b1ab;
+  --text-muted: #a19f99;
+  --text-soft: #75736e;
+  --border: #232321;
+  --border-strong: #2e2d2a;
+  --focus: #f2f1ed;
+  --accent-default: #f2f1ed;
+  --on-accent: #000000;
+  color-scheme: dark;
+}

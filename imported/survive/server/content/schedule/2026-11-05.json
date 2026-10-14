@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-05",
+  "approved": false,
+  "activity": "spin-the-wheel",
+  "winRate": 0.6324,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "elements:lacks:p",
+      "datasetId": "elements",
+      "prompt": "Name an element with no letter P in its name",
+      "size": 102,
+      "answers": ["actinium", "aluminium", "americium", "antimony", "argon", "arsenic", "astatine", "barium", "berkelium", "beryllium", "bismuth", "bohrium", "boron", "bromine", "cadmium", "caesium", "calcium", "californium", "carbon", "cerium", "chlorine", "chromium", "cobalt", "curium", "darmstadtium", "dubnium", "einsteinium", "erbium", "fermium", "flerovium", "fluorine", "francium", "gadolinium", "gallium", "germanium", "gold", "hafnium", "hassium", "helium", "holmium", "hydrogen", "indium", "iodine", "iridium", "iron", "lanthanum", "lawrencium", "lead", "lithium", "livermorium", "lutetium", "magnesium", "manganese", "meitnerium", "mendelevium", "mercury", "molybdenum", "moscovium", "neodymium", "neon", "nickel", "nihonium", "niobium", "nitrogen", "nobelium", "oganesson", "osmium", "oxygen", "radium", "radon", "rhenium", "rhodium", "roentgenium", "rubidium", "ruthenium", "rutherfordium", "samarium", "scandium", "seaborgium", "selenium", "silicon", "silver", "sodium", "strontium", "tantalum", "technetium", "tellurium", "tennessine", "terbium", "thallium", "thorium", "thulium", "tin", "titanium", "tungsten", "uranium", "vanadium", "xenon", "ytterbium", "yttrium", "zinc", "zirconium"]
+    },
+    {
+      "round": 2,
+      "questionId": "pokemon_gen2:tag:type:flying",
+      "datasetId": "pokemon_gen2",
+      "prompt": "Name a Flying-type Johto Pokémon (#152 to #251, current typings)",
+      "size": 19,
+      "answers": ["crobat", "delibird", "gligar", "ho-oh", "hoothoot", "hoppip", "jumpluff", "ledian", "ledyba", "lugia", "mantine", "murkrow", "natu", "noctowl", "skarmory", "skiploom", "togetic", "xatu", "yanma"]
+    },
+    {
+      "round": 3,
+      "questionId": "nato_alphabet:contains:l",
+      "datasetId": "nato_alphabet",
+      "prompt": "Name a NATO phonetic alphabet word containing the letter L",
+      "size": 9,
+      "answers": ["alfa", "charlie", "delta", "golf", "hotel", "juliett", "kilo", "lima", "zulu"]
+    },
+    {
+      "round": 4,
+      "questionId": "mlb:tag:div:al-west",
+      "datasetId": "mlb",
+      "prompt": "Name a team in the AL West",
+      "size": 5,
+      "answers": ["athletics", "houston-astros", "los-angeles-angels", "seattle-mariners", "texas-rangers"]
+    },
+    {
+      "round": 5,
+      "questionId": "zodiac:contains:c@western",
+      "datasetId": "zodiac",
+      "prompt": "Name a Western zodiac sign with the letter C in it",
+      "size": 4,
+      "answers": ["cancer", "capricorn", "pisces", "scorpio"]
+    },
+    {
+      "round": 6,
+      "questionId": "greek_myth:contains:n@olympian",
+      "datasetId": "greek_myth",
+      "prompt": "Name an Olympian god with the letter N in their Greek name",
+      "size": 3,
+      "answers": ["olympian-athena", "olympian-dionysus", "olympian-poseidon"]
+    }
+  ]
+}

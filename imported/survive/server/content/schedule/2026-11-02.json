@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-02",
+  "approved": false,
+  "activity": "bomb-wires",
+  "winRate": 0.637,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "world_capitals:not:continent:africa",
+      "datasetId": "world_capitals",
+      "prompt": "Name a national capital outside Africa",
+      "size": 142,
+      "answers": ["abu-dhabi", "amman", "amsterdam", "andorra-la-vella", "ankara", "apia", "ashgabat", "astana", "asuncion", "athens", "baghdad", "baku", "bandar-seri-begawan", "bangkok", "basseterre", "beijing", "beirut", "belgrade", "belmopan", "berlin", "bern", "bishkek", "bogota", "brasilia", "bratislava", "bridgetown", "brussels", "bucharest", "budapest", "buenos-aires", "canberra", "caracas", "castries", "chisinau", "copenhagen", "damascus", "dhaka", "dili", "doha", "dublin", "dushanbe", "funafuti", "georgetown", "guatemala-city", "hanoi", "havana", "helsinki", "honiara", "islamabad", "jakarta", "jerusalem", "kabul", "kathmandu", "kingston", "kingstown", "kuala-lumpur", "kuwait-city", "kyiv", "la-paz", "lima", "lisbon", "ljubljana", "london", "luxembourg-city", "madrid", "majuro", "male", "managua", "manama", "manila", "mexico-city", "minsk", "monaco", "montevideo", "moscow", "muscat", "nassau", "naypyidaw", "new-delhi", "ngerulmud", "nicosia", "nuku-alofa", "oslo", "ottawa", "palikir", "panama-city", "paramaribo", "paris", "phnom-penh", "podgorica", "port-au-prince", "port-moresby", "port-of-spain", "port-vila", "prague", "pyongyang", "quito", "ramallah", "reykjavik", "riga", "riyadh", "rome", "roseau", "san-jose", "san-marino", "san-salvador", "sanaa", "santiago", "santo-domingo", "sarajevo", "seoul", "singapore", "skopje", "sofia", "south-tarawa", "sri-jayawardenepura-kotte", "st-george-s", "st-john-s", "stockholm", "sucre", "suva", "tallinn", "tashkent", "tbilisi", "tegucigalpa", "tehran", "thimphu", "tirana", "tokyo", "ulaanbaatar", "vaduz", "valletta", "vatican-city", "vienna", "vientiane", "vilnius", "warsaw", "washington-d-c", "wellington", "yaren", "yerevan", "zagreb"]
+    },
+    {
+      "round": 2,
+      "questionId": "si_units:tag:prefix",
+      "datasetId": "si_units",
+      "prompt": "Name an SI prefix (like kilo- or nano-)",
+      "size": 24,
+      "answers": ["prefix-atto", "prefix-centi", "prefix-deca", "prefix-deci", "prefix-exa", "prefix-femto", "prefix-giga", "prefix-hecto", "prefix-kilo", "prefix-mega", "prefix-micro", "prefix-milli", "prefix-nano", "prefix-peta", "prefix-pico", "prefix-quecto", "prefix-quetta", "prefix-ronna", "prefix-ronto", "prefix-tera", "prefix-yocto", "prefix-yotta", "prefix-zepto", "prefix-zetta"]
+    },
+    {
+      "round": 3,
+      "questionId": "pixar:contains:d",
+      "datasetId": "pixar",
+      "prompt": "Name a Pixar feature (before 2026) with the letter D in its title",
+      "size": 9,
+      "answers": ["finding-dory", "finding-nemo", "incredibles-2", "inside-out", "inside-out-2", "onward", "the-good-dinosaur", "the-incredibles", "turning-red"]
+    },
+    {
+      "round": 4,
+      "questionId": "bible_books:tag:pent",
+      "datasetId": "bible_books",
+      "prompt": "Name a book of the Torah (the first five books of the Bible)",
+      "size": 5,
+      "answers": ["deuteronomy", "exodus", "genesis", "leviticus", "numbers"]
+    },
+    {
+      "round": 5,
+      "questionId": "amino_acids:starts:a",
+      "datasetId": "amino_acids",
+      "prompt": "Name a standard amino acid that starts with the letter A",
+      "size": 4,
+      "answers": ["alanine", "arginine", "asparagine", "aspartic-acid"]
+    },
+    {
+      "round": 6,
+      "questionId": "shakespeare:contains:j",
+      "datasetId": "shakespeare",
+      "prompt": "Name a Shakespeare play with the letter J in its title",
+      "size": 3,
+      "answers": ["julius-caesar", "king-john", "romeo-and-juliet"]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-29",
+  "type": "colormatch",
+  "skin": "paint",
+  "level": 1,
+  "params": {
+    "trials": 4,
+    "showMs": 3000
+  },
+  "seedRef": "r1",
+  "feature": false,
+  "debut": false,
+  "hard": false,
+  "generated_at": "2026-10-13T18:01:59.854Z",
+  "reviewed": false
+}

@@ -1,0 +1,56 @@
+{
+  "date": "2026-12-04",
+  "approved": false,
+  "activity": "bomb-wires",
+  "winRate": 0.6163,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "pokemon_gen2:lacks:y",
+      "datasetId": "pokemon_gen2",
+      "prompt": "Name a Johto Pokémon (#152 to #251) with no letter Y in its name",
+      "size": 85,
+      "answers": ["aipom", "ampharos", "ariados", "azumarill", "bellossom", "celebi", "chikorita", "chinchou", "cleffa", "corsola", "crobat", "croconaw", "delibird", "donphan", "dunsparce", "elekid", "entei", "espeon", "feraligatr", "forretress", "furret", "girafarig", "gligar", "granbull", "heracross", "hitmontop", "ho-oh", "hoothoot", "hoppip", "houndoom", "houndour", "jumpluff", "kingdra", "lanturn", "larvitar", "ledian", "lugia", "magcargo", "mantine", "mareep", "marill", "meganium", "miltank", "misdreavus", "murkrow", "natu", "noctowl", "pichu", "piloswine", "pineco", "politoed", "pupitar", "quagsire", "quilava", "qwilfish", "raikou", "remoraid", "scizor", "sentret", "shuckle", "skiploom", "slowking", "slugma", "smeargle", "smoochum", "sneasel", "snubbull", "spinarak", "stantler", "steelix", "sudowoodo", "suicune", "sunflora", "sunkern", "swinub", "teddiursa", "togepi", "togetic", "totodile", "umbreon", "unown", "ursaring", "wobbuffet", "wooper", "xatu"]
+    },
+    {
+      "round": 2,
+      "questionId": "shakespeare:contains:m",
+      "datasetId": "shakespeare",
+      "prompt": "Name a Shakespeare play with the letter M in its title",
+      "size": 15,
+      "answers": ["a-midsummer-night-s-dream", "cymbeline", "hamlet", "macbeth", "measure-for-measure", "much-ado-about-nothing", "romeo-and-juliet", "the-comedy-of-errors", "the-merchant-of-venice", "the-merry-wives-of-windsor", "the-taming-of-the-shrew", "the-tempest", "the-two-gentlemen-of-verona", "the-two-noble-kinsmen", "timon-of-athens"]
+    },
+    {
+      "round": 3,
+      "questionId": "greek_alphabet:contains:e",
+      "datasetId": "greek_alphabet",
+      "prompt": "Name a Greek letter with the letter E in its name",
+      "size": 7,
+      "answers": ["beta", "delta", "epsilon", "eta", "omega", "theta", "zeta"]
+    },
+    {
+      "round": 4,
+      "questionId": "tarot:contains:l",
+      "datasetId": "tarot",
+      "prompt": "Name a Major Arcana card with the letter L in its name",
+      "size": 5,
+      "answers": ["the-devil", "the-fool", "the-lovers", "the-world", "wheel-of-fortune"]
+    },
+    {
+      "round": 5,
+      "questionId": "countries:tag:guinea",
+      "datasetId": "countries",
+      "prompt": "Name a country with \"Guinea\" in its name",
+      "size": 4,
+      "answers": ["equatorial-guinea", "guinea", "guinea-bissau", "papua-new-guinea"]
+    },
+    {
+      "round": 6,
+      "questionId": "calendar:contains:n@day",
+      "datasetId": "calendar",
+      "prompt": "Name a day of the week with the letter N in its name",
+      "size": 3,
+      "answers": ["monday", "sunday", "wednesday"]
+    }
+  ]
+}

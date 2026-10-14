@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-08",
+  "type": "seating",
+  "skin": "picnic",
+  "level": 1,
+  "params": {
+    "trials": 3,
+    "seats": [
+      5,
+      6,
+      7
+    ]
+  },
+  "seedRef": "r1",
+  "feature": false,
+  "debut": true,
+  "hard": false,
+  "generated_at": "2026-10-13T18:01:59.866Z",
+  "reviewed": false
+}

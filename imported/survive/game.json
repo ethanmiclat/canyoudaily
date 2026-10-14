@@ -1,0 +1,28 @@
+{
+  "id": "survive",
+  "name": "Can You Survive",
+  "tagline": "Nine rounds, three hearts, one boss. A new board every day.",
+  "kind": "luck",
+  "accentColor": "#c8461e",
+  "launchDate": "2026-10-07",
+  "href": "/survive/",
+  "envPrefix": "CYS",
+  "apiDir": "api",
+  "contentDir": "content",
+  "routes": [
+    "round/check",
+    "round/hint",
+    "round/lock",
+    "round/start",
+    "round/timeout",
+    "run",
+    "stats/today",
+    "today"
+  ],
+  "source": {
+    "path": "../canyousurvive",
+    "commit": "925e96b",
+    "dirty": true
+  },
+  "importedAt": "2026-10-13T02:48:43.546Z"
+}

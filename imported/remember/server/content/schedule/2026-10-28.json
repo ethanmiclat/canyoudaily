@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-28",
+  "type": "dots",
+  "skin": "fireflies",
+  "level": 2,
+  "params": {
+    "trials": 5,
+    "dots": 10,
+    "targets": [
+      3,
+      4,
+      4,
+      4,
+      4
+    ],
+    "speed": 50,
+    "moveMs": 6000
+  },
+  "seedRef": "r1",
+  "feature": false,
+  "debut": true,
+  "hard": false,
+  "generated_at": "2026-10-13T18:01:59.853Z",
+  "reviewed": false
+}

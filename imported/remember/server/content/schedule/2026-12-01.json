@@ -1,0 +1,23 @@
+{
+  "date": "2026-12-01",
+  "type": "trail",
+  "skin": "space",
+  "level": 0,
+  "params": {
+    "trials": 4,
+    "size": 5,
+    "lengths": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "stepMs": 400
+  },
+  "seedRef": "r1",
+  "feature": false,
+  "debut": false,
+  "hard": false,
+  "generated_at": "2026-10-13T18:01:59.903Z",
+  "reviewed": false
+}

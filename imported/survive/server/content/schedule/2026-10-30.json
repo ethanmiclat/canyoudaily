@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-30",
+  "approved": false,
+  "activity": "glass-bridge",
+  "winRate": 0.6091,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "constellations:lacks:l",
+      "datasetId": "constellations",
+      "prompt": "Name a constellation with no letter L in its name",
+      "size": 60,
+      "answers": ["andromeda", "apus", "aquarius", "ara", "aries", "auriga", "bootes", "cancer", "canes-venatici", "canis-major", "canis-minor", "capricornus", "carina", "cassiopeia", "centaurus", "cepheus", "cetus", "circinus", "coma-berenices", "corvus", "crater", "crux", "cygnus", "dorado", "draco", "eridanus", "fornax", "gemini", "grus", "hydra", "hydrus", "indus", "mensa", "microscopium", "monoceros", "musca", "norma", "octans", "ophiuchus", "orion", "pavo", "pegasus", "perseus", "phoenix", "pictor", "pisces", "piscis-austrinus", "puppis", "pyxis", "sagitta", "sagittarius", "scorpius", "scutum", "serpens", "sextans", "taurus", "tucana", "ursa-major", "ursa-minor", "virgo"]
+    },
+    {
+      "round": 2,
+      "questionId": "olympics:tag:summer+continent:europe",
+      "datasetId": "olympics",
+      "prompt": "Name a European city that has hosted the Summer Olympics (through 2024)",
+      "size": 12,
+      "answers": ["amsterdam", "antwerp", "athens", "barcelona", "berlin", "helsinki", "london", "moscow", "munich", "paris", "rome", "stockholm"]
+    },
+    {
+      "round": 3,
+      "questionId": "greek_alphabet:tag:vowel",
+      "datasetId": "greek_alphabet",
+      "prompt": "Name a Greek vowel letter",
+      "size": 7,
+      "answers": ["alpha", "epsilon", "eta", "iota", "omega", "omicron", "upsilon"]
+    },
+    {
+      "round": 4,
+      "questionId": "calendar:contains:b@month",
+      "datasetId": "calendar",
+      "prompt": "Name a month with the letter B in its name",
+      "size": 5,
+      "answers": ["december", "february", "november", "october", "september"]
+    },
+    {
+      "round": 5,
+      "questionId": "board_games:tag:monopoly-railroad",
+      "datasetId": "board_games",
+      "prompt": "Name a railroad in classic US Monopoly",
+      "size": 4,
+      "answers": ["monopoly-b-and-o-railroad", "monopoly-pennsylvania-railroad", "monopoly-reading-railroad", "monopoly-short-line"]
+    },
+    {
+      "round": 6,
+      "questionId": "pokemon_gen2:tag:type:fighting",
+      "datasetId": "pokemon_gen2",
+      "prompt": "Name a Fighting-type Johto Pokémon (#152 to #251, current typings)",
+      "size": 3,
+      "answers": ["heracross", "hitmontop", "tyrogue"]
+    }
+  ]
+}

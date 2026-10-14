@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-28",
+  "type": "face",
+  "skin": "sketch",
+  "level": 1,
+  "params": {
+    "trials": 3,
+    "parts": [
+      2,
+      3,
+      4
+    ]
+  },
+  "seedRef": "r1",
+  "feature": true,
+  "debut": true,
+  "hard": false,
+  "generated_at": "2026-10-13T18:01:59.898Z",
+  "reviewed": false
+}

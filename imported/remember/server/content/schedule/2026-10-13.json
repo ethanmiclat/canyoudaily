@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-13",
+  "type": "oddback",
+  "skin": "garden",
+  "level": 1,
+  "params": {
+    "trials": 5,
+    "shown": [
+      4,
+      5,
+      5,
+      6,
+      7
+    ],
+    "extra": [
+      5,
+      6,
+      7,
+      7,
+      8
+    ]
+  },
+  "seedRef": "r1",
+  "feature": false,
+  "debut": false,
+  "generated_at": "2026-10-13T04:37:08.959Z",
+  "reviewed": false
+}

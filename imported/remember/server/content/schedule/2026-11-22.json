@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-22",
+  "type": "nback",
+  "skin": "snacks",
+  "level": 1,
+  "params": {
+    "trials": 3,
+    "n": [
+      2,
+      2,
+      3
+    ],
+    "items": 16,
+    "stepMs": 1300
+  },
+  "seedRef": "r1",
+  "feature": false,
+  "debut": true,
+  "hard": true,
+  "generated_at": "2026-10-13T18:01:59.889Z",
+  "reviewed": false
+}

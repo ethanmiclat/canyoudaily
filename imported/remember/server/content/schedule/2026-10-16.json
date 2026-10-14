@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-16",
+  "type": "reorder",
+  "skin": "parade",
+  "level": 1,
+  "params": {
+    "trials": 5,
+    "items": [
+      4,
+      5,
+      6,
+      6,
+      7
+    ]
+  },
+  "seedRef": "r1",
+  "feature": false,
+  "debut": false,
+  "hard": false,
+  "generated_at": "2026-10-13T18:01:59.843Z",
+  "reviewed": false
+}

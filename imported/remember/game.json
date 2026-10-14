@@ -1,0 +1,27 @@
+{
+  "id": "remember",
+  "name": "Can You Remember",
+  "tagline": "A different memory puzzle every day. One practice, one real try.",
+  "kind": "skill",
+  "accentColor": "#6a3fb5",
+  "launchDate": "2026-10-12",
+  "href": "/remember/",
+  "envPrefix": "CYR",
+  "apiDir": "api/remember",
+  "contentDir": "content",
+  "routes": [
+    "admin",
+    "practice",
+    "result",
+    "run",
+    "today",
+    "trial/start",
+    "trial/submit"
+  ],
+  "source": {
+    "path": "../canyouremember",
+    "commit": null,
+    "dirty": null
+  },
+  "importedAt": "2026-10-14T17:28:05.639Z"
+}

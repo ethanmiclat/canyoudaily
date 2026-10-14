@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-24",
+  "approved": false,
+  "activity": "stop-the-needle",
+  "winRate": 0.6322,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "pokemon_gen2:lacks:n",
+      "datasetId": "pokemon_gen2",
+      "prompt": "Name a Johto Pokémon (#152 to #251) with no letter N in its name",
+      "size": 61,
+      "answers": ["aipom", "ampharos", "ariados", "azumarill", "bayleef", "bellossom", "blissey", "celebi", "chikorita", "cleffa", "corsola", "crobat", "delibird", "elekid", "feraligatr", "flaaffy", "forretress", "furret", "girafarig", "gligar", "heracross", "ho-oh", "hoothoot", "hoppip", "igglybuff", "jumpluff", "larvitar", "ledyba", "lugia", "magby", "magcargo", "mareep", "marill", "misdreavus", "murkrow", "octillery", "pichu", "politoed", "pupitar", "quagsire", "quilava", "qwilfish", "raikou", "remoraid", "scizor", "shuckle", "skarmory", "skiploom", "slugma", "smeargle", "smoochum", "steelix", "sudowoodo", "teddiursa", "togepi", "togetic", "totodile", "tyrogue", "wobbuffet", "wooper", "xatu"]
+    },
+    {
+      "round": 2,
+      "questionId": "mlb:tag:conf:al",
+      "datasetId": "mlb",
+      "prompt": "Name an American League team in MLB",
+      "size": 15,
+      "answers": ["athletics", "baltimore-orioles", "boston-red-sox", "chicago-white-sox", "cleveland-guardians", "detroit-tigers", "houston-astros", "kansas-city-royals", "los-angeles-angels", "minnesota-twins", "new-york-yankees", "seattle-mariners", "tampa-bay-rays", "texas-rangers", "toronto-blue-jays"]
+    },
+    {
+      "round": 3,
+      "questionId": "shakespeare:contains:v",
+      "datasetId": "shakespeare",
+      "prompt": "Name a Shakespeare play with the letter V in its title",
+      "size": 8,
+      "answers": ["henry-iv", "henry-v", "henry-vi", "henry-viii", "love-s-labour-s-lost", "the-merchant-of-venice", "the-merry-wives-of-windsor", "the-two-gentlemen-of-verona"]
+    },
+    {
+      "round": 4,
+      "questionId": "calendar:lacks:e@month",
+      "datasetId": "calendar",
+      "prompt": "Name a month with no letter E in its name",
+      "size": 6,
+      "answers": ["april", "august", "january", "july", "march", "may"]
+    },
+    {
+      "round": 5,
+      "questionId": "nfl:tag:div:afc-east",
+      "datasetId": "nfl",
+      "prompt": "Name a team in the AFC East",
+      "size": 4,
+      "answers": ["buffalo-bills", "miami-dolphins", "new-england-patriots", "new-york-jets"]
+    },
+    {
+      "round": 6,
+      "questionId": "nato_alphabet:contains:y",
+      "datasetId": "nato_alphabet",
+      "prompt": "Name a NATO phonetic alphabet word containing the letter Y",
+      "size": 3,
+      "answers": ["whiskey", "x-ray", "yankee"]
+    }
+  ]
+}

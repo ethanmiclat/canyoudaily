@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-25",
+  "approved": false,
+  "activity": "bomb-wires",
+  "winRate": 0.6247,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "pokemon_gen2:lacks:f",
+      "datasetId": "pokemon_gen2",
+      "prompt": "Name a Johto Pokémon (#152 to #251) with no letter F in its name",
+      "size": 88,
+      "answers": ["aipom", "ampharos", "ariados", "azumarill", "bellossom", "blissey", "celebi", "chikorita", "chinchou", "corsola", "crobat", "croconaw", "cyndaquil", "delibird", "donphan", "dunsparce", "elekid", "entei", "espeon", "gligar", "granbull", "heracross", "hitmontop", "ho-oh", "hoothoot", "hoppip", "houndoom", "houndour", "kingdra", "lanturn", "larvitar", "ledian", "ledyba", "lugia", "magby", "magcargo", "mantine", "mareep", "marill", "meganium", "miltank", "misdreavus", "murkrow", "natu", "noctowl", "octillery", "phanpy", "pichu", "piloswine", "pineco", "politoed", "porygon2", "pupitar", "quagsire", "quilava", "raikou", "remoraid", "scizor", "sentret", "shuckle", "skarmory", "skiploom", "slowking", "slugma", "smeargle", "smoochum", "sneasel", "snubbull", "spinarak", "stantler", "steelix", "sudowoodo", "suicune", "sunkern", "swinub", "teddiursa", "togepi", "togetic", "totodile", "typhlosion", "tyranitar", "tyrogue", "umbreon", "unown", "ursaring", "wooper", "xatu", "yanma"]
+    },
+    {
+      "round": 2,
+      "questionId": "greek_alphabet:all",
+      "datasetId": "greek_alphabet",
+      "prompt": "Name a letter of the Greek alphabet",
+      "size": 24,
+      "answers": ["alpha", "beta", "chi", "delta", "epsilon", "eta", "gamma", "iota", "kappa", "lambda", "mu", "nu", "omega", "omicron", "phi", "pi", "psi", "rho", "sigma", "tau", "theta", "upsilon", "xi", "zeta"]
+    },
+    {
+      "round": 3,
+      "questionId": "constellations:starts:s",
+      "datasetId": "constellations",
+      "prompt": "Name a constellation that starts with the letter S",
+      "size": 7,
+      "answers": ["sagitta", "sagittarius", "scorpius", "sculptor", "scutum", "serpens", "sextans"]
+    },
+    {
+      "round": 4,
+      "questionId": "calendar:contains:u@month",
+      "datasetId": "calendar",
+      "prompt": "Name a month with the letter U in its name",
+      "size": 5,
+      "answers": ["august", "february", "january", "july", "june"]
+    },
+    {
+      "round": 5,
+      "questionId": "greek_myth:contains:p@olympian",
+      "datasetId": "greek_myth",
+      "prompt": "Name an Olympian god with the letter P in their Greek name",
+      "size": 4,
+      "answers": ["olympian-aphrodite", "olympian-apollo", "olympian-hephaestus", "olympian-poseidon"]
+    },
+    {
+      "round": 6,
+      "questionId": "board_games:starts:v@monopoly-street",
+      "datasetId": "board_games",
+      "prompt": "Name a classic US Monopoly street that starts with the letter V",
+      "size": 3,
+      "answers": ["monopoly-ventnor-avenue", "monopoly-vermont-avenue", "monopoly-virginia-avenue"]
+    }
+  ]
+}

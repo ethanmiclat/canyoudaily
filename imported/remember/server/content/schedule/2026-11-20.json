@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-20",
+  "type": "constellation",
+  "skin": "night",
+  "level": 1,
+  "params": {
+    "trials": 5,
+    "stars": 12,
+    "route": [
+      5,
+      6,
+      7,
+      7,
+      8
+    ],
+    "stepMs": 620
+  },
+  "seedRef": "r1",
+  "feature": false,
+  "debut": false,
+  "hard": false,
+  "generated_at": "2026-10-13T18:01:59.886Z",
+  "reviewed": false
+}

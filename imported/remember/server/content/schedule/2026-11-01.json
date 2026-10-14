@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-01",
+  "type": "trail",
+  "skin": "snow",
+  "level": 1,
+  "params": {
+    "trials": 4,
+    "size": 6,
+    "lengths": [
+      8,
+      10,
+      12,
+      13
+    ],
+    "stepMs": 360
+  },
+  "seedRef": "r1",
+  "feature": false,
+  "debut": true,
+  "hard": false,
+  "generated_at": "2026-10-13T18:01:59.857Z",
+  "reviewed": false
+}

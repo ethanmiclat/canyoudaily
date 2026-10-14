@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-26",
+  "type": "oddback",
+  "skin": "kit",
+  "level": 2,
+  "params": {
+    "trials": 5,
+    "shown": [
+      5,
+      6,
+      7,
+      7,
+      8
+    ],
+    "extra": [
+      7,
+      8,
+      8,
+      9,
+      8
+    ]
+  },
+  "seedRef": "r1",
+  "feature": false,
+  "debut": false,
+  "hard": false,
+  "generated_at": "2026-10-13T18:01:59.851Z",
+  "reviewed": false
+}

@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-04",
+  "approved": false,
+  "activity": "draw-straws",
+  "winRate": 0.6399,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "national_parks:contains:a",
+      "datasetId": "national_parks",
+      "prompt": "Name a US national park with the letter A in its name",
+      "size": 53,
+      "answers": ["acadia", "american-samoa", "arches", "badlands", "biscayne", "black-canyon-of-the-gunnison", "bryce-canyon", "canyonlands", "capitol-reef", "carlsbad-caverns", "channel-islands", "congaree", "crater-lake", "cuyahoga-valley", "death-valley", "denali", "dry-tortugas", "everglades", "gates-of-the-arctic", "gateway-arch", "glacier", "glacier-bay", "grand-canyon", "grand-teton", "great-basin", "great-sand-dunes", "great-smoky-mountains", "guadalupe-mountains", "haleakala", "hawai-i-volcanoes", "indiana-dunes", "isle-royale", "joshua-tree", "katmai", "kenai-fjords", "kings-canyon", "kobuk-valley", "lake-clark", "lassen-volcanic", "mammoth-cave", "mesa-verde", "mount-rainier", "north-cascades", "pinnacles", "rocky-mountain", "saguaro", "sequoia", "shenandoah", "virgin-islands", "voyageurs", "white-sands", "wind-cave", "wrangell-st-elias"]
+    },
+    {
+      "round": 2,
+      "questionId": "nba:tag:conf:west",
+      "datasetId": "nba",
+      "prompt": "Name an NBA team in the Western Conference",
+      "size": 15,
+      "answers": ["dallas-mavericks", "denver-nuggets", "golden-state-warriors", "houston-rockets", "los-angeles-clippers", "los-angeles-lakers", "memphis-grizzlies", "minnesota-timberwolves", "new-orleans-pelicans", "oklahoma-city-thunder", "phoenix-suns", "portland-trail-blazers", "sacramento-kings", "san-antonio-spurs", "utah-jazz"]
+    },
+    {
+      "round": 3,
+      "questionId": "geography:any:ocean+great-lake",
+      "datasetId": "geography",
+      "prompt": "Name an ocean or one of the Great Lakes",
+      "size": 10,
+      "answers": ["lake-erie", "lake-huron", "lake-michigan", "lake-ontario", "lake-superior", "ocean-arctic", "ocean-atlantic", "ocean-indian", "ocean-pacific", "ocean-southern"]
+    },
+    {
+      "round": 4,
+      "questionId": "mexico_states:contains:h",
+      "datasetId": "mexico_states",
+      "prompt": "Name a Mexican state (or Mexico City) with the letter H in its name",
+      "size": 6,
+      "answers": ["campeche", "chiapas", "chihuahua", "coahuila", "hidalgo", "michoacan"]
+    },
+    {
+      "round": 5,
+      "questionId": "greek_alphabet:contains:u",
+      "datasetId": "greek_alphabet",
+      "prompt": "Name a Greek letter with the letter U in its name",
+      "size": 4,
+      "answers": ["mu", "nu", "tau", "upsilon"]
+    },
+    {
+      "round": 6,
+      "questionId": "board_games:starts:s@monopoly-street",
+      "datasetId": "board_games",
+      "prompt": "Name a classic US Monopoly street that starts with the letter S",
+      "size": 3,
+      "answers": ["monopoly-st-charles-place", "monopoly-st-james-place", "monopoly-states-avenue"]
+    }
+  ]
+}

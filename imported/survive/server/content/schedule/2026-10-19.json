@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-19",
+  "approved": false,
+  "activity": "draw-straws",
+  "winRate": 0.6308,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "best_picture:contains:t",
+      "datasetId": "best_picture",
+      "prompt": "Name a Best Picture winner with the letter T in its title",
+      "size": 58,
+      "answers": ["12-years-a-slave", "a-beautiful-mind", "all-about-eve", "all-quiet-on-the-western-front", "all-the-king-s-men", "american-beauty", "around-the-world-in-80-days", "birdman", "braveheart", "chariots-of-fire", "dances-with-wolves", "everything-everywhere-all-at-once", "forrest-gump", "from-here-to-eternity", "gentleman-s-agreement", "gladiator", "gone-with-the-wind", "grand-hotel", "hamlet-1948", "in-the-heat-of-the-night", "it-happened-one-night", "marty", "midnight-cowboy", "moonlight", "mutiny-on-the-bounty", "no-country-for-old-men", "on-the-waterfront", "one-flew-over-the-cuckoo-s-nest", "out-of-africa", "parasite", "patton", "platoon", "schindler-s-list", "spotlight", "terms-of-endearment", "the-apartment", "the-artist", "the-best-years-of-our-lives", "the-bridge-on-the-river-kwai", "the-deer-hunter", "the-departed", "the-english-patient", "the-french-connection", "the-godfather", "the-godfather-part-ii", "the-great-ziegfeld", "the-greatest-show-on-earth", "the-hurt-locker", "the-last-emperor", "the-lord-of-the-rings-the-return-of-the-king", "the-lost-weekend", "the-shape-of-water", "the-silence-of-the-lambs", "the-sting", "titanic", "tom-jones", "west-side-story", "you-can-t-take-it-with-you"]
+    },
+    {
+      "round": 2,
+      "questionId": "board_games:tag:monopoly",
+      "datasetId": "board_games",
+      "prompt": "Name a property you can buy in classic US Monopoly (streets, railroads, utilities)",
+      "size": 28,
+      "answers": ["monopoly-atlantic-avenue", "monopoly-b-and-o-railroad", "monopoly-baltic-avenue", "monopoly-boardwalk", "monopoly-connecticut-avenue", "monopoly-electric-company", "monopoly-illinois-avenue", "monopoly-indiana-avenue", "monopoly-kentucky-avenue", "monopoly-marvin-gardens", "monopoly-mediterranean-avenue", "monopoly-new-york-avenue", "monopoly-north-carolina-avenue", "monopoly-oriental-avenue", "monopoly-pacific-avenue", "monopoly-park-place", "monopoly-pennsylvania-avenue", "monopoly-pennsylvania-railroad", "monopoly-reading-railroad", "monopoly-short-line", "monopoly-st-charles-place", "monopoly-st-james-place", "monopoly-states-avenue", "monopoly-tennessee-avenue", "monopoly-ventnor-avenue", "monopoly-vermont-avenue", "monopoly-virginia-avenue", "monopoly-water-works"]
+    },
+    {
+      "round": 3,
+      "questionId": "nhl:tag:div:central",
+      "datasetId": "nhl",
+      "prompt": "Name an NHL team in the Central Division",
+      "size": 8,
+      "answers": ["chicago-blackhawks", "colorado-avalanche", "dallas-stars", "minnesota-wild", "nashville-predators", "st-louis-blues", "utah-mammoth", "winnipeg-jets"]
+    },
+    {
+      "round": 4,
+      "questionId": "mlb:tag:div:nl-east",
+      "datasetId": "mlb",
+      "prompt": "Name a team in the NL East",
+      "size": 5,
+      "answers": ["atlanta-braves", "miami-marlins", "new-york-mets", "philadelphia-phillies", "washington-nationals"]
+    },
+    {
+      "round": 5,
+      "questionId": "greek_myth:contains:d@olympian",
+      "datasetId": "greek_myth",
+      "prompt": "Name an Olympian god with the letter D in their Greek name",
+      "size": 4,
+      "answers": ["olympian-aphrodite", "olympian-demeter", "olympian-dionysus", "olympian-poseidon"]
+    },
+    {
+      "round": 6,
+      "questionId": "pokemon_gen1:tag:type:ghost",
+      "datasetId": "pokemon_gen1",
+      "prompt": "Name a Ghost-type Pokémon from the original 151 (current typings)",
+      "size": 3,
+      "answers": ["gastly", "gengar", "haunter"]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@cyd/survive",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./card": "./src/Card.tsx"
+  },
+  "peerDependencies": {
+    "react": "*"
+  },
+  "dependencies": {
+    "@cyd/shared": "*",
+    "@fontsource/pixelify-sans": "^5.3.0",
+    "@fontsource/silkscreen": "^5.3.0"
+  }
+}

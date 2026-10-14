@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-10",
+  "type": "dots",
+  "skin": "fish",
+  "level": 0,
+  "params": {
+    "trials": 5,
+    "dots": 8,
+    "targets": [
+      2,
+      3,
+      3,
+      4,
+      4
+    ],
+    "speed": 38,
+    "moveMs": 6000
+  },
+  "seedRef": "r1",
+  "feature": false,
+  "debut": false,
+  "hard": false,
+  "generated_at": "2026-10-13T18:01:59.869Z",
+  "reviewed": false
+}

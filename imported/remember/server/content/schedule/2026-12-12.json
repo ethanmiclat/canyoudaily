@@ -1,0 +1,22 @@
+{
+  "date": "2026-12-12",
+  "type": "scene",
+  "skin": "room",
+  "level": 0,
+  "params": {
+    "trials": 3,
+    "objects": [
+      9,
+      10,
+      11
+    ],
+    "changes": 2,
+    "asks": 2
+  },
+  "seedRef": "r1",
+  "feature": true,
+  "debut": true,
+  "hard": false,
+  "generated_at": "2026-10-13T18:01:59.924Z",
+  "reviewed": false
+}

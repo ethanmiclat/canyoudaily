@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-19",
+  "type": "sequence",
+  "skin": "spooky",
+  "level": 0,
+  "params": {
+    "trials": 5,
+    "pads": 4,
+    "lengths": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "flashMs": 560,
+    "gapMs": 200
+  },
+  "seedRef": "r1",
+  "feature": false,
+  "debut": false,
+  "hard": false,
+  "generated_at": "2026-10-13T18:01:59.845Z",
+  "reviewed": false
+}

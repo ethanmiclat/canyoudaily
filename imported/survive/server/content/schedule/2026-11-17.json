@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-17",
+  "approved": false,
+  "activity": "poison-cups",
+  "winRate": 0.6277,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "bible_books:lacks:g~base",
+      "datasetId": "bible_books",
+      "prompt": "Name a book of the Bible with no letter G in its name (ignore any number in front)",
+      "size": 59,
+      "answers": ["1-chronicles", "1-corinthians", "1-john", "1-peter", "1-samuel", "1-thessalonians", "1-timothy", "2-chronicles", "2-corinthians", "2-john", "2-peter", "2-samuel", "2-thessalonians", "2-timothy", "3-john", "acts", "amos", "colossians", "daniel", "deuteronomy", "ecclesiastes", "ephesians", "esther", "exodus", "ezekiel", "ezra", "habakkuk", "hebrews", "hosea", "isaiah", "james", "jeremiah", "job", "joel", "john", "jonah", "joshua", "jude", "lamentations", "leviticus", "luke", "malachi", "mark", "matthew", "micah", "nahum", "nehemiah", "numbers", "obadiah", "philemon", "philippians", "proverbs", "psalms", "revelation", "romans", "ruth", "titus", "zechariah", "zephaniah"]
+    },
+    {
+      "round": 2,
+      "questionId": "olympics:tag:winter",
+      "datasetId": "olympics",
+      "prompt": "Name a city that has hosted the Winter Olympics (through 2026, co-hosts count)",
+      "size": 22,
+      "answers": ["albertville", "beijing", "calgary", "chamonix", "cortina-d-ampezzo", "garmisch-partenkirchen", "grenoble", "innsbruck", "lake-placid", "lillehammer", "milan", "nagano", "oslo", "pyeongchang", "salt-lake-city", "sapporo", "sarajevo", "sochi", "squaw-valley", "st-moritz", "turin", "vancouver"]
+    },
+    {
+      "round": 3,
+      "questionId": "us_states:range:admitted:1890-1959",
+      "datasetId": "us_states",
+      "prompt": "Name a US state admitted in 1890 or later",
+      "size": 8,
+      "answers": ["alaska", "arizona", "hawaii", "idaho", "new-mexico", "oklahoma", "utah", "wyoming"]
+    },
+    {
+      "round": 4,
+      "questionId": "us_presidents:range:start:1789-1817",
+      "datasetId": "us_presidents",
+      "prompt": "Name one of the first five US presidents",
+      "size": 5,
+      "answers": ["george-washington", "james-madison", "james-monroe", "john-adams", "thomas-jefferson"]
+    },
+    {
+      "round": 5,
+      "questionId": "nfl:tag:div:nfc-north",
+      "datasetId": "nfl",
+      "prompt": "Name a team in the NFC North",
+      "size": 4,
+      "answers": ["chicago-bears", "detroit-lions", "green-bay-packers", "minnesota-vikings"]
+    },
+    {
+      "round": 6,
+      "questionId": "tarot:contains:w",
+      "datasetId": "tarot",
+      "prompt": "Name a Major Arcana card with the letter W in its name",
+      "size": 3,
+      "answers": ["the-tower", "the-world", "wheel-of-fortune"]
+    }
+  ]
+}

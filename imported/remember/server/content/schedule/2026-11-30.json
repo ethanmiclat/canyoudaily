@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-30",
+  "type": "spot",
+  "skin": "shelf",
+  "level": 1,
+  "params": {
+    "trials": 5,
+    "cols": 4,
+    "rows": 4,
+    "objects": [
+      7,
+      8,
+      8,
+      9,
+      10
+    ],
+    "studyMs": 3800
+  },
+  "seedRef": "r1",
+  "feature": false,
+  "debut": false,
+  "hard": false,
+  "generated_at": "2026-10-13T18:01:59.901Z",
+  "reviewed": false
+}

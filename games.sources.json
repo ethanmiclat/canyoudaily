@@ -1,0 +1,12 @@
+{
+  "games": [
+    {
+      "id": "survive",
+      "source": "../canyousurvive"
+    },
+    {
+      "id": "remember",
+      "source": "../canyouremember"
+    }
+  ]
+}

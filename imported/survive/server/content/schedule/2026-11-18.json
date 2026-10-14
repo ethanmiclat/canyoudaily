@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-18",
+  "approved": false,
+  "activity": "bomb-wires",
+  "winRate": 0.63,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "countries:lacks:d",
+      "datasetId": "countries",
+      "prompt": "Name a country with no letter D in its name",
+      "size": 140,
+      "answers": ["afghanistan", "albania", "algeria", "angola", "argentina", "armenia", "australia", "austria", "azerbaijan", "bahamas", "bahrain", "belarus", "belgium", "belize", "benin", "bhutan", "bolivia", "botswana", "brazil", "bulgaria", "burkina-faso", "cameroon", "central-african-republic", "chile", "china", "colombia", "comoros", "costa-rica", "croatia", "cuba", "cyprus", "czechia", "egypt", "equatorial-guinea", "eritrea", "estonia", "ethiopia", "fiji", "france", "gabon", "gambia", "georgia", "germany", "ghana", "greece", "guatemala", "guinea", "guinea-bissau", "guyana", "haiti", "hungary", "iran", "iraq", "israel", "italy", "jamaica", "japan", "kazakhstan", "kenya", "kiribati", "kuwait", "kyrgyzstan", "laos", "latvia", "lebanon", "lesotho", "liberia", "libya", "liechtenstein", "lithuania", "luxembourg", "malawi", "malaysia", "mali", "malta", "mauritania", "mauritius", "mexico", "monaco", "mongolia", "montenegro", "morocco", "mozambique", "myanmar", "namibia", "nauru", "nepal", "nicaragua", "niger", "nigeria", "norway", "oman", "pakistan", "palau", "palestine", "panama", "papua-new-guinea", "paraguay", "peru", "philippines", "portugal", "qatar", "republic-of-the-congo", "romania", "saint-lucia", "samoa", "san-marino", "senegal", "serbia", "seychelles", "sierra-leone", "singapore", "slovakia", "slovenia", "somalia", "south-africa", "south-korea", "spain", "sri-lanka", "suriname", "syria", "tajikistan", "tanzania", "timor-leste", "togo", "tonga", "tunisia", "turkey", "turkmenistan", "tuvalu", "ukraine", "uruguay", "uzbekistan", "vanuatu", "vatican-city", "venezuela", "vietnam", "yemen", "zambia", "zimbabwe"]
+    },
+    {
+      "round": 2,
+      "questionId": "nhl:tag:conf:west",
+      "datasetId": "nhl",
+      "prompt": "Name an NHL team in the Western Conference",
+      "size": 16,
+      "answers": ["anaheim-ducks", "calgary-flames", "chicago-blackhawks", "colorado-avalanche", "dallas-stars", "edmonton-oilers", "los-angeles-kings", "minnesota-wild", "nashville-predators", "san-jose-sharks", "seattle-kraken", "st-louis-blues", "utah-mammoth", "vancouver-canucks", "vegas-golden-knights", "winnipeg-jets"]
+    },
+    {
+      "round": 3,
+      "questionId": "amino_acids:contains:a",
+      "datasetId": "amino_acids",
+      "prompt": "Name a standard amino acid with the letter A in its name",
+      "size": 9,
+      "answers": ["alanine", "arginine", "asparagine", "aspartic-acid", "glutamic-acid", "glutamine", "phenylalanine", "tryptophan", "valine"]
+    },
+    {
+      "round": 4,
+      "questionId": "mlb:tag:div:al-central",
+      "datasetId": "mlb",
+      "prompt": "Name a team in the AL Central",
+      "size": 5,
+      "answers": ["chicago-white-sox", "cleveland-guardians", "detroit-tigers", "kansas-city-royals", "minnesota-twins"]
+    },
+    {
+      "round": 5,
+      "questionId": "calendar:contains:u@day",
+      "datasetId": "calendar",
+      "prompt": "Name a day of the week with the letter U in its name",
+      "size": 4,
+      "answers": ["saturday", "sunday", "thursday", "tuesday"]
+    },
+    {
+      "round": 6,
+      "questionId": "constellations:starts:o",
+      "datasetId": "constellations",
+      "prompt": "Name a constellation that starts with the letter O",
+      "size": 3,
+      "answers": ["octans", "ophiuchus", "orion"]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-29",
+  "approved": false,
+  "activity": "spin-the-wheel",
+  "winRate": 0.616,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "pokemon_gen2:lacks:l",
+      "datasetId": "pokemon_gen2",
+      "prompt": "Name a Johto Pokémon (#152 to #251) with no letter L in its name",
+      "size": 59,
+      "answers": ["aipom", "ampharos", "ariados", "chikorita", "chinchou", "crobat", "croconaw", "donphan", "dunsparce", "entei", "espeon", "forretress", "furret", "girafarig", "heracross", "hitmontop", "ho-oh", "hoothoot", "hoppip", "houndoom", "houndour", "kingdra", "magby", "magcargo", "mantine", "mareep", "meganium", "misdreavus", "murkrow", "natu", "phanpy", "pichu", "pineco", "porygon2", "pupitar", "quagsire", "raikou", "remoraid", "scizor", "sentret", "skarmory", "smoochum", "spinarak", "sudowoodo", "suicune", "sunkern", "swinub", "teddiursa", "togepi", "togetic", "tyranitar", "tyrogue", "umbreon", "unown", "ursaring", "wobbuffet", "wooper", "xatu", "yanma"]
+    },
+    {
+      "round": 2,
+      "questionId": "nfl:tag:conf:nfc",
+      "datasetId": "nfl",
+      "prompt": "Name an NFC team in the NFL",
+      "size": 16,
+      "answers": ["arizona-cardinals", "atlanta-falcons", "carolina-panthers", "chicago-bears", "dallas-cowboys", "detroit-lions", "green-bay-packers", "los-angeles-rams", "minnesota-vikings", "new-orleans-saints", "new-york-giants", "philadelphia-eagles", "san-francisco-49ers", "seattle-seahawks", "tampa-bay-buccaneers", "washington-commanders"]
+    },
+    {
+      "round": 3,
+      "questionId": "calendar:tag:days-31",
+      "datasetId": "calendar",
+      "prompt": "Name a month with 31 days",
+      "size": 7,
+      "answers": ["august", "december", "january", "july", "march", "may", "october"]
+    },
+    {
+      "round": 4,
+      "questionId": "mlb:tag:div:nl-central",
+      "datasetId": "mlb",
+      "prompt": "Name a team in the NL Central",
+      "size": 5,
+      "answers": ["chicago-cubs", "cincinnati-reds", "milwaukee-brewers", "pittsburgh-pirates", "st-louis-cardinals"]
+    },
+    {
+      "round": 5,
+      "questionId": "shakespeare:lacks:e",
+      "datasetId": "shakespeare",
+      "prompt": "Name a Shakespeare play with no letter E in its title",
+      "size": 4,
+      "answers": ["coriolanus", "king-john", "much-ado-about-nothing", "titus-andronicus"]
+    },
+    {
+      "round": 6,
+      "questionId": "nato_alphabet:contains:s",
+      "datasetId": "nato_alphabet",
+      "prompt": "Name a NATO phonetic alphabet word containing the letter S",
+      "size": 3,
+      "answers": ["oscar", "sierra", "whiskey"]
+    }
+  ]
+}
