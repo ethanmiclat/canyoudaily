@@ -2,6 +2,7 @@
 // (see docs/GAME_CONTRACT.md); this file only adds hub-side extras such as custom preview cards.
 import type { ComponentType } from 'react';
 import { readTodayState, type GameCardProps, type GameManifest } from '@cyd/shared';
+import CompareCard from '@cyd/compare/card';
 import RememberCard from '@cyd/remember/card';
 import SurviveCard from '@cyd/survive/card';
 import { importedGames } from './games.generated';
@@ -10,6 +11,7 @@ import { importedGames } from './games.generated';
 export const cards: Record<string, ComponentType<GameCardProps>> = {
   survive: SurviveCard,
   remember: RememberCard,
+  compare: CompareCard,
 };
 
 export const games: GameManifest[] = importedGames.map((g) => ({

@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@cyd/compare": "*",
     "@cyd/remember": "*",
     "@cyd/shared": "*",
     "@cyd/survive": "*",
