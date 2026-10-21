@@ -1,56 +1,56 @@
 {
   "date": "2026-11-05",
   "approved": false,
-  "activity": "spin-the-wheel",
-  "winRate": 0.6324,
+  "activity": "scratch-cards",
+  "winRate": 0.6151,
   "rounds": [
     {
       "round": 1,
-      "questionId": "elements:lacks:p",
-      "datasetId": "elements",
-      "prompt": "Name an element with no letter P in its name",
-      "size": 102,
-      "answers": ["actinium", "aluminium", "americium", "antimony", "argon", "arsenic", "astatine", "barium", "berkelium", "beryllium", "bismuth", "bohrium", "boron", "bromine", "cadmium", "caesium", "calcium", "californium", "carbon", "cerium", "chlorine", "chromium", "cobalt", "curium", "darmstadtium", "dubnium", "einsteinium", "erbium", "fermium", "flerovium", "fluorine", "francium", "gadolinium", "gallium", "germanium", "gold", "hafnium", "hassium", "helium", "holmium", "hydrogen", "indium", "iodine", "iridium", "iron", "lanthanum", "lawrencium", "lead", "lithium", "livermorium", "lutetium", "magnesium", "manganese", "meitnerium", "mendelevium", "mercury", "molybdenum", "moscovium", "neodymium", "neon", "nickel", "nihonium", "niobium", "nitrogen", "nobelium", "oganesson", "osmium", "oxygen", "radium", "radon", "rhenium", "rhodium", "roentgenium", "rubidium", "ruthenium", "rutherfordium", "samarium", "scandium", "seaborgium", "selenium", "silicon", "silver", "sodium", "strontium", "tantalum", "technetium", "tellurium", "tennessine", "terbium", "thallium", "thorium", "thulium", "tin", "titanium", "tungsten", "uranium", "vanadium", "xenon", "ytterbium", "yttrium", "zinc", "zirconium"]
+      "questionId": "bible_books:lacks:g~base",
+      "datasetId": "bible_books",
+      "prompt": "Name a book of the Bible with no letter G in its name (ignore any number in front)",
+      "size": 59,
+      "answers": ["1-chronicles", "1-corinthians", "1-john", "1-peter", "1-samuel", "1-thessalonians", "1-timothy", "2-chronicles", "2-corinthians", "2-john", "2-peter", "2-samuel", "2-thessalonians", "2-timothy", "3-john", "acts", "amos", "colossians", "daniel", "deuteronomy", "ecclesiastes", "ephesians", "esther", "exodus", "ezekiel", "ezra", "habakkuk", "hebrews", "hosea", "isaiah", "james", "jeremiah", "job", "joel", "john", "jonah", "joshua", "jude", "lamentations", "leviticus", "luke", "malachi", "mark", "matthew", "micah", "nahum", "nehemiah", "numbers", "obadiah", "philemon", "philippians", "proverbs", "psalms", "revelation", "romans", "ruth", "titus", "zechariah", "zephaniah"]
     },
     {
       "round": 2,
-      "questionId": "pokemon_gen2:tag:type:flying",
-      "datasetId": "pokemon_gen2",
-      "prompt": "Name a Flying-type Johto Pokémon (#152 to #251, current typings)",
-      "size": 19,
-      "answers": ["crobat", "delibird", "gligar", "ho-oh", "hoothoot", "hoppip", "jumpluff", "ledian", "ledyba", "lugia", "mantine", "murkrow", "natu", "noctowl", "skarmory", "skiploom", "togetic", "xatu", "yanma"]
+      "questionId": "mexico_states:contains:s",
+      "datasetId": "mexico_states",
+      "prompt": "Name a Mexican state (or Mexico City) with the letter S in its name",
+      "size": 12,
+      "answers": ["aguascalientes", "baja-california-sur", "chiapas", "jalisco", "morelos", "san-luis-potosi", "sinaloa", "sonora", "state-of-mexico", "tabasco", "tamaulipas", "zacatecas"]
     },
     {
       "round": 3,
-      "questionId": "nato_alphabet:contains:l",
-      "datasetId": "nato_alphabet",
-      "prompt": "Name a NATO phonetic alphabet word containing the letter L",
-      "size": 9,
-      "answers": ["alfa", "charlie", "delta", "golf", "hotel", "juliett", "kilo", "lima", "zulu"]
+      "questionId": "board_games:any:color:brown+color:light-blue+color:pink",
+      "datasetId": "board_games",
+      "prompt": "Name a brown, light blue or pink property in classic US Monopoly",
+      "size": 8,
+      "answers": ["monopoly-baltic-avenue", "monopoly-connecticut-avenue", "monopoly-mediterranean-avenue", "monopoly-oriental-avenue", "monopoly-st-charles-place", "monopoly-states-avenue", "monopoly-vermont-avenue", "monopoly-virginia-avenue"]
     },
     {
       "round": 4,
-      "questionId": "mlb:tag:div:al-west",
-      "datasetId": "mlb",
-      "prompt": "Name a team in the AL West",
+      "questionId": "food:tag:food-group",
+      "datasetId": "food",
+      "prompt": "Name one of the five MyPlate food groups",
       "size": 5,
-      "answers": ["athletics", "houston-astros", "los-angeles-angels", "seattle-mariners", "texas-rangers"]
+      "answers": ["dairy", "fruits", "grains", "protein", "vegetables"]
     },
     {
       "round": 5,
-      "questionId": "zodiac:contains:c@western",
-      "datasetId": "zodiac",
-      "prompt": "Name a Western zodiac sign with the letter C in it",
+      "questionId": "animals:tag:great-ape",
+      "datasetId": "animals",
+      "prompt": "Name a great ape (other than humans)",
       "size": 4,
-      "answers": ["cancer", "capricorn", "pisces", "scorpio"]
+      "answers": ["bonobo", "chimpanzee", "gorilla", "orangutan"]
     },
     {
       "round": 6,
-      "questionId": "greek_myth:contains:n@olympian",
-      "datasetId": "greek_myth",
-      "prompt": "Name an Olympian god with the letter N in their Greek name",
+      "questionId": "german_states:tag:borders-france",
+      "datasetId": "german_states",
+      "prompt": "Name a German state that borders France",
       "size": 3,
-      "answers": ["olympian-athena", "olympian-dionysus", "olympian-poseidon"]
+      "answers": ["baden-wurttemberg", "rhineland-palatinate", "saarland"]
     }
   ]
 }

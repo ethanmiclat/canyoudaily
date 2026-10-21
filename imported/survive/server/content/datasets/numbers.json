@@ -1,6 +1,7 @@
 {
   "id": "numbers",
   "title": "Whole numbers",
+  "theme": "symbols",
   "entities": [
     {"id": "n1", "name": "1", "aliases": ["one"], "tags": ["odd", "square", "cube", "fibonacci"], "props": {"n": 1}},
     {"id": "n2", "name": "2", "aliases": ["two"], "tags": ["even", "prime", "fibonacci"], "props": {"n": 2}},

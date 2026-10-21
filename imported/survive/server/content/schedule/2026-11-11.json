@@ -2,55 +2,55 @@
   "date": "2026-11-11",
   "approved": false,
   "activity": "five-keys",
-  "winRate": 0.6212,
+  "winRate": 0.6385,
   "rounds": [
     {
       "round": 1,
-      "questionId": "elements:contains:e",
-      "datasetId": "elements",
-      "prompt": "Name an element with the letter E in its name",
-      "size": 55,
-      "answers": ["americium", "arsenic", "astatine", "berkelium", "beryllium", "bromine", "caesium", "cerium", "chlorine", "copernicium", "copper", "einsteinium", "erbium", "europium", "fermium", "flerovium", "fluorine", "germanium", "helium", "hydrogen", "iodine", "lawrencium", "lead", "livermorium", "lutetium", "magnesium", "manganese", "meitnerium", "mendelevium", "mercury", "molybdenum", "neodymium", "neon", "neptunium", "nickel", "nitrogen", "nobelium", "oganesson", "oxygen", "praseodymium", "promethium", "rhenium", "roentgenium", "ruthenium", "rutherfordium", "seaborgium", "selenium", "silver", "technetium", "tellurium", "tennessine", "terbium", "tungsten", "xenon", "ytterbium"]
+      "questionId": "world_capitals:any:continent:europe+continent:asia",
+      "datasetId": "world_capitals",
+      "prompt": "Name the capital of a country in Europe or Asia",
+      "size": 92,
+      "answers": ["abu-dhabi", "amman", "amsterdam", "andorra-la-vella", "ankara", "ashgabat", "astana", "athens", "baghdad", "baku", "bandar-seri-begawan", "bangkok", "beijing", "beirut", "belgrade", "berlin", "bern", "bishkek", "bratislava", "brussels", "bucharest", "budapest", "chisinau", "copenhagen", "damascus", "dhaka", "dili", "doha", "dublin", "dushanbe", "hanoi", "helsinki", "islamabad", "jakarta", "jerusalem", "kabul", "kathmandu", "kuala-lumpur", "kuwait-city", "kyiv", "lisbon", "ljubljana", "london", "luxembourg-city", "madrid", "male", "manama", "manila", "minsk", "monaco", "moscow", "muscat", "naypyidaw", "new-delhi", "nicosia", "oslo", "paris", "phnom-penh", "podgorica", "prague", "pyongyang", "ramallah", "reykjavik", "riga", "riyadh", "rome", "san-marino", "sanaa", "sarajevo", "seoul", "singapore", "skopje", "sofia", "sri-jayawardenepura-kotte", "stockholm", "tallinn", "tashkent", "tbilisi", "tehran", "thimphu", "tirana", "tokyo", "ulaanbaatar", "vaduz", "valletta", "vatican-city", "vienna", "vientiane", "vilnius", "warsaw", "yerevan", "zagreb"]
     },
     {
       "round": 2,
-      "questionId": "tarot:all",
-      "datasetId": "tarot",
-      "prompt": "Name a card of the tarot's Major Arcana",
-      "size": 22,
-      "answers": ["death", "judgement", "justice", "strength", "temperance", "the-chariot", "the-devil", "the-emperor", "the-empress", "the-fool", "the-hanged-man", "the-hermit", "the-hierophant", "the-high-priestess", "the-lovers", "the-magician", "the-moon", "the-star", "the-sun", "the-tower", "the-world", "wheel-of-fortune"]
+      "questionId": "mlb:all",
+      "datasetId": "mlb",
+      "prompt": "Name an MLB team",
+      "size": 30,
+      "answers": ["arizona-diamondbacks", "athletics", "atlanta-braves", "baltimore-orioles", "boston-red-sox", "chicago-cubs", "chicago-white-sox", "cincinnati-reds", "cleveland-guardians", "colorado-rockies", "detroit-tigers", "houston-astros", "kansas-city-royals", "los-angeles-angels", "los-angeles-dodgers", "miami-marlins", "milwaukee-brewers", "minnesota-twins", "new-york-mets", "new-york-yankees", "philadelphia-phillies", "pittsburgh-pirates", "san-diego-padres", "san-francisco-giants", "seattle-mariners", "st-louis-cardinals", "tampa-bay-rays", "texas-rangers", "toronto-blue-jays", "washington-nationals"]
     },
     {
       "round": 3,
-      "questionId": "greek_alphabet:contains:p",
-      "datasetId": "greek_alphabet",
-      "prompt": "Name a Greek letter with the letter P in its name",
-      "size": 7,
-      "answers": ["alpha", "epsilon", "kappa", "phi", "pi", "psi", "upsilon"]
+      "questionId": "cards:tag:pip",
+      "datasetId": "cards",
+      "prompt": "Name a numbered card rank, Two through Ten",
+      "size": 9,
+      "answers": ["eight", "five", "four", "nine", "seven", "six", "ten", "three", "two"]
     },
     {
       "round": 4,
-      "questionId": "nato_alphabet:contains:n",
-      "datasetId": "nato_alphabet",
-      "prompt": "Name a NATO phonetic alphabet word containing the letter N",
+      "questionId": "calendar:contains:s@day",
+      "datasetId": "calendar",
+      "prompt": "Name a day of the week with the letter S in its name",
       "size": 5,
-      "answers": ["india", "november", "tango", "uniform", "yankee"]
+      "answers": ["saturday", "sunday", "thursday", "tuesday", "wednesday"]
     },
     {
       "round": 5,
-      "questionId": "nfl:tag:div:afc-north",
-      "datasetId": "nfl",
-      "prompt": "Name a team in the AFC North",
+      "questionId": "famous_groups:tag:beatle",
+      "datasetId": "famous_groups",
+      "prompt": "Name a member of the Beatles (the famous four)",
       "size": 4,
-      "answers": ["baltimore-ravens", "cincinnati-bengals", "cleveland-browns", "pittsburgh-steelers"]
+      "answers": ["beatle-george-harrison", "beatle-john-lennon", "beatle-paul-mccartney", "beatle-ringo-starr"]
     },
     {
       "round": 6,
-      "questionId": "us_presidents:starts:b~first",
-      "datasetId": "us_presidents",
-      "prompt": "Name a US president whose first name starts with the letter B",
+      "questionId": "space:lacks:e@planet",
+      "datasetId": "space",
+      "prompt": "Name a planet with no letter E in its name",
       "size": 3,
-      "answers": ["barack-obama", "benjamin-harrison", "bill-clinton"]
+      "answers": ["mars", "saturn", "uranus"]
     }
   ]
 }

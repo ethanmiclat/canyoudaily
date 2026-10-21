@@ -1,6 +1,7 @@
 {
   "id": "film_series",
   "title": "Film series",
+  "theme": "screen",
   "entities": [
     {"id": "star-wars-star-wars-episode-i-the-phantom-menace", "name": "Star Wars: Episode I – The Phantom Menace", "aliases": ["The Phantom Menace", "Phantom Menace", "Episode I", "Episode 1"], "tags": ["star-wars"]},
     {"id": "star-wars-star-wars-episode-ii-attack-of-the-clones", "name": "Star Wars: Episode II – Attack of the Clones", "aliases": ["Attack of the Clones", "Episode II", "Episode 2"], "tags": ["star-wars"]},

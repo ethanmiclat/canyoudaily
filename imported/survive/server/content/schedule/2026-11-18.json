@@ -1,56 +1,56 @@
 {
   "date": "2026-11-18",
   "approved": false,
-  "activity": "bomb-wires",
-  "winRate": 0.63,
+  "activity": "mimic-chests",
+  "winRate": 0.6287,
   "rounds": [
     {
       "round": 1,
-      "questionId": "countries:lacks:d",
-      "datasetId": "countries",
-      "prompt": "Name a country with no letter D in its name",
-      "size": 140,
-      "answers": ["afghanistan", "albania", "algeria", "angola", "argentina", "armenia", "australia", "austria", "azerbaijan", "bahamas", "bahrain", "belarus", "belgium", "belize", "benin", "bhutan", "bolivia", "botswana", "brazil", "bulgaria", "burkina-faso", "cameroon", "central-african-republic", "chile", "china", "colombia", "comoros", "costa-rica", "croatia", "cuba", "cyprus", "czechia", "egypt", "equatorial-guinea", "eritrea", "estonia", "ethiopia", "fiji", "france", "gabon", "gambia", "georgia", "germany", "ghana", "greece", "guatemala", "guinea", "guinea-bissau", "guyana", "haiti", "hungary", "iran", "iraq", "israel", "italy", "jamaica", "japan", "kazakhstan", "kenya", "kiribati", "kuwait", "kyrgyzstan", "laos", "latvia", "lebanon", "lesotho", "liberia", "libya", "liechtenstein", "lithuania", "luxembourg", "malawi", "malaysia", "mali", "malta", "mauritania", "mauritius", "mexico", "monaco", "mongolia", "montenegro", "morocco", "mozambique", "myanmar", "namibia", "nauru", "nepal", "nicaragua", "niger", "nigeria", "norway", "oman", "pakistan", "palau", "palestine", "panama", "papua-new-guinea", "paraguay", "peru", "philippines", "portugal", "qatar", "republic-of-the-congo", "romania", "saint-lucia", "samoa", "san-marino", "senegal", "serbia", "seychelles", "sierra-leone", "singapore", "slovakia", "slovenia", "somalia", "south-africa", "south-korea", "spain", "sri-lanka", "suriname", "syria", "tajikistan", "tanzania", "timor-leste", "togo", "tonga", "tunisia", "turkey", "turkmenistan", "tuvalu", "ukraine", "uruguay", "uzbekistan", "vanuatu", "vatican-city", "venezuela", "vietnam", "yemen", "zambia", "zimbabwe"]
+      "questionId": "numbers:range:n:1-150",
+      "datasetId": "numbers",
+      "prompt": "Name a whole number from 1 to 150",
+      "size": 150,
+      "answers": ["n1", "n10", "n100", "n101", "n102", "n103", "n104", "n105", "n106", "n107", "n108", "n109", "n11", "n110", "n111", "n112", "n113", "n114", "n115", "n116", "n117", "n118", "n119", "n12", "n120", "n121", "n122", "n123", "n124", "n125", "n126", "n127", "n128", "n129", "n13", "n130", "n131", "n132", "n133", "n134", "n135", "n136", "n137", "n138", "n139", "n14", "n140", "n141", "n142", "n143", "n144", "n145", "n146", "n147", "n148", "n149", "n15", "n150", "n16", "n17", "n18", "n19", "n2", "n20", "n21", "n22", "n23", "n24", "n25", "n26", "n27", "n28", "n29", "n3", "n30", "n31", "n32", "n33", "n34", "n35", "n36", "n37", "n38", "n39", "n4", "n40", "n41", "n42", "n43", "n44", "n45", "n46", "n47", "n48", "n49", "n5", "n50", "n51", "n52", "n53", "n54", "n55", "n56", "n57", "n58", "n59", "n6", "n60", "n61", "n62", "n63", "n64", "n65", "n66", "n67", "n68", "n69", "n7", "n70", "n71", "n72", "n73", "n74", "n75", "n76", "n77", "n78", "n79", "n8", "n80", "n81", "n82", "n83", "n84", "n85", "n86", "n87", "n88", "n89", "n9", "n90", "n91", "n92", "n93", "n94", "n95", "n96", "n97", "n98", "n99"]
     },
     {
       "round": 2,
-      "questionId": "nhl:tag:conf:west",
-      "datasetId": "nhl",
-      "prompt": "Name an NHL team in the Western Conference",
-      "size": 16,
-      "answers": ["anaheim-ducks", "calgary-flames", "chicago-blackhawks", "colorado-avalanche", "dallas-stars", "edmonton-oilers", "los-angeles-kings", "minnesota-wild", "nashville-predators", "san-jose-sharks", "seattle-kraken", "st-louis-blues", "utah-mammoth", "vancouver-canucks", "vegas-golden-knights", "winnipeg-jets"]
+      "questionId": "pixar:all",
+      "datasetId": "pixar",
+      "prompt": "Name a Pixar feature film released before 2026",
+      "size": 29,
+      "answers": ["a-bug-s-life", "brave", "cars", "cars-2", "cars-3", "coco", "elemental", "elio", "finding-dory", "finding-nemo", "incredibles-2", "inside-out", "inside-out-2", "lightyear", "luca", "monsters-inc", "monsters-university", "onward", "ratatouille", "soul", "the-good-dinosaur", "the-incredibles", "toy-story", "toy-story-2", "toy-story-3", "toy-story-4", "turning-red", "up", "wall-e"]
     },
     {
       "round": 3,
-      "questionId": "amino_acids:contains:a",
-      "datasetId": "amino_acids",
-      "prompt": "Name a standard amino acid with the letter A in its name",
-      "size": 9,
-      "answers": ["alanine", "arginine", "asparagine", "aspartic-acid", "glutamic-acid", "glutamine", "phenylalanine", "tryptophan", "valine"]
+      "questionId": "greek_alphabet:contains:e",
+      "datasetId": "greek_alphabet",
+      "prompt": "Name a Greek letter with the letter E in its name",
+      "size": 7,
+      "answers": ["beta", "delta", "epsilon", "eta", "omega", "theta", "zeta"]
     },
     {
       "round": 4,
-      "questionId": "mlb:tag:div:al-central",
-      "datasetId": "mlb",
-      "prompt": "Name a team in the AL Central",
+      "questionId": "india_states:starts:m@state",
+      "datasetId": "india_states",
+      "prompt": "Name an Indian state that starts with the letter M",
       "size": 5,
-      "answers": ["chicago-white-sox", "cleveland-guardians", "detroit-tigers", "kansas-city-royals", "minnesota-twins"]
+      "answers": ["madhya-pradesh", "maharashtra", "manipur", "meghalaya", "mizoram"]
     },
     {
       "round": 5,
-      "questionId": "calendar:contains:u@day",
-      "datasetId": "calendar",
-      "prompt": "Name a day of the week with the letter U in its name",
+      "questionId": "nfl:tag:div:nfc-north",
+      "datasetId": "nfl",
+      "prompt": "Name a team in the NFC North",
       "size": 4,
-      "answers": ["saturday", "sunday", "thursday", "tuesday"]
+      "answers": ["chicago-bears", "detroit-lions", "green-bay-packers", "minnesota-vikings"]
     },
     {
       "round": 6,
-      "questionId": "constellations:starts:o",
-      "datasetId": "constellations",
-      "prompt": "Name a constellation that starts with the letter O",
+      "questionId": "tarot:tag:celestial",
+      "datasetId": "tarot",
+      "prompt": "Name one of the three Major Arcana cards named after something in the sky",
       "size": 3,
-      "answers": ["octans", "ophiuchus", "orion"]
+      "answers": ["the-moon", "the-star", "the-sun"]
     }
   ]
 }

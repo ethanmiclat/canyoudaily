@@ -1,56 +1,56 @@
 {
   "date": "2026-11-26",
   "approved": false,
-  "activity": "bomb-wires",
-  "winRate": 0.6195,
+  "activity": "elevator",
+  "winRate": 0.6113,
   "rounds": [
     {
       "round": 1,
-      "questionId": "world_capitals:lacks:k",
-      "datasetId": "world_capitals",
-      "prompt": "Name a national capital with no letter K in its name",
-      "size": 163,
-      "answers": ["abu-dhabi", "abuja", "accra", "addis-ababa", "algiers", "amman", "amsterdam", "andorra-la-vella", "antananarivo", "apia", "ashgabat", "asmara", "astana", "asuncion", "athens", "baghdad", "bandar-seri-begawan", "bangui", "banjul", "basseterre", "beirut", "belgrade", "belmopan", "berlin", "bern", "bissau", "bloemfontein", "bogota", "brasilia", "bratislava", "brazzaville", "bridgetown", "brussels", "bucharest", "budapest", "buenos-aires", "cairo", "canberra", "cape-town", "caracas", "castries", "copenhagen", "damascus", "dili", "djibouti", "dodoma", "doha", "dublin", "dushanbe", "freetown", "funafuti", "gaborone", "georgetown", "gitega", "guatemala-city", "hanoi", "harare", "havana", "honiara", "islamabad", "jerusalem", "juba", "la-paz", "libreville", "lilongwe", "lima", "lisbon", "ljubljana", "lobamba", "lome", "london", "luanda", "luxembourg-city", "madrid", "majuro", "malabo", "male", "managua", "manama", "manila", "maputo", "maseru", "mbabane", "mexico-city", "mogadishu", "monaco", "monrovia", "montevideo", "moroni", "moscow", "muscat", "n-djamena", "nairobi", "nassau", "naypyidaw", "new-delhi", "ngerulmud", "niamey", "nicosia", "oslo", "ottawa", "ouagadougou", "panama-city", "paramaribo", "paris", "phnom-penh", "podgorica", "port-au-prince", "port-louis", "port-moresby", "port-of-spain", "port-vila", "porto-novo", "prague", "praia", "pretoria", "pyongyang", "quito", "rabat", "ramallah", "riga", "riyadh", "rome", "roseau", "san-jose", "san-marino", "san-salvador", "sanaa", "santiago", "santo-domingo", "sao-tome", "sarajevo", "seoul", "singapore", "sofia", "south-tarawa", "st-george-s", "st-john-s", "sucre", "suva", "tallinn", "tbilisi", "tegucigalpa", "tehran", "thimphu", "tirana", "tripoli", "tunis", "ulaanbaatar", "vaduz", "valletta", "vatican-city", "victoria", "vienna", "vientiane", "vilnius", "warsaw", "washington-d-c", "wellington", "yaounde", "yaren", "yerevan", "zagreb"]
+      "questionId": "elements:range:number:1-100",
+      "datasetId": "elements",
+      "prompt": "Name an element with atomic number 100 or less",
+      "size": 100,
+      "answers": ["actinium", "aluminium", "americium", "antimony", "argon", "arsenic", "astatine", "barium", "berkelium", "beryllium", "bismuth", "boron", "bromine", "cadmium", "caesium", "calcium", "californium", "carbon", "cerium", "chlorine", "chromium", "cobalt", "copper", "curium", "dysprosium", "einsteinium", "erbium", "europium", "fermium", "fluorine", "francium", "gadolinium", "gallium", "germanium", "gold", "hafnium", "helium", "holmium", "hydrogen", "indium", "iodine", "iridium", "iron", "krypton", "lanthanum", "lead", "lithium", "lutetium", "magnesium", "manganese", "mercury", "molybdenum", "neodymium", "neon", "neptunium", "nickel", "niobium", "nitrogen", "osmium", "oxygen", "palladium", "phosphorus", "platinum", "plutonium", "polonium", "potassium", "praseodymium", "promethium", "protactinium", "radium", "radon", "rhenium", "rhodium", "rubidium", "ruthenium", "samarium", "scandium", "selenium", "silicon", "silver", "sodium", "strontium", "sulfur", "tantalum", "technetium", "tellurium", "terbium", "thallium", "thorium", "thulium", "tin", "titanium", "tungsten", "uranium", "vanadium", "xenon", "ytterbium", "yttrium", "zinc", "zirconium"]
     },
     {
       "round": 2,
-      "questionId": "mexico_states:contains:u",
-      "datasetId": "mexico_states",
-      "prompt": "Name a Mexican state (or Mexico City) with the letter U in its name",
-      "size": 16,
-      "answers": ["aguascalientes", "baja-california-sur", "chihuahua", "coahuila", "durango", "guanajuato", "guerrero", "mexico-city", "nuevo-leon", "puebla", "queretaro", "quintana-roo", "san-luis-potosi", "tamaulipas", "veracruz", "yucatan"]
+      "questionId": "state_capitals:tag:region:midwest",
+      "datasetId": "state_capitals",
+      "prompt": "Name the capital of a Midwestern US state",
+      "size": 12,
+      "answers": ["bismarck", "columbus", "des-moines", "indianapolis", "jefferson-city", "lansing", "lincoln", "madison", "pierre", "saint-paul", "springfield", "topeka"]
     },
     {
       "round": 3,
-      "questionId": "space:lacks:i@planet",
-      "datasetId": "space",
-      "prompt": "Name a planet with no letter I in its name",
+      "questionId": "calendar:tag:days-31",
+      "datasetId": "calendar",
+      "prompt": "Name a month with 31 days",
       "size": 7,
-      "answers": ["earth", "mars", "mercury", "neptune", "saturn", "uranus", "venus"]
+      "answers": ["august", "december", "january", "july", "march", "may", "october"]
     },
     {
       "round": 4,
-      "questionId": "nba:tag:div:southwest",
-      "datasetId": "nba",
-      "prompt": "Name an NBA team in the Southwest Division",
+      "questionId": "german_states:contains:w",
+      "datasetId": "german_states",
+      "prompt": "Name a German state with the letter W in its English name",
       "size": 5,
-      "answers": ["dallas-mavericks", "houston-rockets", "memphis-grizzlies", "new-orleans-pelicans", "san-antonio-spurs"]
+      "answers": ["baden-wurttemberg", "lower-saxony", "mecklenburg-western-pomerania", "north-rhine-westphalia", "schleswig-holstein"]
     },
     {
       "round": 5,
-      "questionId": "famous_groups:tag:beatle",
-      "datasetId": "famous_groups",
-      "prompt": "Name a member of the Beatles (the famous four)",
+      "questionId": "nfl:tag:div:nfc-west",
+      "datasetId": "nfl",
+      "prompt": "Name a team in the NFC West",
       "size": 4,
-      "answers": ["beatle-george-harrison", "beatle-john-lennon", "beatle-paul-mccartney", "beatle-ringo-starr"]
+      "answers": ["arizona-cardinals", "los-angeles-rams", "san-francisco-49ers", "seattle-seahawks"]
     },
     {
       "round": 6,
-      "questionId": "state_capitals:starts:l",
-      "datasetId": "state_capitals",
-      "prompt": "Name a US state capital that starts with the letter L",
+      "questionId": "pokemon_gen1:starts:j",
+      "datasetId": "pokemon_gen1",
+      "prompt": "Name an original-151 Pokémon that starts with the letter J",
       "size": 3,
-      "answers": ["lansing", "lincoln", "little-rock"]
+      "answers": ["jigglypuff", "jolteon", "jynx"]
     }
   ]
 }

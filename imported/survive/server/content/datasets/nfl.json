@@ -1,6 +1,7 @@
 {
   "id": "nfl",
   "title": "NFL teams",
+  "theme": "sports",
   "entities": [
     {"id": "buffalo-bills", "name": "Buffalo Bills", "aliases": ["Bills", "Buffalo"], "tags": ["conf:afc", "div:afc-east", "no-super-bowl"]},
     {"id": "miami-dolphins", "name": "Miami Dolphins", "aliases": ["Dolphins", "Miami"], "tags": ["conf:afc", "div:afc-east", "super-bowl-winner"]},

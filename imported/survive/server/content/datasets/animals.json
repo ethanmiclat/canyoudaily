@@ -1,0 +1,27 @@
+{
+  "id": "animals",
+  "title": "Animals",
+  "theme": "nature",
+  "entities": [
+    {"id": "american-black-bear", "name": "American Black Bear", "aliases": ["Black Bear"], "tags": ["bear"]},
+    {"id": "asiatic-black-bear", "name": "Asiatic Black Bear", "alt": ["Asian Black Bear", "Moon Bear"], "tags": ["bear"]},
+    {"id": "brown-bear", "name": "Brown Bear", "alt": ["Grizzly Bear", "Kodiak Bear"], "aliases": ["Grizzly"], "tags": ["bear"]},
+    {"id": "polar-bear", "name": "Polar Bear", "tags": ["bear"]},
+    {"id": "giant-panda", "name": "Giant Panda", "alt": ["Panda Bear"], "aliases": ["Panda"], "tags": ["bear"]},
+    {"id": "sloth-bear", "name": "Sloth Bear", "tags": ["bear"]},
+    {"id": "sun-bear", "name": "Sun Bear", "alt": ["Malayan Sun Bear"], "tags": ["bear"]},
+    {"id": "spectacled-bear", "name": "Spectacled Bear", "alt": ["Andean Bear"], "tags": ["bear"]},
+    {"id": "lion", "name": "Lion", "tags": ["panthera", "big-five"]},
+    {"id": "tiger", "name": "Tiger", "tags": ["panthera"]},
+    {"id": "leopard", "name": "Leopard", "tags": ["panthera", "big-five"]},
+    {"id": "jaguar", "name": "Jaguar", "tags": ["panthera"]},
+    {"id": "snow-leopard", "name": "Snow Leopard", "tags": ["panthera"]},
+    {"id": "rhinoceros", "name": "Rhinoceros", "alt": ["Black Rhinoceros", "White Rhinoceros", "Black Rhino", "White Rhino"], "aliases": ["Rhino"], "tags": ["big-five"]},
+    {"id": "african-elephant", "name": "African Elephant", "aliases": ["Elephant"], "tags": ["big-five"]},
+    {"id": "cape-buffalo", "name": "Cape Buffalo", "alt": ["African Buffalo"], "aliases": ["Buffalo"], "tags": ["big-five"]},
+    {"id": "gorilla", "name": "Gorilla", "tags": ["great-ape"]},
+    {"id": "chimpanzee", "name": "Chimpanzee", "aliases": ["Chimp"], "tags": ["great-ape"]},
+    {"id": "bonobo", "name": "Bonobo", "alt": ["Pygmy Chimpanzee"], "tags": ["great-ape"]},
+    {"id": "orangutan", "name": "Orangutan", "alt": ["Orangutang", "Orang-utan"], "tags": ["great-ape"]}
+  ]
+}

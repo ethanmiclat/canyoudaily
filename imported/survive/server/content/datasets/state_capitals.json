@@ -1,6 +1,7 @@
 {
   "id": "state_capitals",
   "title": "US state capitals",
+  "theme": "geography",
   "entities": [
     {"id": "montgomery", "name": "Montgomery", "tags": ["region:south", "division:east-south-central"], "props": {"state": "Alabama"}},
     {"id": "juneau", "name": "Juneau", "tags": ["region:west", "division:pacific"], "props": {"state": "Alaska"}},

@@ -1,56 +1,56 @@
 {
   "date": "2026-10-31",
   "approved": false,
-  "activity": "stop-the-needle",
-  "winRate": 0.6233,
+  "activity": "draw-straws",
+  "winRate": 0.6228,
   "rounds": [
     {
       "round": 1,
-      "questionId": "pokemon_gen1:contains:i",
-      "datasetId": "pokemon_gen1",
-      "prompt": "Name an original-151 Pokémon with the letter I in its name",
-      "size": 57,
-      "answers": ["arcanine", "articuno", "beedrill", "blastoise", "caterpie", "charizard", "clefairy", "diglett", "ditto", "dodrio", "dragonair", "dragonite", "dratini", "dugtrio", "grimer", "growlithe", "hitmonchan", "hitmonlee", "ivysaur", "jigglypuff", "kingler", "koffing", "lickitung", "magikarp", "magnemite", "mr-mime", "nidoking", "nidoqueen", "nidoran-f", "nidoran-m", "nidorina", "nidorino", "ninetales", "oddish", "onix", "persian", "pidgeot", "pidgeotto", "pidgey", "pikachu", "pinsir", "poliwag", "poliwhirl", "poliwrath", "primeape", "raichu", "rapidash", "raticate", "seaking", "squirtle", "starmie", "victreebel", "vileplume", "vulpix", "weepinbell", "weezing", "wigglytuff"]
+      "questionId": "best_picture:contains:r",
+      "datasetId": "best_picture",
+      "prompt": "Name a Best Picture winner with the letter R in its title",
+      "size": 62,
+      "answers": ["12-years-a-slave", "a-man-for-all-seasons", "all-quiet-on-the-western-front", "american-beauty", "an-american-in-paris", "anora", "argo", "around-the-world-in-80-days", "ben-hur", "birdman", "braveheart", "chariots-of-fire", "cimarron", "crash", "driving-miss-daisy", "everything-everywhere-all-at-once", "forrest-gump", "from-here-to-eternity", "gentleman-s-agreement", "gladiator", "grand-hotel", "green-book", "how-green-was-my-valley", "kramer-vs-kramer", "lawrence-of-arabia", "marty", "million-dollar-baby", "mrs-miniver", "my-fair-lady", "no-country-for-old-men", "oliver", "on-the-waterfront", "one-flew-over-the-cuckoo-s-nest", "oppenheimer", "ordinary-people", "out-of-africa", "parasite", "rain-man", "rebecca", "rocky", "schindler-s-list", "shakespeare-in-love", "slumdog-millionaire", "terms-of-endearment", "the-apartment", "the-artist", "the-best-years-of-our-lives", "the-bridge-on-the-river-kwai", "the-broadway-melody", "the-deer-hunter", "the-departed", "the-french-connection", "the-godfather", "the-godfather-part-ii", "the-great-ziegfeld", "the-greatest-show-on-earth", "the-hurt-locker", "the-last-emperor", "the-lord-of-the-rings-the-return-of-the-king", "the-shape-of-water", "unforgiven", "west-side-story"]
     },
     {
       "round": 2,
-      "questionId": "greek_myth:tag:titan",
-      "datasetId": "greek_myth",
-      "prompt": "Name one of the twelve first-generation Titans (children of Uranus and Gaia)",
-      "size": 12,
-      "answers": ["titan-coeus", "titan-crius", "titan-cronus", "titan-hyperion", "titan-iapetus", "titan-mnemosyne", "titan-oceanus", "titan-phoebe", "titan-rhea", "titan-tethys", "titan-theia", "titan-themis"]
+      "questionId": "alphabet:range:pos:14-26",
+      "datasetId": "alphabet",
+      "prompt": "Name a letter in the second half of the alphabet (N to Z)",
+      "size": 13,
+      "answers": ["letter-n", "letter-o", "letter-p", "letter-q", "letter-r", "letter-s", "letter-t", "letter-u", "letter-v", "letter-w", "letter-x", "letter-y", "letter-z"]
     },
     {
       "round": 3,
-      "questionId": "nato_alphabet:contains:r",
-      "datasetId": "nato_alphabet",
-      "prompt": "Name a NATO phonetic alphabet word containing the letter R",
-      "size": 10,
-      "answers": ["bravo", "charlie", "foxtrot", "november", "oscar", "romeo", "sierra", "uniform", "victor", "x-ray"]
+      "questionId": "harry_potter:tag:book",
+      "datasetId": "harry_potter",
+      "prompt": "Name one of the seven main Harry Potter books",
+      "size": 7,
+      "answers": ["book-harry-potter-and-the-chamber-of-secrets", "book-harry-potter-and-the-deathly-hallows", "book-harry-potter-and-the-goblet-of-fire", "book-harry-potter-and-the-half-blood-prince", "book-harry-potter-and-the-order-of-the-phoenix", "book-harry-potter-and-the-philosopher-s-stone", "book-harry-potter-and-the-prisoner-of-azkaban"]
     },
     {
       "round": 4,
-      "questionId": "state_capitals:contains:f",
-      "datasetId": "state_capitals",
-      "prompt": "Name a US state capital with the letter F in its name",
-      "size": 5,
-      "answers": ["frankfort", "hartford", "jefferson-city", "santa-fe", "springfield"]
+      "questionId": "mexico_states:tag:borders-us",
+      "datasetId": "mexico_states",
+      "prompt": "Name a Mexican state that borders the United States",
+      "size": 6,
+      "answers": ["baja-california", "chihuahua", "coahuila", "nuevo-leon", "sonora", "tamaulipas"]
     },
     {
       "round": 5,
-      "questionId": "nfl:tag:div:nfc-south",
+      "questionId": "nfl:tag:div:afc-west",
       "datasetId": "nfl",
-      "prompt": "Name a team in the NFC South",
+      "prompt": "Name a team in the AFC West",
       "size": 4,
-      "answers": ["atlanta-falcons", "carolina-panthers", "new-orleans-saints", "tampa-bay-buccaneers"]
+      "answers": ["denver-broncos", "kansas-city-chiefs", "las-vegas-raiders", "los-angeles-chargers"]
     },
     {
       "round": 6,
-      "questionId": "zodiac:contains:n@chinese",
-      "datasetId": "zodiac",
-      "prompt": "Name a Chinese zodiac animal with the letter N in it",
+      "questionId": "board_games:starts:s@monopoly-street",
+      "datasetId": "board_games",
+      "prompt": "Name a classic US Monopoly street that starts with the letter S",
       "size": 3,
-      "answers": ["chinese-dragon", "chinese-monkey", "chinese-snake"]
+      "answers": ["monopoly-st-charles-place", "monopoly-st-james-place", "monopoly-states-avenue"]
     }
   ]
 }

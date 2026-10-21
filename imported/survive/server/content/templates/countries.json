@@ -175,6 +175,160 @@
       "prompt": {
         "starts": "Name an Asian country that starts with the letter {L}"
       }
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "equator"
+      ],
+      "prompt": "Name one of the 13 countries the equator passes through (over land or water)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "borders-china"
+      ],
+      "prompt": "Name a country that shares a land border with China"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "borders-russia"
+      ],
+      "prompt": "Name a country that shares a land border with Russia"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "borders-germany"
+      ],
+      "prompt": "Name a country that shares a land border with Germany"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "borders-brazil"
+      ],
+      "prompt": "Name a country that shares a land border with Brazil"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "spanish"
+      ],
+      "prompt": "Name a country where Spanish is an official or national language"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "portuguese"
+      ],
+      "prompt": "Name a country where Portuguese is an official language"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "euro"
+      ],
+      "prompt": "Name a country that uses the euro as its currency"
+    },
+    {
+      "type": "letters",
+      "noun": "country",
+      "modes": [
+        "ends"
+      ]
+    },
+    {
+      "type": "length",
+      "noun": "country",
+      "prompt": "Name a country with exactly {N} letters in its name (spaces and punctuation don't count)"
+    },
+    {
+      "type": "words",
+      "noun": "country",
+      "prompt": "Name a country whose name is more than one word"
+    },
+    {
+      "type": "anyTag",
+      "tags": [
+        "continent:africa",
+        "continent:asia"
+      ],
+      "prompt": "Name a country in Africa or Asia"
+    },
+    {
+      "type": "anyTag",
+      "tags": [
+        "continent:africa",
+        "continent:europe"
+      ],
+      "prompt": "Name a country in Africa or Europe"
+    },
+    {
+      "type": "anyTag",
+      "tags": [
+        "continent:europe",
+        "continent:north-america",
+        "continent:south-america"
+      ],
+      "prompt": "Name a country in Europe or the Americas"
+    },
+    {
+      "type": "notTag",
+      "tags": [
+        "landlocked"
+      ],
+      "prompt": "Name a country with a coastline (not landlocked)"
+    },
+    {
+      "type": "notTag",
+      "tags": [
+        "nato"
+      ],
+      "prompt": "Name a country that is not a NATO member"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "baltic"
+      ],
+      "prompt": "Name one of the three Baltic states"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "benelux"
+      ],
+      "prompt": "Name one of the three Benelux countries"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "borneo"
+      ],
+      "prompt": "Name one of the three countries that share the island of Borneo"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "south-caucasus"
+      ],
+      "prompt": "Name one of the three countries of the South Caucasus"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "horn-of-africa"
+      ],
+      "prompt": "Name one of the four countries of the Horn of Africa"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "iberia"
+      ],
+      "prompt": "Name one of the three countries on the Iberian Peninsula"
     }
   ]
 }

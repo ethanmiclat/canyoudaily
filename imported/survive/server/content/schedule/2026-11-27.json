@@ -1,56 +1,56 @@
 {
   "date": "2026-11-27",
   "approved": false,
-  "activity": "five-keys",
-  "winRate": 0.6281,
+  "activity": "catapult",
+  "winRate": 0.6329,
   "rounds": [
     {
       "round": 1,
-      "questionId": "pokemon_gen1:contains:r",
-      "datasetId": "pokemon_gen1",
-      "prompt": "Name an original-151 Pokémon with the letter R in its name",
-      "size": 79,
-      "answers": ["abra", "aerodactyl", "arbok", "arcanine", "articuno", "beedrill", "bellsprout", "bulbasaur", "butterfree", "caterpie", "charizard", "charmander", "charmeleon", "clefairy", "cloyster", "dodrio", "dragonair", "dragonite", "dratini", "drowzee", "dugtrio", "electrode", "exeggutor", "farfetch-d", "fearow", "flareon", "gengar", "graveler", "grimer", "growlithe", "gyarados", "haunter", "horsea", "ivysaur", "kadabra", "kingler", "krabby", "lapras", "magikarp", "magmar", "marowak", "moltres", "mr-mime", "nidoran-f", "nidoran-m", "nidorina", "nidorino", "omastar", "paras", "parasect", "persian", "pinsir", "poliwhirl", "poliwrath", "porygon", "primeape", "raichu", "rapidash", "raticate", "rattata", "rhydon", "rhyhorn", "sandshrew", "scyther", "seadra", "shellder", "slowbro", "snorlax", "spearow", "squirtle", "starmie", "staryu", "tauros", "tentacruel", "vaporeon", "venusaur", "victreebel", "voltorb", "wartortle"]
+      "questionId": "world_capitals:all",
+      "datasetId": "world_capitals",
+      "prompt": "Name a national capital city (any of the 195 countries; official capitals)",
+      "size": 199,
+      "answers": ["abu-dhabi", "abuja", "accra", "addis-ababa", "algiers", "amman", "amsterdam", "andorra-la-vella", "ankara", "antananarivo", "apia", "ashgabat", "asmara", "astana", "asuncion", "athens", "baghdad", "baku", "bamako", "bandar-seri-begawan", "bangkok", "bangui", "banjul", "basseterre", "beijing", "beirut", "belgrade", "belmopan", "berlin", "bern", "bishkek", "bissau", "bloemfontein", "bogota", "brasilia", "bratislava", "brazzaville", "bridgetown", "brussels", "bucharest", "budapest", "buenos-aires", "cairo", "canberra", "cape-town", "caracas", "castries", "chisinau", "conakry", "copenhagen", "dakar", "damascus", "dhaka", "dili", "djibouti", "dodoma", "doha", "dublin", "dushanbe", "freetown", "funafuti", "gaborone", "georgetown", "gitega", "guatemala-city", "hanoi", "harare", "havana", "helsinki", "honiara", "islamabad", "jakarta", "jerusalem", "juba", "kabul", "kampala", "kathmandu", "khartoum", "kigali", "kingston", "kingstown", "kinshasa", "kuala-lumpur", "kuwait-city", "kyiv", "la-paz", "libreville", "lilongwe", "lima", "lisbon", "ljubljana", "lobamba", "lome", "london", "luanda", "lusaka", "luxembourg-city", "madrid", "majuro", "malabo", "male", "managua", "manama", "manila", "maputo", "maseru", "mbabane", "mexico-city", "minsk", "mogadishu", "monaco", "monrovia", "montevideo", "moroni", "moscow", "muscat", "n-djamena", "nairobi", "nassau", "naypyidaw", "new-delhi", "ngerulmud", "niamey", "nicosia", "nouakchott", "nuku-alofa", "oslo", "ottawa", "ouagadougou", "palikir", "panama-city", "paramaribo", "paris", "phnom-penh", "podgorica", "port-au-prince", "port-louis", "port-moresby", "port-of-spain", "port-vila", "porto-novo", "prague", "praia", "pretoria", "pyongyang", "quito", "rabat", "ramallah", "reykjavik", "riga", "riyadh", "rome", "roseau", "san-jose", "san-marino", "san-salvador", "sanaa", "santiago", "santo-domingo", "sao-tome", "sarajevo", "seoul", "singapore", "skopje", "sofia", "south-tarawa", "sri-jayawardenepura-kotte", "st-george-s", "st-john-s", "stockholm", "sucre", "suva", "tallinn", "tashkent", "tbilisi", "tegucigalpa", "tehran", "thimphu", "tirana", "tokyo", "tripoli", "tunis", "ulaanbaatar", "vaduz", "valletta", "vatican-city", "victoria", "vienna", "vientiane", "vilnius", "warsaw", "washington-d-c", "wellington", "windhoek", "yamoussoukro", "yaounde", "yaren", "yerevan", "zagreb"]
     },
     {
       "round": 2,
-      "questionId": "pixar:contains:s",
-      "datasetId": "pixar",
-      "prompt": "Name a Pixar feature (before 2026) with the letter S in its title",
-      "size": 16,
-      "answers": ["a-bug-s-life", "cars", "cars-2", "cars-3", "incredibles-2", "inside-out", "inside-out-2", "monsters-inc", "monsters-university", "soul", "the-good-dinosaur", "the-incredibles", "toy-story", "toy-story-2", "toy-story-3", "toy-story-4"]
+      "questionId": "si_units:tag:prefix",
+      "datasetId": "si_units",
+      "prompt": "Name an SI prefix (like kilo- or nano-)",
+      "size": 24,
+      "answers": ["prefix-atto", "prefix-centi", "prefix-deca", "prefix-deci", "prefix-exa", "prefix-femto", "prefix-giga", "prefix-hecto", "prefix-kilo", "prefix-mega", "prefix-micro", "prefix-milli", "prefix-nano", "prefix-peta", "prefix-pico", "prefix-quecto", "prefix-quetta", "prefix-ronna", "prefix-ronto", "prefix-tera", "prefix-yocto", "prefix-yotta", "prefix-zepto", "prefix-zetta"]
     },
     {
       "round": 3,
-      "questionId": "board_games:tag:clue-room",
-      "datasetId": "board_games",
-      "prompt": "Name one of the nine rooms in classic Clue (Cluedo)",
-      "size": 9,
-      "answers": ["clue-ballroom", "clue-billiard-room", "clue-conservatory", "clue-dining-room", "clue-hall", "clue-kitchen", "clue-library", "clue-lounge", "clue-study"]
+      "questionId": "greek_myth:contains:a@olympian",
+      "datasetId": "greek_myth",
+      "prompt": "Name an Olympian god with the letter A in their Greek name",
+      "size": 8,
+      "answers": ["olympian-aphrodite", "olympian-apollo", "olympian-ares", "olympian-artemis", "olympian-athena", "olympian-hephaestus", "olympian-hera", "olympian-hestia"]
     },
     {
       "round": 4,
-      "questionId": "tarot:contains:g",
-      "datasetId": "tarot",
-      "prompt": "Name a Major Arcana card with the letter G in its name",
+      "questionId": "nba:tag:div:southwest",
+      "datasetId": "nba",
+      "prompt": "Name an NBA team in the Southwest Division",
       "size": 5,
-      "answers": ["judgement", "strength", "the-hanged-man", "the-high-priestess", "the-magician"]
+      "answers": ["dallas-mavericks", "houston-rockets", "memphis-grizzlies", "new-orleans-pelicans", "san-antonio-spurs"]
     },
     {
       "round": 5,
-      "questionId": "us_presidents:starts:c~surname",
-      "datasetId": "us_presidents",
-      "prompt": "Name a US president whose last name starts with the letter C",
+      "questionId": "national_parks:tag:state:co",
+      "datasetId": "national_parks",
+      "prompt": "Name a US national park in Colorado",
       "size": 4,
-      "answers": ["bill-clinton", "calvin-coolidge", "grover-cleveland", "jimmy-carter"]
+      "answers": ["black-canyon-of-the-gunnison", "great-sand-dunes", "mesa-verde", "rocky-mountain"]
     },
     {
       "round": 6,
-      "questionId": "elements:contains:k",
-      "datasetId": "elements",
-      "prompt": "Name an element with the letter K in its name",
+      "questionId": "best_picture:starts:h",
+      "datasetId": "best_picture",
+      "prompt": "Name a Best Picture winner whose title starts with the letter H (ignore \"The\")",
       "size": 3,
-      "answers": ["berkelium", "krypton", "nickel"]
+      "answers": ["hamlet-1948", "how-green-was-my-valley", "the-hurt-locker"]
     }
   ]
 }

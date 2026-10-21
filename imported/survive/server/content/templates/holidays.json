@@ -1,0 +1,33 @@
+{
+  "dataset": "holidays",
+  "templates": [
+    {
+      "type": "tag",
+      "tags": [
+        "monday"
+      ],
+      "prompt": "Name a US federal holiday that always falls on a Monday"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "fixed"
+      ],
+      "prompt": "Name a US federal holiday that falls on the same date every year"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "first-half"
+      ],
+      "prompt": "Name a US federal holiday observed between January and June"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "second-half"
+      ],
+      "prompt": "Name a US federal holiday observed between July and December"
+    }
+  ]
+}

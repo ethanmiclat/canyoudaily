@@ -1,6 +1,7 @@
 {
   "id": "calendar",
   "title": "Months and days",
+  "theme": "symbols",
   "entities": [
     {"id": "january", "name": "January", "aliases": ["Jan"], "tags": ["month", "days-31"]},
     {"id": "february", "name": "February", "aliases": ["Feb"], "tags": ["month"]},

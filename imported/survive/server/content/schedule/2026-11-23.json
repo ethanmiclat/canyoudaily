@@ -1,56 +1,56 @@
 {
   "date": "2026-11-23",
   "approved": false,
-  "activity": "glass-bridge",
-  "winRate": 0.6425,
+  "activity": "five-keys",
+  "winRate": 0.6274,
   "rounds": [
     {
       "round": 1,
-      "questionId": "constellations:lacks:o",
-      "datasetId": "constellations",
-      "prompt": "Name a constellation with no letter O in its name",
-      "size": 53,
-      "answers": ["antlia", "apus", "aquarius", "aquila", "ara", "aries", "auriga", "caelum", "cancer", "canes-venatici", "carina", "centaurus", "cepheus", "cetus", "circinus", "crater", "crux", "cygnus", "delphinus", "equuleus", "eridanus", "gemini", "grus", "hercules", "hydra", "hydrus", "indus", "lacerta", "lepus", "libra", "lupus", "lynx", "lyra", "mensa", "musca", "pegasus", "perseus", "pisces", "piscis-austrinus", "puppis", "pyxis", "reticulum", "sagitta", "sagittarius", "scutum", "serpens", "sextans", "taurus", "triangulum", "triangulum-australe", "tucana", "vela", "vulpecula"]
+      "questionId": "numbers:range:n:1-150@odd",
+      "datasetId": "numbers",
+      "prompt": "Name an odd number from 1 to 150",
+      "size": 75,
+      "answers": ["n1", "n101", "n103", "n105", "n107", "n109", "n11", "n111", "n113", "n115", "n117", "n119", "n121", "n123", "n125", "n127", "n129", "n13", "n131", "n133", "n135", "n137", "n139", "n141", "n143", "n145", "n147", "n149", "n15", "n17", "n19", "n21", "n23", "n25", "n27", "n29", "n3", "n31", "n33", "n35", "n37", "n39", "n41", "n43", "n45", "n47", "n49", "n5", "n51", "n53", "n55", "n57", "n59", "n61", "n63", "n65", "n67", "n69", "n7", "n71", "n73", "n75", "n77", "n79", "n81", "n83", "n85", "n87", "n89", "n9", "n91", "n93", "n95", "n97", "n99"]
     },
     {
       "round": 2,
-      "questionId": "alphabet:tag:consonant",
-      "datasetId": "alphabet",
-      "prompt": "Name a consonant (anything but A, E, I, O, U)",
-      "size": 21,
-      "answers": ["letter-b", "letter-c", "letter-d", "letter-f", "letter-g", "letter-h", "letter-j", "letter-k", "letter-l", "letter-m", "letter-n", "letter-p", "letter-q", "letter-r", "letter-s", "letter-t", "letter-v", "letter-w", "letter-x", "letter-y", "letter-z"]
+      "questionId": "pixar:tag:original",
+      "datasetId": "pixar",
+      "prompt": "Name a Pixar feature released before 2026 that isn't a sequel or prequel",
+      "size": 20,
+      "answers": ["a-bug-s-life", "brave", "cars", "coco", "elemental", "elio", "finding-nemo", "inside-out", "lightyear", "luca", "monsters-inc", "onward", "ratatouille", "soul", "the-good-dinosaur", "the-incredibles", "toy-story", "turning-red", "up", "wall-e"]
     },
     {
       "round": 3,
-      "questionId": "amino_acids:contains:t",
-      "datasetId": "amino_acids",
-      "prompt": "Name a standard amino acid with the letter T in its name",
-      "size": 9,
-      "answers": ["aspartic-acid", "cysteine", "glutamic-acid", "glutamine", "histidine", "methionine", "threonine", "tryptophan", "tyrosine"]
+      "questionId": "space:tag:planet",
+      "datasetId": "space",
+      "prompt": "Name a planet in our solar system",
+      "size": 8,
+      "answers": ["earth", "jupiter", "mars", "mercury", "neptune", "saturn", "uranus", "venus"]
     },
     {
       "round": 4,
-      "questionId": "nhl:tag:original-six",
-      "datasetId": "nhl",
-      "prompt": "Name one of the NHL's Original Six teams",
-      "size": 6,
-      "answers": ["boston-bruins", "chicago-blackhawks", "detroit-red-wings", "montreal-canadiens", "new-york-rangers", "toronto-maple-leafs"]
+      "questionId": "tarot:contains:p",
+      "datasetId": "tarot",
+      "prompt": "Name a Major Arcana card with the letter P in its name",
+      "size": 5,
+      "answers": ["temperance", "the-emperor", "the-empress", "the-hierophant", "the-high-priestess"]
     },
     {
       "round": 5,
-      "questionId": "bible_books:contains:z~base",
+      "questionId": "bible_books:tag:gospel",
       "datasetId": "bible_books",
-      "prompt": "Name a book of the Bible with the letter Z in its name (ignore any number in front)",
+      "prompt": "Name one of the four Gospels",
       "size": 4,
-      "answers": ["ezekiel", "ezra", "zechariah", "zephaniah"]
+      "answers": ["john", "luke", "mark", "matthew"]
     },
     {
       "round": 6,
-      "questionId": "countries:starts:l@continent:africa",
-      "datasetId": "countries",
-      "prompt": "Name an African country that starts with the letter L",
+      "questionId": "us_presidents:starts:r~surname",
+      "datasetId": "us_presidents",
+      "prompt": "Name a US president whose last name starts with the letter R",
       "size": 3,
-      "answers": ["lesotho", "liberia", "libya"]
+      "answers": ["franklin-d-roosevelt", "ronald-reagan", "theodore-roosevelt"]
     }
   ]
 }

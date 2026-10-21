@@ -1,56 +1,56 @@
 {
   "date": "2026-11-01",
   "approved": false,
-  "activity": "poison-cups",
-  "winRate": 0.6293,
+  "activity": "spin-the-wheel",
+  "winRate": 0.6084,
   "rounds": [
     {
       "round": 1,
-      "questionId": "best_picture:contains:a",
-      "datasetId": "best_picture",
-      "prompt": "Name a Best Picture winner with the letter A in its title",
-      "size": 68,
-      "answers": ["12-years-a-slave", "a-beautiful-mind", "a-man-for-all-seasons", "all-about-eve", "all-quiet-on-the-western-front", "all-the-king-s-men", "amadeus", "american-beauty", "an-american-in-paris", "annie-hall", "anora", "argo", "around-the-world-in-80-days", "birdman", "braveheart", "casablanca", "cavalcade", "chariots-of-fire", "chicago", "cimarron", "coda", "crash", "dances-with-wolves", "driving-miss-daisy", "everything-everywhere-all-at-once", "gandhi", "gentleman-s-agreement", "gladiator", "going-my-way", "grand-hotel", "hamlet-1948", "how-green-was-my-valley", "in-the-heat-of-the-night", "it-happened-one-night", "kramer-vs-kramer", "lawrence-of-arabia", "marty", "million-dollar-baby", "my-fair-lady", "nomadland", "on-the-waterfront", "ordinary-people", "out-of-africa", "parasite", "patton", "platoon", "rain-man", "rebecca", "shakespeare-in-love", "slumdog-millionaire", "terms-of-endearment", "the-apartment", "the-artist", "the-best-years-of-our-lives", "the-bridge-on-the-river-kwai", "the-broadway-melody", "the-departed", "the-english-patient", "the-godfather", "the-godfather-part-ii", "the-great-ziegfeld", "the-greatest-show-on-earth", "the-last-emperor", "the-life-of-emile-zola", "the-shape-of-water", "the-silence-of-the-lambs", "titanic", "you-can-t-take-it-with-you"]
+      "questionId": "national_parks:lacks:m",
+      "datasetId": "national_parks",
+      "prompt": "Name a US national park with no letter M in its name",
+      "size": 53,
+      "answers": ["acadia", "arches", "badlands", "big-bend", "biscayne", "black-canyon-of-the-gunnison", "bryce-canyon", "canyonlands", "capitol-reef", "carlsbad-caverns", "channel-islands", "congaree", "crater-lake", "cuyahoga-valley", "death-valley", "denali", "dry-tortugas", "everglades", "gates-of-the-arctic", "gateway-arch", "glacier", "glacier-bay", "grand-canyon", "grand-teton", "great-basin", "great-sand-dunes", "haleakala", "hawai-i-volcanoes", "hot-springs", "indiana-dunes", "isle-royale", "joshua-tree", "kenai-fjords", "kings-canyon", "kobuk-valley", "lake-clark", "lassen-volcanic", "new-river-gorge", "north-cascades", "petrified-forest", "pinnacles", "redwood", "saguaro", "sequoia", "shenandoah", "theodore-roosevelt", "virgin-islands", "voyageurs", "white-sands", "wind-cave", "wrangell-st-elias", "yellowstone", "zion"]
     },
     {
       "round": 2,
-      "questionId": "tarot:contains:r",
-      "datasetId": "tarot",
-      "prompt": "Name a Major Arcana card with the letter R in its name",
-      "size": 13,
-      "answers": ["strength", "temperance", "the-chariot", "the-emperor", "the-empress", "the-hermit", "the-hierophant", "the-high-priestess", "the-lovers", "the-star", "the-tower", "the-world", "wheel-of-fortune"]
+      "questionId": "si_units:tag:prefix+small",
+      "datasetId": "si_units",
+      "prompt": "Name an SI prefix for a fraction smaller than one (deci- and down)",
+      "size": 12,
+      "answers": ["prefix-atto", "prefix-centi", "prefix-deci", "prefix-femto", "prefix-micro", "prefix-milli", "prefix-nano", "prefix-pico", "prefix-quecto", "prefix-ronto", "prefix-yocto", "prefix-zepto"]
     },
     {
       "round": 3,
-      "questionId": "nhl:tag:div:metropolitan",
-      "datasetId": "nhl",
-      "prompt": "Name an NHL team in the Metropolitan Division",
-      "size": 8,
-      "answers": ["carolina-hurricanes", "columbus-blue-jackets", "new-jersey-devils", "new-york-islanders", "new-york-rangers", "philadelphia-flyers", "pittsburgh-penguins", "washington-capitals"]
+      "questionId": "pixar:range:year:2000-2009",
+      "datasetId": "pixar",
+      "prompt": "Name a Pixar feature released from 2000 to 2009",
+      "size": 7,
+      "answers": ["cars", "finding-nemo", "monsters-inc", "ratatouille", "the-incredibles", "up", "wall-e"]
     },
     {
       "round": 4,
-      "questionId": "us_states:contains:y",
-      "datasetId": "us_states",
-      "prompt": "Name a US state with the letter Y in its name",
-      "size": 6,
-      "answers": ["kentucky", "maryland", "new-jersey", "new-york", "pennsylvania", "wyoming"]
+      "questionId": "geography:tag:great-lake",
+      "datasetId": "geography",
+      "prompt": "Name one of the Great Lakes",
+      "size": 5,
+      "answers": ["lake-erie", "lake-huron", "lake-michigan", "lake-ontario", "lake-superior"]
     },
     {
       "round": 5,
-      "questionId": "film_series:tag:shrek",
-      "datasetId": "film_series",
-      "prompt": "Name one of the four main Shrek films",
+      "questionId": "zodiac:contains:c@western",
+      "datasetId": "zodiac",
+      "prompt": "Name a Western zodiac sign with the letter C in it",
       "size": 4,
-      "answers": ["shrek-shrek", "shrek-shrek-2", "shrek-shrek-forever-after", "shrek-shrek-the-third"]
+      "answers": ["cancer", "capricorn", "pisces", "scorpio"]
     },
     {
       "round": 6,
-      "questionId": "us_presidents:starts:a~surname",
+      "questionId": "us_presidents:tag:impeached",
       "datasetId": "us_presidents",
-      "prompt": "Name a US president whose last name starts with the letter A",
+      "prompt": "Name a US president who was impeached by the House",
       "size": 3,
-      "answers": ["chester-a-arthur", "john-adams", "john-quincy-adams"]
+      "answers": ["andrew-johnson", "bill-clinton", "donald-trump"]
     }
   ]
 }

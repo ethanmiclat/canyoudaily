@@ -2,55 +2,55 @@
   "date": "2026-11-12",
   "approved": false,
   "activity": "draw-straws",
-  "winRate": 0.6218,
+  "winRate": 0.6085,
   "rounds": [
     {
       "round": 1,
-      "questionId": "bible_books:lacks:j~base",
-      "datasetId": "bible_books",
-      "prompt": "Name a book of the Bible with no letter J in its name (ignore any number in front)",
+      "questionId": "elements:any:period:1+period:2+period:3+period:4+period:5",
+      "datasetId": "elements",
+      "prompt": "Name an element in the first five rows (periods 1 to 5) of the periodic table",
       "size": 54,
-      "answers": ["1-chronicles", "1-corinthians", "1-kings", "1-peter", "1-samuel", "1-thessalonians", "1-timothy", "2-chronicles", "2-corinthians", "2-kings", "2-peter", "2-samuel", "2-thessalonians", "2-timothy", "acts", "amos", "colossians", "daniel", "deuteronomy", "ecclesiastes", "ephesians", "esther", "exodus", "ezekiel", "ezra", "galatians", "genesis", "habakkuk", "haggai", "hebrews", "hosea", "isaiah", "lamentations", "leviticus", "luke", "malachi", "mark", "matthew", "micah", "nahum", "nehemiah", "numbers", "obadiah", "philemon", "philippians", "proverbs", "psalms", "revelation", "romans", "ruth", "song-of-solomon", "titus", "zechariah", "zephaniah"]
+      "answers": ["aluminium", "antimony", "argon", "arsenic", "beryllium", "boron", "bromine", "cadmium", "calcium", "carbon", "chlorine", "chromium", "cobalt", "copper", "fluorine", "gallium", "germanium", "helium", "hydrogen", "indium", "iodine", "iron", "krypton", "lithium", "magnesium", "manganese", "molybdenum", "neon", "nickel", "niobium", "nitrogen", "oxygen", "palladium", "phosphorus", "potassium", "rhodium", "rubidium", "ruthenium", "scandium", "selenium", "silicon", "silver", "sodium", "strontium", "sulfur", "technetium", "tellurium", "tin", "titanium", "vanadium", "xenon", "yttrium", "zinc", "zirconium"]
     },
     {
       "round": 2,
-      "questionId": "olympics:tag:summer",
-      "datasetId": "olympics",
-      "prompt": "Name a city that has hosted the Summer Olympics (through 2024)",
-      "size": 23,
-      "answers": ["amsterdam", "antwerp", "athens", "atlanta", "barcelona", "beijing", "berlin", "helsinki", "london", "los-angeles", "melbourne", "mexico-city", "montreal", "moscow", "munich", "paris", "rio-de-janeiro", "rome", "seoul", "st-louis", "stockholm", "sydney", "tokyo"]
+      "questionId": "zodiac:tag:western",
+      "datasetId": "zodiac",
+      "prompt": "Name a Western zodiac sign",
+      "size": 12,
+      "answers": ["aquarius", "aries", "cancer", "capricorn", "gemini", "leo", "libra", "pisces", "sagittarius", "scorpio", "taurus", "virgo"]
     },
     {
       "round": 3,
-      "questionId": "nhl:tag:canada",
-      "datasetId": "nhl",
-      "prompt": "Name an NHL team based in Canada",
+      "questionId": "mexico_states:words:2+",
+      "datasetId": "mexico_states",
+      "prompt": "Name a Mexican state (or Mexico City) whose name is more than one word",
       "size": 7,
-      "answers": ["calgary-flames", "edmonton-oilers", "montreal-canadiens", "ottawa-senators", "toronto-maple-leafs", "vancouver-canucks", "winnipeg-jets"]
+      "answers": ["baja-california", "baja-california-sur", "mexico-city", "nuevo-leon", "quintana-roo", "san-luis-potosi", "state-of-mexico"]
     },
     {
       "round": 4,
-      "questionId": "geography:tag:ocean",
-      "datasetId": "geography",
-      "prompt": "Name one of the five oceans",
+      "questionId": "india_states:tag:pradesh",
+      "datasetId": "india_states",
+      "prompt": "Name an Indian state with \"Pradesh\" in its name",
       "size": 5,
-      "answers": ["ocean-arctic", "ocean-atlantic", "ocean-indian", "ocean-pacific", "ocean-southern"]
+      "answers": ["andhra-pradesh", "arunachal-pradesh", "himachal-pradesh", "madhya-pradesh", "uttar-pradesh"]
     },
     {
       "round": 5,
-      "questionId": "pixar:contains:b",
-      "datasetId": "pixar",
-      "prompt": "Name a Pixar feature (before 2026) with the letter B in its title",
+      "questionId": "us_presidents:range:start:2001-2025",
+      "datasetId": "us_presidents",
+      "prompt": "Name a US president who first took office in 2001 or later",
       "size": 4,
-      "answers": ["a-bug-s-life", "brave", "incredibles-2", "the-incredibles"]
+      "answers": ["barack-obama", "donald-trump", "george-w-bush", "joe-biden"]
     },
     {
       "round": 6,
-      "questionId": "constellations:starts:d",
-      "datasetId": "constellations",
-      "prompt": "Name a constellation that starts with the letter D",
+      "questionId": "pixar:contains:f",
+      "datasetId": "pixar",
+      "prompt": "Name a Pixar feature (before 2026) with the letter F in its title",
       "size": 3,
-      "answers": ["delphinus", "dorado", "draco"]
+      "answers": ["a-bug-s-life", "finding-dory", "finding-nemo"]
     }
   ]
 }

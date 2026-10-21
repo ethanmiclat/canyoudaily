@@ -2,55 +2,55 @@
   "date": "2026-12-01",
   "approved": false,
   "activity": "glass-bridge",
-  "winRate": 0.6132,
+  "winRate": 0.6338,
   "rounds": [
     {
       "round": 1,
-      "questionId": "world_capitals:contains:i",
-      "datasetId": "world_capitals",
-      "prompt": "Name a national capital with the letter I in its name",
-      "size": 94,
-      "answers": ["abu-dhabi", "addis-ababa", "algiers", "antananarivo", "apia", "asuncion", "bandar-seri-begawan", "bangui", "beijing", "beirut", "berlin", "bishkek", "bissau", "bloemfontein", "brasilia", "bratislava", "brazzaville", "bridgetown", "buenos-aires", "cairo", "castries", "chisinau", "dili", "djibouti", "dublin", "funafuti", "gitega", "guatemala-city", "hanoi", "helsinki", "honiara", "islamabad", "kigali", "kingston", "kingstown", "kinshasa", "kuwait-city", "kyiv", "libreville", "lilongwe", "lima", "lisbon", "luxembourg-city", "madrid", "manila", "mexico-city", "minsk", "mogadishu", "monrovia", "montevideo", "moroni", "nairobi", "naypyidaw", "new-delhi", "niamey", "nicosia", "palikir", "panama-city", "paramaribo", "paris", "podgorica", "port-au-prince", "port-louis", "port-of-spain", "port-vila", "praia", "pretoria", "quito", "reykjavik", "riga", "riyadh", "san-marino", "santiago", "santo-domingo", "singapore", "sofia", "sri-jayawardenepura-kotte", "st-george-s", "st-john-s", "tallinn", "tbilisi", "tegucigalpa", "thimphu", "tirana", "tripoli", "tunis", "vatican-city", "victoria", "vienna", "vientiane", "vilnius", "washington-d-c", "wellington", "windhoek"]
+      "questionId": "elements:any:period:6+period:7",
+      "datasetId": "elements",
+      "prompt": "Name an element in period 6 or 7 of the periodic table (lanthanides and actinides included)",
+      "size": 64,
+      "answers": ["actinium", "americium", "astatine", "barium", "berkelium", "bismuth", "bohrium", "caesium", "californium", "cerium", "copernicium", "curium", "darmstadtium", "dubnium", "dysprosium", "einsteinium", "erbium", "europium", "fermium", "flerovium", "francium", "gadolinium", "gold", "hafnium", "hassium", "holmium", "iridium", "lanthanum", "lawrencium", "lead", "livermorium", "lutetium", "meitnerium", "mendelevium", "mercury", "moscovium", "neodymium", "neptunium", "nihonium", "nobelium", "oganesson", "osmium", "platinum", "plutonium", "polonium", "praseodymium", "promethium", "protactinium", "radium", "radon", "rhenium", "roentgenium", "rutherfordium", "samarium", "seaborgium", "tantalum", "tennessine", "terbium", "thallium", "thorium", "thulium", "tungsten", "uranium", "ytterbium"]
     },
     {
       "round": 2,
-      "questionId": "alphabet:range:pos:14-26",
-      "datasetId": "alphabet",
-      "prompt": "Name a letter in the second half of the alphabet (N to Z)",
+      "questionId": "nato_alphabet:range:pos:14-26",
+      "datasetId": "nato_alphabet",
+      "prompt": "Name a NATO phonetic alphabet word for a letter from N to Z",
       "size": 13,
-      "answers": ["letter-n", "letter-o", "letter-p", "letter-q", "letter-r", "letter-s", "letter-t", "letter-u", "letter-v", "letter-w", "letter-x", "letter-y", "letter-z"]
+      "answers": ["november", "oscar", "papa", "quebec", "romeo", "sierra", "tango", "uniform", "victor", "whiskey", "x-ray", "yankee", "zulu"]
     },
     {
       "round": 3,
-      "questionId": "space:lacks:c@planet",
-      "datasetId": "space",
-      "prompt": "Name a planet with no letter C in its name",
-      "size": 7,
-      "answers": ["earth", "jupiter", "mars", "neptune", "saturn", "uranus", "venus"]
+      "questionId": "pixar:tag:sequel",
+      "datasetId": "pixar",
+      "prompt": "Name a Pixar sequel or prequel released before 2026",
+      "size": 9,
+      "answers": ["cars-2", "cars-3", "finding-dory", "incredibles-2", "inside-out-2", "monsters-university", "toy-story-2", "toy-story-3", "toy-story-4"]
     },
     {
       "round": 4,
-      "questionId": "nba:tag:div:pacific",
-      "datasetId": "nba",
-      "prompt": "Name an NBA team in the Pacific Division",
-      "size": 5,
-      "answers": ["golden-state-warriors", "los-angeles-clippers", "los-angeles-lakers", "phoenix-suns", "sacramento-kings"]
+      "questionId": "german_states:lacks:e",
+      "datasetId": "german_states",
+      "prompt": "Name a German state with no letter E in its English name",
+      "size": 6,
+      "answers": ["bavaria", "hamburg", "saarland", "saxony", "saxony-anhalt", "thuringia"]
     },
     {
       "round": 5,
-      "questionId": "famous_groups:tag:teletubby",
-      "datasetId": "famous_groups",
-      "prompt": "Name a Teletubby",
+      "questionId": "nfl:tag:div:nfc-south",
+      "datasetId": "nfl",
+      "prompt": "Name a team in the NFC South",
       "size": 4,
-      "answers": ["teletubby-dipsy", "teletubby-laa-laa", "teletubby-po", "teletubby-tinky-winky"]
+      "answers": ["atlanta-falcons", "carolina-panthers", "new-orleans-saints", "tampa-bay-buccaneers"]
     },
     {
       "round": 6,
-      "questionId": "mexico_states:contains:y",
-      "datasetId": "mexico_states",
-      "prompt": "Name a Mexican state (or Mexico City) with the letter Y in its name",
+      "questionId": "calendar:contains:r@day",
+      "datasetId": "calendar",
+      "prompt": "Name a day of the week with the letter R in its name",
       "size": 3,
-      "answers": ["mexico-city", "nayarit", "yucatan"]
+      "answers": ["friday", "saturday", "thursday"]
     }
   ]
 }

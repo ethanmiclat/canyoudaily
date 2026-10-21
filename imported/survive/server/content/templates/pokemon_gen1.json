@@ -167,6 +167,18 @@
         "contains": "Name an original-151 Pokémon with the letter {L} in its name",
         "lacks": "Name an original-151 Pokémon with no letter {L} in its name"
       }
+    },
+    {
+      "type": "letters",
+      "noun": "Pokémon",
+      "modes": [
+        "ends"
+      ]
+    },
+    {
+      "type": "length",
+      "noun": "Pokémon",
+      "prompt": "Name a Pokémon with exactly {N} letters in its name"
     }
   ]
 }

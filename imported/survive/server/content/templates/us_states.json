@@ -113,6 +113,67 @@
     {
       "type": "letters",
       "noun": "US state"
+    },
+    {
+      "type": "letters",
+      "noun": "US state",
+      "modes": [
+        "ends"
+      ]
+    },
+    {
+      "type": "length",
+      "noun": "US state",
+      "prompt": "Name a US state with exactly {N} letters in its name (spaces don't count)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "borders-texas"
+      ],
+      "prompt": "Name a state that borders Texas"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "borders-california"
+      ],
+      "prompt": "Name a state that borders California"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "borders-new-york"
+      ],
+      "prompt": "Name a state that shares a land border with New York"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "borders-tennessee"
+      ],
+      "prompt": "Name a state that borders Tennessee"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "borders-missouri"
+      ],
+      "prompt": "Name a state that borders Missouri"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "four-corners"
+      ],
+      "prompt": "Name one of the four Four Corners states"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "pacific-coast"
+      ],
+      "prompt": "Name a US state with a Pacific Ocean coastline"
     }
   ]
 }

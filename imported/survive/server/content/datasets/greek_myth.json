@@ -1,6 +1,7 @@
 {
   "id": "greek_myth",
   "title": "Greek mythology",
+  "theme": "lore",
   "entities": [
     {"id": "muse-calliope", "name": "Calliope", "tags": ["muse"]},
     {"id": "muse-clio", "name": "Clio", "tags": ["muse"]},

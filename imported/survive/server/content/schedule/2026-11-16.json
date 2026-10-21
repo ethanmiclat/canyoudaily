@@ -1,56 +1,56 @@
 {
   "date": "2026-11-16",
   "approved": false,
-  "activity": "stop-the-needle",
-  "winRate": 0.6323,
+  "activity": "safe-dial",
+  "winRate": 0.6287,
   "rounds": [
     {
       "round": 1,
-      "questionId": "elements:range:number:1-100",
-      "datasetId": "elements",
-      "prompt": "Name an element with atomic number 100 or less",
-      "size": 100,
-      "answers": ["actinium", "aluminium", "americium", "antimony", "argon", "arsenic", "astatine", "barium", "berkelium", "beryllium", "bismuth", "boron", "bromine", "cadmium", "caesium", "calcium", "californium", "carbon", "cerium", "chlorine", "chromium", "cobalt", "copper", "curium", "dysprosium", "einsteinium", "erbium", "europium", "fermium", "fluorine", "francium", "gadolinium", "gallium", "germanium", "gold", "hafnium", "helium", "holmium", "hydrogen", "indium", "iodine", "iridium", "iron", "krypton", "lanthanum", "lead", "lithium", "lutetium", "magnesium", "manganese", "mercury", "molybdenum", "neodymium", "neon", "neptunium", "nickel", "niobium", "nitrogen", "osmium", "oxygen", "palladium", "phosphorus", "platinum", "plutonium", "polonium", "potassium", "praseodymium", "promethium", "protactinium", "radium", "radon", "rhenium", "rhodium", "rubidium", "ruthenium", "samarium", "scandium", "selenium", "silicon", "silver", "sodium", "strontium", "sulfur", "tantalum", "technetium", "tellurium", "terbium", "thallium", "thorium", "thulium", "tin", "titanium", "tungsten", "uranium", "vanadium", "xenon", "ytterbium", "yttrium", "zinc", "zirconium"]
+      "questionId": "world_capitals:not:continent:asia",
+      "datasetId": "world_capitals",
+      "prompt": "Name a national capital outside Asia",
+      "size": 150,
+      "answers": ["abuja", "accra", "addis-ababa", "algiers", "amsterdam", "andorra-la-vella", "antananarivo", "apia", "asmara", "asuncion", "athens", "bamako", "bangui", "banjul", "basseterre", "belgrade", "belmopan", "berlin", "bern", "bissau", "bloemfontein", "bogota", "brasilia", "bratislava", "brazzaville", "bridgetown", "brussels", "bucharest", "budapest", "buenos-aires", "cairo", "canberra", "cape-town", "caracas", "castries", "chisinau", "conakry", "copenhagen", "dakar", "djibouti", "dodoma", "dublin", "freetown", "funafuti", "gaborone", "georgetown", "gitega", "guatemala-city", "harare", "havana", "helsinki", "honiara", "juba", "kampala", "khartoum", "kigali", "kingston", "kingstown", "kinshasa", "kyiv", "la-paz", "libreville", "lilongwe", "lima", "lisbon", "ljubljana", "lobamba", "lome", "london", "luanda", "lusaka", "luxembourg-city", "madrid", "majuro", "malabo", "managua", "maputo", "maseru", "mbabane", "mexico-city", "minsk", "mogadishu", "monaco", "monrovia", "montevideo", "moroni", "n-djamena", "nairobi", "nassau", "ngerulmud", "niamey", "nouakchott", "nuku-alofa", "oslo", "ottawa", "ouagadougou", "palikir", "panama-city", "paramaribo", "paris", "podgorica", "port-au-prince", "port-louis", "port-moresby", "port-of-spain", "port-vila", "porto-novo", "prague", "praia", "pretoria", "quito", "rabat", "reykjavik", "riga", "rome", "roseau", "san-jose", "san-marino", "san-salvador", "santiago", "santo-domingo", "sao-tome", "sarajevo", "skopje", "sofia", "south-tarawa", "st-george-s", "st-john-s", "stockholm", "sucre", "suva", "tallinn", "tegucigalpa", "tirana", "tripoli", "tunis", "vaduz", "valletta", "vatican-city", "victoria", "vienna", "vilnius", "warsaw", "washington-d-c", "wellington", "windhoek", "yamoussoukro", "yaounde", "yaren", "zagreb"]
     },
     {
       "round": 2,
-      "questionId": "alphabet:all",
-      "datasetId": "alphabet",
-      "prompt": "Name a letter of the English alphabet",
-      "size": 26,
-      "answers": ["letter-a", "letter-b", "letter-c", "letter-d", "letter-e", "letter-f", "letter-g", "letter-h", "letter-i", "letter-j", "letter-k", "letter-l", "letter-m", "letter-n", "letter-o", "letter-p", "letter-q", "letter-r", "letter-s", "letter-t", "letter-u", "letter-v", "letter-w", "letter-x", "letter-y", "letter-z"]
+      "questionId": "mlb:tag:conf:al",
+      "datasetId": "mlb",
+      "prompt": "Name an American League team in MLB",
+      "size": 15,
+      "answers": ["athletics", "baltimore-orioles", "boston-red-sox", "chicago-white-sox", "cleveland-guardians", "detroit-tigers", "houston-astros", "kansas-city-royals", "los-angeles-angels", "minnesota-twins", "new-york-yankees", "seattle-mariners", "tampa-bay-rays", "texas-rangers", "toronto-blue-jays"]
     },
     {
       "round": 3,
-      "questionId": "space:tag:planet",
-      "datasetId": "space",
-      "prompt": "Name a planet in our solar system",
-      "size": 8,
-      "answers": ["earth", "jupiter", "mars", "mercury", "neptune", "saturn", "uranus", "venus"]
+      "questionId": "amino_acids:tag:essential",
+      "datasetId": "amino_acids",
+      "prompt": "Name one of the nine essential amino acids for humans",
+      "size": 9,
+      "answers": ["histidine", "isoleucine", "leucine", "lysine", "methionine", "phenylalanine", "threonine", "tryptophan", "valine"]
     },
     {
       "round": 4,
-      "questionId": "greek_alphabet:contains:h",
-      "datasetId": "greek_alphabet",
-      "prompt": "Name a Greek letter with the letter H in its name",
+      "questionId": "german_states:tag:former-east",
+      "datasetId": "german_states",
+      "prompt": "Name one of the five German states created from former East Germany (not Berlin)",
       "size": 5,
-      "answers": ["alpha", "chi", "phi", "rho", "theta"]
+      "answers": ["brandenburg", "mecklenburg-western-pomerania", "saxony", "saxony-anhalt", "thuringia"]
     },
     {
       "round": 5,
-      "questionId": "famous_groups:tag:tmnt",
-      "datasetId": "famous_groups",
-      "prompt": "Name one of the Teenage Mutant Ninja Turtles",
+      "questionId": "space:lacks:a@planet",
+      "datasetId": "space",
+      "prompt": "Name a planet with no letter A in its name",
       "size": 4,
-      "answers": ["tmnt-donatello", "tmnt-leonardo", "tmnt-michelangelo", "tmnt-raphael"]
+      "answers": ["jupiter", "mercury", "neptune", "venus"]
     },
     {
       "round": 6,
-      "questionId": "mexico_states:contains:z",
-      "datasetId": "mexico_states",
-      "prompt": "Name a Mexican state (or Mexico City) with the letter Z in its name",
+      "questionId": "calendar:contains:t@month",
+      "datasetId": "calendar",
+      "prompt": "Name a month with the letter T in its name",
       "size": 3,
-      "answers": ["coahuila", "veracruz", "zacatecas"]
+      "answers": ["august", "october", "september"]
     }
   ]
 }

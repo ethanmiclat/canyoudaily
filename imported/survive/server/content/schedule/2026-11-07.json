@@ -2,55 +2,55 @@
   "date": "2026-11-07",
   "approved": false,
   "activity": "glass-bridge",
-  "winRate": 0.619,
+  "winRate": 0.629,
   "rounds": [
     {
       "round": 1,
-      "questionId": "world_capitals:all",
-      "datasetId": "world_capitals",
-      "prompt": "Name a national capital city (any of the 195 countries; official capitals)",
-      "size": 199,
-      "answers": ["abu-dhabi", "abuja", "accra", "addis-ababa", "algiers", "amman", "amsterdam", "andorra-la-vella", "ankara", "antananarivo", "apia", "ashgabat", "asmara", "astana", "asuncion", "athens", "baghdad", "baku", "bamako", "bandar-seri-begawan", "bangkok", "bangui", "banjul", "basseterre", "beijing", "beirut", "belgrade", "belmopan", "berlin", "bern", "bishkek", "bissau", "bloemfontein", "bogota", "brasilia", "bratislava", "brazzaville", "bridgetown", "brussels", "bucharest", "budapest", "buenos-aires", "cairo", "canberra", "cape-town", "caracas", "castries", "chisinau", "conakry", "copenhagen", "dakar", "damascus", "dhaka", "dili", "djibouti", "dodoma", "doha", "dublin", "dushanbe", "freetown", "funafuti", "gaborone", "georgetown", "gitega", "guatemala-city", "hanoi", "harare", "havana", "helsinki", "honiara", "islamabad", "jakarta", "jerusalem", "juba", "kabul", "kampala", "kathmandu", "khartoum", "kigali", "kingston", "kingstown", "kinshasa", "kuala-lumpur", "kuwait-city", "kyiv", "la-paz", "libreville", "lilongwe", "lima", "lisbon", "ljubljana", "lobamba", "lome", "london", "luanda", "lusaka", "luxembourg-city", "madrid", "majuro", "malabo", "male", "managua", "manama", "manila", "maputo", "maseru", "mbabane", "mexico-city", "minsk", "mogadishu", "monaco", "monrovia", "montevideo", "moroni", "moscow", "muscat", "n-djamena", "nairobi", "nassau", "naypyidaw", "new-delhi", "ngerulmud", "niamey", "nicosia", "nouakchott", "nuku-alofa", "oslo", "ottawa", "ouagadougou", "palikir", "panama-city", "paramaribo", "paris", "phnom-penh", "podgorica", "port-au-prince", "port-louis", "port-moresby", "port-of-spain", "port-vila", "porto-novo", "prague", "praia", "pretoria", "pyongyang", "quito", "rabat", "ramallah", "reykjavik", "riga", "riyadh", "rome", "roseau", "san-jose", "san-marino", "san-salvador", "sanaa", "santiago", "santo-domingo", "sao-tome", "sarajevo", "seoul", "singapore", "skopje", "sofia", "south-tarawa", "sri-jayawardenepura-kotte", "st-george-s", "st-john-s", "stockholm", "sucre", "suva", "tallinn", "tashkent", "tbilisi", "tegucigalpa", "tehran", "thimphu", "tirana", "tokyo", "tripoli", "tunis", "ulaanbaatar", "vaduz", "valletta", "vatican-city", "victoria", "vienna", "vientiane", "vilnius", "warsaw", "washington-d-c", "wellington", "windhoek", "yamoussoukro", "yaounde", "yaren", "yerevan", "zagreb"]
+      "questionId": "numbers:range:n:1-200@even",
+      "datasetId": "numbers",
+      "prompt": "Name an even number from 1 to 200",
+      "size": 100,
+      "answers": ["n10", "n100", "n102", "n104", "n106", "n108", "n110", "n112", "n114", "n116", "n118", "n12", "n120", "n122", "n124", "n126", "n128", "n130", "n132", "n134", "n136", "n138", "n14", "n140", "n142", "n144", "n146", "n148", "n150", "n152", "n154", "n156", "n158", "n16", "n160", "n162", "n164", "n166", "n168", "n170", "n172", "n174", "n176", "n178", "n18", "n180", "n182", "n184", "n186", "n188", "n190", "n192", "n194", "n196", "n198", "n2", "n20", "n200", "n22", "n24", "n26", "n28", "n30", "n32", "n34", "n36", "n38", "n4", "n40", "n42", "n44", "n46", "n48", "n50", "n52", "n54", "n56", "n58", "n6", "n60", "n62", "n64", "n66", "n68", "n70", "n72", "n74", "n76", "n78", "n8", "n80", "n82", "n84", "n86", "n88", "n90", "n92", "n94", "n96", "n98"]
     },
     {
       "round": 2,
-      "questionId": "bible_books:tag:minor",
-      "datasetId": "bible_books",
-      "prompt": "Name one of the twelve Minor Prophets",
-      "size": 12,
-      "answers": ["amos", "habakkuk", "haggai", "hosea", "joel", "jonah", "malachi", "micah", "nahum", "obadiah", "zechariah", "zephaniah"]
+      "questionId": "disney:range:year:1937-1959",
+      "datasetId": "disney",
+      "prompt": "Name a Walt Disney Animation Studios feature released 1937 to 1959",
+      "size": 16,
+      "answers": ["alice-in-wonderland", "bambi", "cinderella", "dumbo", "fantasia", "fun-and-fancy-free", "ichabod-and-mr-toad", "lady-and-the-tramp", "make-mine-music", "melody-time", "peter-pan", "pinocchio", "saludos-amigos", "sleeping-beauty", "snow-white", "the-three-caballeros"]
     },
     {
       "round": 3,
-      "questionId": "nhl:tag:div:atlantic",
-      "datasetId": "nhl",
-      "prompt": "Name an NHL team in the Atlantic Division",
-      "size": 8,
-      "answers": ["boston-bruins", "buffalo-sabres", "detroit-red-wings", "florida-panthers", "montreal-canadiens", "ottawa-senators", "tampa-bay-lightning", "toronto-maple-leafs"]
+      "questionId": "tarot:contains:o",
+      "datasetId": "tarot",
+      "prompt": "Name a Major Arcana card with the letter O in its name",
+      "size": 9,
+      "answers": ["the-chariot", "the-emperor", "the-fool", "the-hierophant", "the-lovers", "the-moon", "the-tower", "the-world", "wheel-of-fortune"]
     },
     {
       "round": 4,
-      "questionId": "olympics:tag:winter+continent:north-america",
-      "datasetId": "olympics",
-      "prompt": "Name a North American city that has hosted the Winter Olympics",
+      "questionId": "us_presidents:range:start:1789-1817",
+      "datasetId": "us_presidents",
+      "prompt": "Name one of the first five US presidents",
       "size": 5,
-      "answers": ["calgary", "lake-placid", "salt-lake-city", "squaw-valley", "vancouver"]
+      "answers": ["george-washington", "james-madison", "james-monroe", "john-adams", "thomas-jefferson"]
     },
     {
       "round": 5,
-      "questionId": "pixar:contains:m",
-      "datasetId": "pixar",
-      "prompt": "Name a Pixar feature (before 2026) with the letter M in its title",
+      "questionId": "shakespeare:tag:roman",
+      "datasetId": "shakespeare",
+      "prompt": "Name one of Shakespeare's four Roman plays",
       "size": 4,
-      "answers": ["elemental", "finding-nemo", "monsters-inc", "monsters-university"]
+      "answers": ["antony-and-cleopatra", "coriolanus", "julius-caesar", "titus-andronicus"]
     },
     {
       "round": 6,
-      "questionId": "us_states:starts:o",
-      "datasetId": "us_states",
-      "prompt": "Name a US state that starts with the letter O",
+      "questionId": "best_picture:starts:t",
+      "datasetId": "best_picture",
+      "prompt": "Name a Best Picture winner whose title starts with the letter T (ignore \"The\")",
       "size": 3,
-      "answers": ["ohio", "oklahoma", "oregon"]
+      "answers": ["terms-of-endearment", "titanic", "tom-jones"]
     }
   ]
 }

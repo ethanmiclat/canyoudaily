@@ -1,56 +1,56 @@
 {
   "date": "2026-11-19",
   "approved": false,
-  "activity": "five-keys",
-  "winRate": 0.6261,
+  "activity": "glass-bridge",
+  "winRate": 0.6488,
   "rounds": [
     {
       "round": 1,
-      "questionId": "pokemon_gen2:lacks:s",
-      "datasetId": "pokemon_gen2",
-      "prompt": "Name a Johto Pokémon (#152 to #251) with no letter S in its name",
-      "size": 65,
-      "answers": ["aipom", "azumarill", "bayleef", "celebi", "chikorita", "chinchou", "cleffa", "crobat", "croconaw", "cyndaquil", "delibird", "donphan", "elekid", "entei", "feraligatr", "flaaffy", "furret", "girafarig", "gligar", "granbull", "hitmontop", "ho-oh", "hoothoot", "hoppip", "houndoom", "houndour", "igglybuff", "jumpluff", "kingdra", "lanturn", "larvitar", "ledian", "ledyba", "lugia", "magby", "magcargo", "mantine", "mareep", "marill", "meganium", "miltank", "murkrow", "natu", "noctowl", "octillery", "phanpy", "pichu", "pineco", "politoed", "porygon2", "pupitar", "quilava", "raikou", "remoraid", "togepi", "togetic", "totodile", "tyranitar", "tyrogue", "umbreon", "unown", "wobbuffet", "wooper", "xatu", "yanma"]
+      "questionId": "national_parks:lacks:b",
+      "datasetId": "national_parks",
+      "prompt": "Name a US national park with no letter B in its name",
+      "size": 54,
+      "answers": ["acadia", "american-samoa", "arches", "canyonlands", "capitol-reef", "channel-islands", "congaree", "crater-lake", "cuyahoga-valley", "death-valley", "denali", "dry-tortugas", "everglades", "gates-of-the-arctic", "gateway-arch", "glacier", "grand-canyon", "grand-teton", "great-sand-dunes", "great-smoky-mountains", "guadalupe-mountains", "haleakala", "hawai-i-volcanoes", "hot-springs", "indiana-dunes", "isle-royale", "joshua-tree", "katmai", "kenai-fjords", "kings-canyon", "lake-clark", "lassen-volcanic", "mammoth-cave", "mesa-verde", "mount-rainier", "new-river-gorge", "north-cascades", "olympic", "petrified-forest", "pinnacles", "redwood", "rocky-mountain", "saguaro", "sequoia", "shenandoah", "theodore-roosevelt", "virgin-islands", "voyageurs", "white-sands", "wind-cave", "wrangell-st-elias", "yellowstone", "yosemite", "zion"]
     },
     {
       "round": 2,
-      "questionId": "nato_alphabet:range:pos:1-13",
-      "datasetId": "nato_alphabet",
-      "prompt": "Name a NATO phonetic alphabet word for a letter from A to M",
-      "size": 13,
-      "answers": ["alfa", "bravo", "charlie", "delta", "echo", "foxtrot", "golf", "hotel", "india", "juliett", "kilo", "lima", "mike"]
+      "questionId": "elements:tag:actinide",
+      "datasetId": "elements",
+      "prompt": "Name an actinide",
+      "size": 15,
+      "answers": ["actinium", "americium", "berkelium", "californium", "curium", "einsteinium", "fermium", "lawrencium", "mendelevium", "neptunium", "nobelium", "plutonium", "protactinium", "thorium", "uranium"]
     },
     {
       "round": 3,
-      "questionId": "shakespeare:tag:tragedy",
-      "datasetId": "shakespeare",
-      "prompt": "Name a Shakespeare tragedy (Troilus and Cressida and Cymbeline don't count)",
-      "size": 10,
-      "answers": ["antony-and-cleopatra", "coriolanus", "hamlet", "julius-caesar", "king-lear", "macbeth", "othello", "romeo-and-juliet", "timon-of-athens", "titus-andronicus"]
+      "questionId": "nhl:tag:div:atlantic",
+      "datasetId": "nhl",
+      "prompt": "Name an NHL team in the Atlantic Division",
+      "size": 8,
+      "answers": ["boston-bruins", "buffalo-sabres", "detroit-red-wings", "florida-panthers", "montreal-canadiens", "ottawa-senators", "tampa-bay-lightning", "toronto-maple-leafs"]
     },
     {
       "round": 4,
-      "questionId": "india_states:starts:m@state",
-      "datasetId": "india_states",
-      "prompt": "Name an Indian state that starts with the letter M",
-      "size": 5,
-      "answers": ["madhya-pradesh", "maharashtra", "manipur", "meghalaya", "mizoram"]
+      "questionId": "holidays:tag:second-half",
+      "datasetId": "holidays",
+      "prompt": "Name a US federal holiday observed between July and December",
+      "size": 6,
+      "answers": ["christmas", "columbus-day", "independence-day", "labor-day", "thanksgiving", "veterans-day"]
     },
     {
       "round": 5,
-      "questionId": "german_states:lacks:r",
-      "datasetId": "german_states",
-      "prompt": "Name a German state with no letter R in its English name",
-      "size": 4,
-      "answers": ["hesse", "saxony", "saxony-anhalt", "schleswig-holstein"]
+      "questionId": "film_series:tag:indiana-jones",
+      "datasetId": "film_series",
+      "prompt": "Name one of the five Indiana Jones films",
+      "size": 5,
+      "answers": ["indiana-jones-indiana-jones-and-the-dial-of-destiny", "indiana-jones-indiana-jones-and-the-kingdom-of-the-crystal-skull", "indiana-jones-indiana-jones-and-the-last-crusade", "indiana-jones-indiana-jones-and-the-temple-of-doom", "indiana-jones-raiders-of-the-lost-ark"]
     },
     {
       "round": 6,
-      "questionId": "state_capitals:starts:j",
-      "datasetId": "state_capitals",
-      "prompt": "Name a US state capital that starts with the letter J",
+      "questionId": "constellations:starts:o",
+      "datasetId": "constellations",
+      "prompt": "Name a constellation that starts with the letter O",
       "size": 3,
-      "answers": ["jackson", "jefferson-city", "juneau"]
+      "answers": ["octans", "ophiuchus", "orion"]
     }
   ]
 }

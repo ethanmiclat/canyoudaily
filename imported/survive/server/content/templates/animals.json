@@ -1,0 +1,33 @@
+{
+  "dataset": "animals",
+  "templates": [
+    {
+      "type": "tag",
+      "tags": [
+        "bear"
+      ],
+      "prompt": "Name one of the eight living species of bear"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "panthera"
+      ],
+      "prompt": "Name one of the five big cats in the genus Panthera"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "big-five"
+      ],
+      "prompt": "Name one of Africa's \"Big Five\" game animals"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "great-ape"
+      ],
+      "prompt": "Name a great ape (other than humans)"
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 {
   "id": "constellations",
   "title": "Constellations",
+  "theme": "lore",
   "entities": [
     {"id": "andromeda", "name": "Andromeda", "tags": ["ptolemy"]},
     {"id": "antlia", "name": "Antlia", "aliases": ["Air Pump"]},

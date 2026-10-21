@@ -1,6 +1,7 @@
 {
   "id": "australia",
   "title": "Australian states and territories",
+  "theme": "geography",
   "entities": [
     {"id": "new-south-wales", "name": "New South Wales", "aliases": ["NSW"], "tags": ["state"]},
     {"id": "victoria", "name": "Victoria", "aliases": ["VIC"], "tags": ["state"]},

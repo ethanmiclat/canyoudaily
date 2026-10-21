@@ -37,6 +37,20 @@
         "starts": "Name a Major Arcana card that starts with the letter {L} (ignore \"The\")",
         "contains": "Name a Major Arcana card with the letter {L} in its name"
       }
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "virtue"
+      ],
+      "prompt": "Name one of the three Major Arcana cards named after a virtue"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "celestial"
+      ],
+      "prompt": "Name one of the three Major Arcana cards named after something in the sky"
     }
   ]
 }

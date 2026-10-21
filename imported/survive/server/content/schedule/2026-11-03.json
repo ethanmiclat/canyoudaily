@@ -1,56 +1,56 @@
 {
   "date": "2026-11-03",
   "approved": false,
-  "activity": "five-keys",
-  "winRate": 0.6184,
+  "activity": "catapult",
+  "winRate": 0.6323,
   "rounds": [
     {
       "round": 1,
-      "questionId": "numbers:range:n:1-75",
-      "datasetId": "numbers",
-      "prompt": "Name a whole number from 1 to 75",
-      "size": 75,
-      "answers": ["n1", "n10", "n11", "n12", "n13", "n14", "n15", "n16", "n17", "n18", "n19", "n2", "n20", "n21", "n22", "n23", "n24", "n25", "n26", "n27", "n28", "n29", "n3", "n30", "n31", "n32", "n33", "n34", "n35", "n36", "n37", "n38", "n39", "n4", "n40", "n41", "n42", "n43", "n44", "n45", "n46", "n47", "n48", "n49", "n5", "n50", "n51", "n52", "n53", "n54", "n55", "n56", "n57", "n58", "n59", "n6", "n60", "n61", "n62", "n63", "n64", "n65", "n66", "n67", "n68", "n69", "n7", "n70", "n71", "n72", "n73", "n74", "n75", "n8", "n9"]
+      "questionId": "constellations:all",
+      "datasetId": "constellations",
+      "prompt": "Name one of the 88 official constellations",
+      "size": 88,
+      "answers": ["andromeda", "antlia", "apus", "aquarius", "aquila", "ara", "aries", "auriga", "bootes", "caelum", "camelopardalis", "cancer", "canes-venatici", "canis-major", "canis-minor", "capricornus", "carina", "cassiopeia", "centaurus", "cepheus", "cetus", "chamaeleon", "circinus", "columba", "coma-berenices", "corona-australis", "corona-borealis", "corvus", "crater", "crux", "cygnus", "delphinus", "dorado", "draco", "equuleus", "eridanus", "fornax", "gemini", "grus", "hercules", "horologium", "hydra", "hydrus", "indus", "lacerta", "leo", "leo-minor", "lepus", "libra", "lupus", "lynx", "lyra", "mensa", "microscopium", "monoceros", "musca", "norma", "octans", "ophiuchus", "orion", "pavo", "pegasus", "perseus", "phoenix", "pictor", "pisces", "piscis-austrinus", "puppis", "pyxis", "reticulum", "sagitta", "sagittarius", "scorpius", "sculptor", "scutum", "serpens", "sextans", "taurus", "telescopium", "triangulum", "triangulum-australe", "tucana", "ursa-major", "ursa-minor", "vela", "virgo", "volans", "vulpecula"]
     },
     {
       "round": 2,
-      "questionId": "space:any:planet+dwarf",
-      "datasetId": "space",
-      "prompt": "Name a planet or one of the five recognized dwarf planets",
-      "size": 13,
-      "answers": ["ceres", "earth", "eris", "haumea", "jupiter", "makemake", "mars", "mercury", "neptune", "pluto", "saturn", "uranus", "venus"]
+      "questionId": "nhl:tag:conf:west",
+      "datasetId": "nhl",
+      "prompt": "Name an NHL team in the Western Conference",
+      "size": 16,
+      "answers": ["anaheim-ducks", "calgary-flames", "chicago-blackhawks", "colorado-avalanche", "dallas-stars", "edmonton-oilers", "los-angeles-kings", "minnesota-wild", "nashville-predators", "san-jose-sharks", "seattle-kraken", "st-louis-blues", "utah-mammoth", "vancouver-canucks", "vegas-golden-knights", "winnipeg-jets"]
     },
     {
       "round": 3,
-      "questionId": "world_cup:tag:mw",
-      "datasetId": "world_cup",
-      "prompt": "Name a nation that won the men's FIFA World Cup before 2026 (West Germany counts as Germany)",
-      "size": 8,
-      "answers": ["argentina", "brazil", "england", "france", "germany", "italy", "spain", "uruguay"]
+      "questionId": "nato_alphabet:contains:r",
+      "datasetId": "nato_alphabet",
+      "prompt": "Name a NATO phonetic alphabet word containing the letter R",
+      "size": 10,
+      "answers": ["bravo", "charlie", "foxtrot", "november", "oscar", "romeo", "sierra", "uniform", "victor", "x-ray"]
     },
     {
       "round": 4,
-      "questionId": "india_states:tag:pradesh",
-      "datasetId": "india_states",
-      "prompt": "Name an Indian state with \"Pradesh\" in its name",
+      "questionId": "countries:tag:nordic",
+      "datasetId": "countries",
+      "prompt": "Name a Nordic country",
       "size": 5,
-      "answers": ["andhra-pradesh", "arunachal-pradesh", "himachal-pradesh", "madhya-pradesh", "uttar-pradesh"]
+      "answers": ["denmark", "finland", "iceland", "norway", "sweden"]
     },
     {
       "round": 5,
-      "questionId": "countries:starts:f",
-      "datasetId": "countries",
-      "prompt": "Name a country that starts with the letter F",
+      "questionId": "music:tag:bowed-string",
+      "datasetId": "music",
+      "prompt": "Name one of the four bowed string instruments of the orchestra",
       "size": 4,
-      "answers": ["fiji", "finland", "france", "micronesia"]
+      "answers": ["cello", "double-bass", "viola", "violin"]
     },
     {
       "round": 6,
-      "questionId": "german_states:contains:p",
-      "datasetId": "german_states",
-      "prompt": "Name a German state with the letter P in its English name",
+      "questionId": "pokemon_gen2:len:4",
+      "datasetId": "pokemon_gen2",
+      "prompt": "Name a Pokémon with exactly 4 letters in its name",
       "size": 3,
-      "answers": ["mecklenburg-western-pomerania", "north-rhine-westphalia", "rhineland-palatinate"]
+      "answers": ["ho-oh", "natu", "xatu"]
     }
   ]
 }

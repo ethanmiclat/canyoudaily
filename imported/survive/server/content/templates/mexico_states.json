@@ -18,6 +18,25 @@
         "contains": "Name a Mexican state (or Mexico City) with the letter {L} in its name",
         "lacks": "Name a Mexican state (or Mexico City) with no letter {L} in its name"
       }
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "borders-us"
+      ],
+      "prompt": "Name a Mexican state that borders the United States"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "yucatan-peninsula"
+      ],
+      "prompt": "Name one of the three Mexican states on the Yucatán Peninsula"
+    },
+    {
+      "type": "words",
+      "noun": "Mexican state",
+      "prompt": "Name a Mexican state (or Mexico City) whose name is more than one word"
     }
   ]
 }

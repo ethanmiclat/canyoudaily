@@ -2,55 +2,55 @@
   "date": "2026-12-02",
   "approved": false,
   "activity": "stop-the-needle",
-  "winRate": 0.6382,
+  "winRate": 0.6124,
   "rounds": [
     {
       "round": 1,
-      "questionId": "elements:lacks:r",
-      "datasetId": "elements",
-      "prompt": "Name an element with no letter R in its name",
-      "size": 59,
-      "answers": ["actinium", "aluminium", "antimony", "astatine", "bismuth", "cadmium", "caesium", "calcium", "cobalt", "dubnium", "einsteinium", "gadolinium", "gallium", "gold", "hafnium", "hassium", "helium", "holmium", "indium", "iodine", "lanthanum", "lead", "lithium", "lutetium", "magnesium", "manganese", "mendelevium", "molybdenum", "moscovium", "neodymium", "neon", "neptunium", "nickel", "nihonium", "niobium", "nobelium", "oganesson", "osmium", "oxygen", "palladium", "platinum", "plutonium", "polonium", "potassium", "scandium", "selenium", "silicon", "sodium", "tantalum", "technetium", "tennessine", "thallium", "thulium", "tin", "titanium", "tungsten", "vanadium", "xenon", "zinc"]
+      "questionId": "pokemon_gen1:all",
+      "datasetId": "pokemon_gen1",
+      "prompt": "Name one of the original 151 Pokémon",
+      "size": 151,
+      "answers": ["abra", "aerodactyl", "alakazam", "arbok", "arcanine", "articuno", "beedrill", "bellsprout", "blastoise", "bulbasaur", "butterfree", "caterpie", "chansey", "charizard", "charmander", "charmeleon", "clefable", "clefairy", "cloyster", "cubone", "dewgong", "diglett", "ditto", "dodrio", "doduo", "dragonair", "dragonite", "dratini", "drowzee", "dugtrio", "eevee", "ekans", "electabuzz", "electrode", "exeggcute", "exeggutor", "farfetch-d", "fearow", "flareon", "gastly", "gengar", "geodude", "gloom", "golbat", "goldeen", "golduck", "golem", "graveler", "grimer", "growlithe", "gyarados", "haunter", "hitmonchan", "hitmonlee", "horsea", "hypno", "ivysaur", "jigglypuff", "jolteon", "jynx", "kabuto", "kabutops", "kadabra", "kakuna", "kangaskhan", "kingler", "koffing", "krabby", "lapras", "lickitung", "machamp", "machoke", "machop", "magikarp", "magmar", "magnemite", "magneton", "mankey", "marowak", "meowth", "metapod", "mew", "mewtwo", "moltres", "mr-mime", "muk", "nidoking", "nidoqueen", "nidoran-f", "nidoran-m", "nidorina", "nidorino", "ninetales", "oddish", "omanyte", "omastar", "onix", "paras", "parasect", "persian", "pidgeot", "pidgeotto", "pidgey", "pikachu", "pinsir", "poliwag", "poliwhirl", "poliwrath", "ponyta", "porygon", "primeape", "psyduck", "raichu", "rapidash", "raticate", "rattata", "rhydon", "rhyhorn", "sandshrew", "sandslash", "scyther", "seadra", "seaking", "seel", "shellder", "slowbro", "slowpoke", "snorlax", "spearow", "squirtle", "starmie", "staryu", "tangela", "tauros", "tentacool", "tentacruel", "vaporeon", "venomoth", "venonat", "venusaur", "victreebel", "vileplume", "voltorb", "vulpix", "wartortle", "weedle", "weepinbell", "weezing", "wigglytuff", "zapdos", "zubat"]
     },
     {
       "round": 2,
-      "questionId": "nhl:tag:conf:east",
-      "datasetId": "nhl",
-      "prompt": "Name an NHL team in the Eastern Conference",
-      "size": 16,
-      "answers": ["boston-bruins", "buffalo-sabres", "carolina-hurricanes", "columbus-blue-jackets", "detroit-red-wings", "florida-panthers", "montreal-canadiens", "new-jersey-devils", "new-york-islanders", "new-york-rangers", "ottawa-senators", "philadelphia-flyers", "pittsburgh-penguins", "tampa-bay-lightning", "toronto-maple-leafs", "washington-capitals"]
+      "questionId": "si_units:tag:prefix+big",
+      "datasetId": "si_units",
+      "prompt": "Name an SI prefix for a multiple larger than one (deca- and up)",
+      "size": 12,
+      "answers": ["prefix-deca", "prefix-exa", "prefix-giga", "prefix-hecto", "prefix-kilo", "prefix-mega", "prefix-peta", "prefix-quetta", "prefix-ronna", "prefix-tera", "prefix-yotta", "prefix-zetta"]
     },
     {
       "round": 3,
-      "questionId": "pokemon_gen1:tag:type:electric",
-      "datasetId": "pokemon_gen1",
-      "prompt": "Name a Electric-type Pokémon from the original 151 (current typings)",
-      "size": 9,
-      "answers": ["electabuzz", "electrode", "jolteon", "magnemite", "magneton", "pikachu", "raichu", "voltorb", "zapdos"]
+      "questionId": "mexico_states:contains:m",
+      "datasetId": "mexico_states",
+      "prompt": "Name a Mexican state (or Mexico City) with the letter M in its name",
+      "size": 7,
+      "answers": ["campeche", "colima", "mexico-city", "michoacan", "morelos", "state-of-mexico", "tamaulipas"]
     },
     {
       "round": 4,
-      "questionId": "pixar:contains:g",
-      "datasetId": "pixar",
-      "prompt": "Name a Pixar feature (before 2026) with the letter G in its title",
-      "size": 6,
-      "answers": ["a-bug-s-life", "finding-dory", "finding-nemo", "lightyear", "the-good-dinosaur", "turning-red"]
+      "questionId": "mlb:tag:div:al-west",
+      "datasetId": "mlb",
+      "prompt": "Name a team in the AL West",
+      "size": 5,
+      "answers": ["athletics", "houston-astros", "los-angeles-angels", "seattle-mariners", "texas-rangers"]
     },
     {
       "round": 5,
-      "questionId": "us_presidents:range:start:2001-2025",
-      "datasetId": "us_presidents",
-      "prompt": "Name a US president who first took office in 2001 or later",
+      "questionId": "national_parks:any:state:wa+state:or",
+      "datasetId": "national_parks",
+      "prompt": "Name a US national park in Washington or Oregon",
       "size": 4,
-      "answers": ["barack-obama", "donald-trump", "george-w-bush", "joe-biden"]
+      "answers": ["crater-lake", "mount-rainier", "north-cascades", "olympic"]
     },
     {
       "round": 6,
-      "questionId": "state_capitals:starts:p",
-      "datasetId": "state_capitals",
-      "prompt": "Name a US state capital that starts with the letter P",
+      "questionId": "best_picture:starts:p",
+      "datasetId": "best_picture",
+      "prompt": "Name a Best Picture winner whose title starts with the letter P (ignore \"The\")",
       "size": 3,
-      "answers": ["phoenix", "pierre", "providence"]
+      "answers": ["parasite", "patton", "platoon"]
     }
   ]
 }

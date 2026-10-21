@@ -1,6 +1,7 @@
 {
   "id": "canada",
   "title": "Canadian provinces and territories",
+  "theme": "geography",
   "entities": [
     {"id": "ontario", "name": "Ontario", "aliases": ["ON"], "tags": ["province"]},
     {"id": "quebec", "name": "Quebec", "aliases": ["QC", "Québec"], "tags": ["province"]},

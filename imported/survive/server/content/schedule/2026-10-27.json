@@ -1,56 +1,56 @@
 {
   "date": "2026-10-27",
   "approved": false,
-  "activity": "draw-straws",
-  "winRate": 0.6267,
+  "activity": "stop-the-needle",
+  "winRate": 0.6281,
   "rounds": [
     {
       "round": 1,
-      "questionId": "best_picture:range:year:1960-2024",
-      "datasetId": "best_picture",
-      "prompt": "Name a Best Picture winner released from 1960 to 2024",
-      "size": 65,
-      "answers": ["12-years-a-slave", "a-beautiful-mind", "a-man-for-all-seasons", "amadeus", "american-beauty", "annie-hall", "anora", "argo", "birdman", "braveheart", "chariots-of-fire", "chicago", "coda", "crash", "dances-with-wolves", "driving-miss-daisy", "everything-everywhere-all-at-once", "forrest-gump", "gandhi", "gladiator", "green-book", "in-the-heat-of-the-night", "kramer-vs-kramer", "lawrence-of-arabia", "midnight-cowboy", "million-dollar-baby", "moonlight", "my-fair-lady", "no-country-for-old-men", "nomadland", "oliver", "one-flew-over-the-cuckoo-s-nest", "oppenheimer", "ordinary-people", "out-of-africa", "parasite", "patton", "platoon", "rain-man", "rocky", "schindler-s-list", "shakespeare-in-love", "slumdog-millionaire", "spotlight", "terms-of-endearment", "the-apartment", "the-artist", "the-deer-hunter", "the-departed", "the-english-patient", "the-french-connection", "the-godfather", "the-godfather-part-ii", "the-hurt-locker", "the-king-s-speech", "the-last-emperor", "the-lord-of-the-rings-the-return-of-the-king", "the-shape-of-water", "the-silence-of-the-lambs", "the-sound-of-music", "the-sting", "titanic", "tom-jones", "unforgiven", "west-side-story"]
+      "questionId": "national_parks:contains:e",
+      "datasetId": "national_parks",
+      "prompt": "Name a US national park with the letter E in its name",
+      "size": 50,
+      "answers": ["american-samoa", "arches", "big-bend", "biscayne", "black-canyon-of-the-gunnison", "bryce-canyon", "capitol-reef", "carlsbad-caverns", "channel-islands", "congaree", "crater-lake", "cuyahoga-valley", "death-valley", "denali", "everglades", "gates-of-the-arctic", "gateway-arch", "glacier", "glacier-bay", "grand-teton", "great-basin", "great-sand-dunes", "great-smoky-mountains", "guadalupe-mountains", "haleakala", "hawai-i-volcanoes", "indiana-dunes", "isle-royale", "joshua-tree", "kenai-fjords", "kobuk-valley", "lake-clark", "lassen-volcanic", "mammoth-cave", "mesa-verde", "mount-rainier", "new-river-gorge", "north-cascades", "petrified-forest", "pinnacles", "redwood", "sequoia", "shenandoah", "theodore-roosevelt", "voyageurs", "white-sands", "wind-cave", "wrangell-st-elias", "yellowstone", "yosemite"]
     },
     {
       "round": 2,
-      "questionId": "pixar:tag:original",
-      "datasetId": "pixar",
-      "prompt": "Name a Pixar feature released before 2026 that isn't a sequel or prequel",
-      "size": 20,
-      "answers": ["a-bug-s-life", "brave", "cars", "coco", "elemental", "elio", "finding-nemo", "inside-out", "lightyear", "luca", "monsters-inc", "onward", "ratatouille", "soul", "the-good-dinosaur", "the-incredibles", "toy-story", "turning-red", "up", "wall-e"]
+      "questionId": "nba:tag:conf:west",
+      "datasetId": "nba",
+      "prompt": "Name an NBA team in the Western Conference",
+      "size": 15,
+      "answers": ["dallas-mavericks", "denver-nuggets", "golden-state-warriors", "houston-rockets", "los-angeles-clippers", "los-angeles-lakers", "memphis-grizzlies", "minnesota-timberwolves", "new-orleans-pelicans", "oklahoma-city-thunder", "phoenix-suns", "portland-trail-blazers", "sacramento-kings", "san-antonio-spurs", "utah-jazz"]
     },
     {
       "round": 3,
-      "questionId": "nhl:tag:div:pacific",
-      "datasetId": "nhl",
-      "prompt": "Name an NHL team in the Pacific Division",
-      "size": 8,
-      "answers": ["anaheim-ducks", "calgary-flames", "edmonton-oilers", "los-angeles-kings", "san-jose-sharks", "seattle-kraken", "vancouver-canucks", "vegas-golden-knights"]
+      "questionId": "geography:any:ocean+great-lake",
+      "datasetId": "geography",
+      "prompt": "Name an ocean or one of the Great Lakes",
+      "size": 10,
+      "answers": ["lake-erie", "lake-huron", "lake-michigan", "lake-ontario", "lake-superior", "ocean-arctic", "ocean-atlantic", "ocean-indian", "ocean-pacific", "ocean-southern"]
     },
     {
       "round": 4,
-      "questionId": "film_series:tag:indiana-jones",
-      "datasetId": "film_series",
-      "prompt": "Name one of the five Indiana Jones films",
+      "questionId": "us_presidents:starts:t~surname",
+      "datasetId": "us_presidents",
+      "prompt": "Name a US president whose last name starts with the letter T",
       "size": 5,
-      "answers": ["indiana-jones-indiana-jones-and-the-dial-of-destiny", "indiana-jones-indiana-jones-and-the-kingdom-of-the-crystal-skull", "indiana-jones-indiana-jones-and-the-last-crusade", "indiana-jones-indiana-jones-and-the-temple-of-doom", "indiana-jones-raiders-of-the-lost-ark"]
+      "answers": ["donald-trump", "harry-s-truman", "john-tyler", "william-howard-taft", "zachary-taylor"]
     },
     {
       "round": 5,
-      "questionId": "harry_potter:tag:marauder",
-      "datasetId": "harry_potter",
-      "prompt": "Name one of the Marauders (nickname or real name)",
+      "questionId": "famous_groups:tag:golden-girl",
+      "datasetId": "famous_groups",
+      "prompt": "Name one of The Golden Girls",
       "size": 4,
-      "answers": ["marauder-moony", "marauder-padfoot", "marauder-prongs", "marauder-wormtail"]
+      "answers": ["golden-girl-blanche-devereaux", "golden-girl-dorothy-zbornak", "golden-girl-rose-nylund", "golden-girl-sophia-petrillo"]
     },
     {
       "round": 6,
-      "questionId": "us_states:starts:c",
-      "datasetId": "us_states",
-      "prompt": "Name a US state that starts with the letter C",
+      "questionId": "food:tag:blt",
+      "datasetId": "food",
+      "prompt": "Name one of the three ingredients a BLT is named for",
       "size": 3,
-      "answers": ["california", "colorado", "connecticut"]
+      "answers": ["bacon", "lettuce", "tomato"]
     }
   ]
 }

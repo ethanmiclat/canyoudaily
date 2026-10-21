@@ -1,0 +1,47 @@
+{
+  "dataset": "food",
+  "templates": [
+    {
+      "type": "tag",
+      "tags": [
+        "taste"
+      ],
+      "prompt": "Name one of the five basic tastes"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "mother-sauce"
+      ],
+      "prompt": "Name one of the five French \"mother sauces\""
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "food-group"
+      ],
+      "prompt": "Name one of the five MyPlate food groups"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "blt"
+      ],
+      "prompt": "Name one of the three ingredients a BLT is named for"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "mirepoix"
+      ],
+      "prompt": "Name one of the three vegetables in a classic French mirepoix"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "holy-trinity"
+      ],
+      "prompt": "Name one of the three vegetables of the Cajun \"holy trinity\""
+    }
+  ]
+}

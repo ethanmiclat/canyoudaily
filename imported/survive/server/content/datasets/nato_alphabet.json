@@ -1,6 +1,7 @@
 {
   "id": "nato_alphabet",
   "title": "NATO phonetic alphabet",
+  "theme": "symbols",
   "entities": [
     {"id": "alfa", "name": "Alfa", "aliases": ["Alpha"], "props": {"pos": 1}},
     {"id": "bravo", "name": "Bravo", "props": {"pos": 2}},

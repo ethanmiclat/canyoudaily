@@ -1,56 +1,56 @@
 {
   "date": "2026-11-04",
   "approved": false,
-  "activity": "draw-straws",
-  "winRate": 0.6399,
+  "activity": "safe-dial",
+  "winRate": 0.6144,
   "rounds": [
     {
       "round": 1,
-      "questionId": "national_parks:contains:a",
-      "datasetId": "national_parks",
-      "prompt": "Name a US national park with the letter A in its name",
-      "size": 53,
-      "answers": ["acadia", "american-samoa", "arches", "badlands", "biscayne", "black-canyon-of-the-gunnison", "bryce-canyon", "canyonlands", "capitol-reef", "carlsbad-caverns", "channel-islands", "congaree", "crater-lake", "cuyahoga-valley", "death-valley", "denali", "dry-tortugas", "everglades", "gates-of-the-arctic", "gateway-arch", "glacier", "glacier-bay", "grand-canyon", "grand-teton", "great-basin", "great-sand-dunes", "great-smoky-mountains", "guadalupe-mountains", "haleakala", "hawai-i-volcanoes", "indiana-dunes", "isle-royale", "joshua-tree", "katmai", "kenai-fjords", "kings-canyon", "kobuk-valley", "lake-clark", "lassen-volcanic", "mammoth-cave", "mesa-verde", "mount-rainier", "north-cascades", "pinnacles", "rocky-mountain", "saguaro", "sequoia", "shenandoah", "virgin-islands", "voyageurs", "white-sands", "wind-cave", "wrangell-st-elias"]
+      "questionId": "pokemon_gen1:contains:r",
+      "datasetId": "pokemon_gen1",
+      "prompt": "Name an original-151 Pokémon with the letter R in its name",
+      "size": 79,
+      "answers": ["abra", "aerodactyl", "arbok", "arcanine", "articuno", "beedrill", "bellsprout", "bulbasaur", "butterfree", "caterpie", "charizard", "charmander", "charmeleon", "clefairy", "cloyster", "dodrio", "dragonair", "dragonite", "dratini", "drowzee", "dugtrio", "electrode", "exeggutor", "farfetch-d", "fearow", "flareon", "gengar", "graveler", "grimer", "growlithe", "gyarados", "haunter", "horsea", "ivysaur", "kadabra", "kingler", "krabby", "lapras", "magikarp", "magmar", "marowak", "moltres", "mr-mime", "nidoran-f", "nidoran-m", "nidorina", "nidorino", "omastar", "paras", "parasect", "persian", "pinsir", "poliwhirl", "poliwrath", "porygon", "primeape", "raichu", "rapidash", "raticate", "rattata", "rhydon", "rhyhorn", "sandshrew", "scyther", "seadra", "shellder", "slowbro", "snorlax", "spearow", "squirtle", "starmie", "staryu", "tauros", "tentacruel", "vaporeon", "venusaur", "victreebel", "voltorb", "wartortle"]
     },
     {
       "round": 2,
-      "questionId": "nba:tag:conf:west",
-      "datasetId": "nba",
-      "prompt": "Name an NBA team in the Western Conference",
-      "size": 15,
-      "answers": ["dallas-mavericks", "denver-nuggets", "golden-state-warriors", "houston-rockets", "los-angeles-clippers", "los-angeles-lakers", "memphis-grizzlies", "minnesota-timberwolves", "new-orleans-pelicans", "oklahoma-city-thunder", "phoenix-suns", "portland-trail-blazers", "sacramento-kings", "san-antonio-spurs", "utah-jazz"]
+      "questionId": "mountains:all",
+      "datasetId": "mountains",
+      "prompt": "Name one of the 14 mountains over 8,000 meters",
+      "size": 14,
+      "answers": ["annapurna", "broad-peak", "cho-oyu", "dhaulagiri", "gasherbrum-i", "gasherbrum-ii", "k2", "kangchenjunga", "lhotse", "makalu", "manaslu", "mount-everest", "nanga-parbat", "shishapangma"]
     },
     {
       "round": 3,
-      "questionId": "geography:any:ocean+great-lake",
-      "datasetId": "geography",
-      "prompt": "Name an ocean or one of the Great Lakes",
-      "size": 10,
-      "answers": ["lake-erie", "lake-huron", "lake-michigan", "lake-ontario", "lake-superior", "ocean-arctic", "ocean-atlantic", "ocean-indian", "ocean-pacific", "ocean-southern"]
+      "questionId": "space:lacks:h@planet",
+      "datasetId": "space",
+      "prompt": "Name a planet with no letter H in its name",
+      "size": 7,
+      "answers": ["jupiter", "mars", "mercury", "neptune", "saturn", "uranus", "venus"]
     },
     {
       "round": 4,
-      "questionId": "mexico_states:contains:h",
-      "datasetId": "mexico_states",
-      "prompt": "Name a Mexican state (or Mexico City) with the letter H in its name",
-      "size": 6,
-      "answers": ["campeche", "chiapas", "chihuahua", "coahuila", "hidalgo", "michoacan"]
+      "questionId": "world_cup:tag:ww",
+      "datasetId": "world_cup",
+      "prompt": "Name a nation that has won the FIFA Women's World Cup (through 2023)",
+      "size": 5,
+      "answers": ["germany", "japan", "norway", "spain", "united-states"]
     },
     {
       "round": 5,
-      "questionId": "greek_alphabet:contains:u",
-      "datasetId": "greek_alphabet",
-      "prompt": "Name a Greek letter with the letter U in its name",
+      "questionId": "film_series:tag:shrek",
+      "datasetId": "film_series",
+      "prompt": "Name one of the four main Shrek films",
       "size": 4,
-      "answers": ["mu", "nu", "tau", "upsilon"]
+      "answers": ["shrek-shrek", "shrek-shrek-2", "shrek-shrek-forever-after", "shrek-shrek-the-third"]
     },
     {
       "round": 6,
-      "questionId": "board_games:starts:s@monopoly-street",
-      "datasetId": "board_games",
-      "prompt": "Name a classic US Monopoly street that starts with the letter S",
+      "questionId": "body:tag:ossicle",
+      "datasetId": "body",
+      "prompt": "Name one of the three tiny bones of the middle ear",
       "size": 3,
-      "answers": ["monopoly-st-charles-place", "monopoly-st-james-place", "monopoly-states-avenue"]
+      "answers": ["incus", "malleus", "stapes"]
     }
   ]
 }

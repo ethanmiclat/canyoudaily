@@ -1,0 +1,40 @@
+{
+  "dataset": "music",
+  "templates": [
+    {
+      "type": "tag",
+      "tags": [
+        "solfege"
+      ],
+      "prompt": "Name a syllable of the do-re-mi solfège scale"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "satb"
+      ],
+      "prompt": "Name one of the four voice parts in an SATB choir"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "bowed-string"
+      ],
+      "prompt": "Name one of the four bowed string instruments of the orchestra"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "orchestral-brass"
+      ],
+      "prompt": "Name one of the four standard brass instruments of the orchestra"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "section"
+      ],
+      "prompt": "Name one of the four sections of a symphony orchestra"
+    }
+  ]
+}

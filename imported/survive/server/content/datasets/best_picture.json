@@ -1,6 +1,7 @@
 {
   "id": "best_picture",
   "title": "Best Picture winners",
+  "theme": "screen",
   "entities": [
     {"id": "wings", "name": "Wings", "props": {"year": 1928}},
     {"id": "the-broadway-melody", "name": "The Broadway Melody", "props": {"year": 1929}},

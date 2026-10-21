@@ -1,0 +1,61 @@
+{
+  "dataset": "cards",
+  "templates": [
+    {
+      "type": "tag",
+      "tags": [
+        "poker-hand"
+      ],
+      "prompt": "Name one of the ten standard poker hands"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "beats-straight"
+      ],
+      "prompt": "Name a poker hand that beats a straight"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "beats-two-pair"
+      ],
+      "prompt": "Name a poker hand that beats two pair"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "suit"
+      ],
+      "prompt": "Name a suit in a standard deck of cards"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "face"
+      ],
+      "prompt": "Name a face card"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "rank"
+      ],
+      "prompt": "Name a card rank in a standard deck (Ace through King)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "pip"
+      ],
+      "prompt": "Name a numbered card rank, Two through Ten"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "uno-action"
+      ],
+      "prompt": "Name one of the five UNO action cards"
+    }
+  ]
+}

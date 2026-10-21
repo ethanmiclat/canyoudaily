@@ -1,0 +1,18 @@
+{
+  "id": "holidays",
+  "title": "US federal holidays",
+  "theme": "culture",
+  "entities": [
+    {"id": "new-years-day", "name": "New Year's Day", "alt": ["New Year's", "New Years"], "tags": ["fixed", "first-half"], "props": {"month": 1}},
+    {"id": "mlk-day", "name": "Martin Luther King Jr. Day", "alt": ["Martin Luther King Day", "MLK Day"], "aliases": ["MLK"], "tags": ["monday", "first-half"], "props": {"month": 1}},
+    {"id": "washingtons-birthday", "name": "Washington's Birthday", "alt": ["Presidents' Day", "President's Day", "Presidents Day"], "tags": ["monday", "first-half"], "props": {"month": 2}},
+    {"id": "memorial-day", "name": "Memorial Day", "tags": ["monday", "first-half"], "props": {"month": 5}},
+    {"id": "juneteenth", "name": "Juneteenth", "alt": ["Juneteenth National Independence Day"], "tags": ["fixed", "first-half"], "props": {"month": 6}},
+    {"id": "independence-day", "name": "Independence Day", "alt": ["Fourth of July", "July Fourth", "July 4th", "4th of July"], "tags": ["fixed", "second-half"], "props": {"month": 7}},
+    {"id": "labor-day", "name": "Labor Day", "alt": ["Labour Day"], "tags": ["monday", "second-half"], "props": {"month": 9}},
+    {"id": "columbus-day", "name": "Columbus Day", "alt": ["Indigenous Peoples' Day", "Indigenous Peoples Day"], "tags": ["monday", "second-half"], "props": {"month": 10}},
+    {"id": "veterans-day", "name": "Veterans Day", "alt": ["Veterans' Day", "Veteran's Day", "Armistice Day"], "tags": ["fixed", "second-half"], "props": {"month": 11}},
+    {"id": "thanksgiving", "name": "Thanksgiving", "alt": ["Thanksgiving Day"], "tags": ["second-half"], "props": {"month": 11}},
+    {"id": "christmas", "name": "Christmas", "alt": ["Christmas Day"], "aliases": ["Xmas"], "tags": ["fixed", "second-half"], "props": {"month": 12}}
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "food",
+  "title": "Food",
+  "theme": "food",
+  "entities": [
+    {"id": "sweet", "name": "Sweet", "alt": ["Sweetness"], "tags": ["taste"]},
+    {"id": "sour", "name": "Sour", "alt": ["Sourness"], "tags": ["taste"]},
+    {"id": "salty", "name": "Salty", "alt": ["Salt", "Saltiness"], "tags": ["taste"]},
+    {"id": "bitter", "name": "Bitter", "alt": ["Bitterness"], "tags": ["taste"]},
+    {"id": "umami", "name": "Umami", "alt": ["Savory", "Savoury"], "tags": ["taste"]},
+    {"id": "bechamel", "name": "Béchamel", "alt": ["Bechamel Sauce", "White Sauce"], "tags": ["mother-sauce"]},
+    {"id": "veloute", "name": "Velouté", "alt": ["Veloute Sauce"], "tags": ["mother-sauce"]},
+    {"id": "espagnole", "name": "Espagnole", "alt": ["Espagnole Sauce", "Brown Sauce"], "tags": ["mother-sauce"]},
+    {"id": "sauce-tomate", "name": "Sauce Tomate", "alt": ["Tomato Sauce"], "tags": ["mother-sauce"]},
+    {"id": "hollandaise", "name": "Hollandaise", "alt": ["Hollandaise Sauce"], "tags": ["mother-sauce"]},
+    {"id": "fruits", "name": "Fruits", "alt": ["Fruit"], "tags": ["food-group"]},
+    {"id": "vegetables", "name": "Vegetables", "alt": ["Vegetable", "Veggies"], "tags": ["food-group"]},
+    {"id": "grains", "name": "Grains", "alt": ["Grain"], "tags": ["food-group"]},
+    {"id": "protein", "name": "Protein", "alt": ["Protein Foods", "Proteins"], "tags": ["food-group"]},
+    {"id": "dairy", "name": "Dairy", "tags": ["food-group"]},
+    {"id": "bacon", "name": "Bacon", "tags": ["blt"]},
+    {"id": "lettuce", "name": "Lettuce", "tags": ["blt"]},
+    {"id": "tomato", "name": "Tomato", "alt": ["Tomatoes"], "tags": ["blt"]},
+    {"id": "onion", "name": "Onion", "alt": ["Onions"], "tags": ["mirepoix", "holy-trinity"]},
+    {"id": "carrot", "name": "Carrot", "alt": ["Carrots"], "tags": ["mirepoix"]},
+    {"id": "celery", "name": "Celery", "tags": ["mirepoix", "holy-trinity"]},
+    {"id": "bell-pepper", "name": "Bell Pepper", "alt": ["Green Bell Pepper", "Green Pepper", "Bell Peppers"], "aliases": ["Pepper"], "tags": ["holy-trinity"]}
+  ]
+}

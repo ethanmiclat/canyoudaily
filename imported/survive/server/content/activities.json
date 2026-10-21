@@ -7,6 +7,10 @@
     { "id": "draw-straws", "name": "Draw Straws", "interaction": "drag", "kind": "choice", "rule": "Five straws, one short. Drag one up to pull it.", "enabled": true },
     { "id": "five-keys", "name": "Five Keys", "interaction": "drag-to-target", "kind": "choice", "rule": "Five keys. One trips the alarm. Drag a key into the lock.", "enabled": true },
     { "id": "spin-the-wheel", "name": "Spin the Wheel", "interaction": "flick", "kind": "continuous", "rule": "A hidden 20% of the wheel is deadly. Flick it to spin.", "enabled": true },
-    { "id": "elevator", "name": "Elevator", "interaction": "press-hold", "kind": "choice", "rule": "Five floors. One is on fire. Press and hold a button to go.", "enabled": true }
+    { "id": "elevator", "name": "Elevator", "interaction": "press-hold", "kind": "choice", "rule": "Five floors. One is on fire. Press and hold a button to go.", "enabled": true },
+    { "id": "scratch-cards", "name": "Scratch Cards", "interaction": "scratch", "kind": "choice", "rule": "Five cards. One hides a skull. Rub the foil off one.", "enabled": true },
+    { "id": "mimic-chests", "name": "Mimic Chests", "interaction": "multi-tap", "kind": "choice", "rule": "Five chests. One is a mimic. Tap a chest three times to pry it open.", "enabled": true },
+    { "id": "safe-dial", "name": "Safe Dial", "interaction": "rotate", "kind": "continuous", "rule": "A hidden 20% of the numbers trip the trap. Turn the dial, then pull the handle.", "enabled": true },
+    { "id": "catapult", "name": "Catapult", "interaction": "pull-back", "kind": "continuous", "rule": "A hidden 20% of the landing ground is spikes. Pull back and let go.", "enabled": true }
   ]
 }

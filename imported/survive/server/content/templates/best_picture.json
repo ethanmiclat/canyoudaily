@@ -107,6 +107,20 @@
         "starts": "Name a Best Picture winner whose title starts with the letter {L} (ignore \"The\")",
         "contains": "Name a Best Picture winner with the letter {L} in its title"
       }
+    },
+    {
+      "type": "range",
+      "prop": "year",
+      "min": 1928,
+      "max": 1979,
+      "prompt": "Name a Best Picture winner released before 1980"
+    },
+    {
+      "type": "range",
+      "prop": "year",
+      "min": 1970,
+      "max": 2024,
+      "prompt": "Name a Best Picture winner released from 1970 to 2024"
     }
   ]
 }

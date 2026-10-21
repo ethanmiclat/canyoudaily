@@ -1,56 +1,56 @@
 {
   "date": "2026-11-24",
   "approved": false,
-  "activity": "stop-the-needle",
-  "winRate": 0.6322,
+  "activity": "draw-straws",
+  "winRate": 0.6192,
   "rounds": [
     {
       "round": 1,
-      "questionId": "pokemon_gen2:lacks:n",
-      "datasetId": "pokemon_gen2",
-      "prompt": "Name a Johto Pokémon (#152 to #251) with no letter N in its name",
-      "size": 61,
-      "answers": ["aipom", "ampharos", "ariados", "azumarill", "bayleef", "bellossom", "blissey", "celebi", "chikorita", "cleffa", "corsola", "crobat", "delibird", "elekid", "feraligatr", "flaaffy", "forretress", "furret", "girafarig", "gligar", "heracross", "ho-oh", "hoothoot", "hoppip", "igglybuff", "jumpluff", "larvitar", "ledyba", "lugia", "magby", "magcargo", "mareep", "marill", "misdreavus", "murkrow", "octillery", "pichu", "politoed", "pupitar", "quagsire", "quilava", "qwilfish", "raikou", "remoraid", "scizor", "shuckle", "skarmory", "skiploom", "slugma", "smeargle", "smoochum", "steelix", "sudowoodo", "teddiursa", "togepi", "togetic", "totodile", "tyrogue", "wobbuffet", "wooper", "xatu"]
+      "questionId": "constellations:contains:a",
+      "datasetId": "constellations",
+      "prompt": "Name a constellation with the letter A in its name",
+      "size": 51,
+      "answers": ["andromeda", "antlia", "apus", "aquarius", "aquila", "ara", "aries", "auriga", "caelum", "camelopardalis", "cancer", "canes-venatici", "canis-major", "canis-minor", "capricornus", "carina", "cassiopeia", "centaurus", "chamaeleon", "columba", "coma-berenices", "corona-australis", "corona-borealis", "crater", "dorado", "draco", "eridanus", "fornax", "hydra", "lacerta", "libra", "lyra", "mensa", "musca", "norma", "octans", "pavo", "pegasus", "piscis-austrinus", "sagitta", "sagittarius", "sextans", "taurus", "triangulum", "triangulum-australe", "tucana", "ursa-major", "ursa-minor", "vela", "volans", "vulpecula"]
     },
     {
       "round": 2,
-      "questionId": "mlb:tag:conf:al",
-      "datasetId": "mlb",
-      "prompt": "Name an American League team in MLB",
-      "size": 15,
-      "answers": ["athletics", "baltimore-orioles", "boston-red-sox", "chicago-white-sox", "cleveland-guardians", "detroit-tigers", "houston-astros", "kansas-city-royals", "los-angeles-angels", "minnesota-twins", "new-york-yankees", "seattle-mariners", "tampa-bay-rays", "texas-rangers", "toronto-blue-jays"]
+      "questionId": "amino_acids:all",
+      "datasetId": "amino_acids",
+      "prompt": "Name one of the 20 standard amino acids",
+      "size": 20,
+      "answers": ["alanine", "arginine", "asparagine", "aspartic-acid", "cysteine", "glutamic-acid", "glutamine", "glycine", "histidine", "isoleucine", "leucine", "lysine", "methionine", "phenylalanine", "proline", "serine", "threonine", "tryptophan", "tyrosine", "valine"]
     },
     {
       "round": 3,
-      "questionId": "shakespeare:contains:v",
-      "datasetId": "shakespeare",
-      "prompt": "Name a Shakespeare play with the letter V in its title",
-      "size": 8,
-      "answers": ["henry-iv", "henry-v", "henry-vi", "henry-viii", "love-s-labour-s-lost", "the-merchant-of-venice", "the-merry-wives-of-windsor", "the-two-gentlemen-of-verona"]
+      "questionId": "nhl:tag:canada",
+      "datasetId": "nhl",
+      "prompt": "Name an NHL team based in Canada",
+      "size": 7,
+      "answers": ["calgary-flames", "edmonton-oilers", "montreal-canadiens", "ottawa-senators", "toronto-maple-leafs", "vancouver-canucks", "winnipeg-jets"]
     },
     {
       "round": 4,
-      "questionId": "calendar:lacks:e@month",
-      "datasetId": "calendar",
-      "prompt": "Name a month with no letter E in its name",
-      "size": 6,
-      "answers": ["april", "august", "january", "july", "march", "may"]
+      "questionId": "holidays:tag:monday",
+      "datasetId": "holidays",
+      "prompt": "Name a US federal holiday that always falls on a Monday",
+      "size": 5,
+      "answers": ["columbus-day", "labor-day", "memorial-day", "mlk-day", "washingtons-birthday"]
     },
     {
       "round": 5,
-      "questionId": "nfl:tag:div:afc-east",
-      "datasetId": "nfl",
-      "prompt": "Name a team in the AFC East",
+      "questionId": "us_states:tag:borders-texas",
+      "datasetId": "us_states",
+      "prompt": "Name a state that borders Texas",
       "size": 4,
-      "answers": ["buffalo-bills", "miami-dolphins", "new-england-patriots", "new-york-jets"]
+      "answers": ["arkansas", "louisiana", "new-mexico", "oklahoma"]
     },
     {
       "round": 6,
-      "questionId": "nato_alphabet:contains:y",
-      "datasetId": "nato_alphabet",
-      "prompt": "Name a NATO phonetic alphabet word containing the letter Y",
+      "questionId": "india_states:starts:t@state",
+      "datasetId": "india_states",
+      "prompt": "Name an Indian state that starts with the letter T",
       "size": 3,
-      "answers": ["whiskey", "x-ray", "yankee"]
+      "answers": ["tamil-nadu", "telangana", "tripura"]
     }
   ]
 }

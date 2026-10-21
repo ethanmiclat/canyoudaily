@@ -1,56 +1,56 @@
 {
   "date": "2026-11-21",
   "approved": false,
-  "activity": "spin-the-wheel",
-  "winRate": 0.6428,
+  "activity": "poison-cups",
+  "winRate": 0.636,
   "rounds": [
     {
       "round": 1,
-      "questionId": "numbers:range:n:1-150@odd",
-      "datasetId": "numbers",
-      "prompt": "Name an odd number from 1 to 150",
+      "questionId": "pokemon_gen1:range:dex:1-75",
+      "datasetId": "pokemon_gen1",
+      "prompt": "Name a Pokémon numbered 1 to 75 in the National Pokédex",
       "size": 75,
-      "answers": ["n1", "n101", "n103", "n105", "n107", "n109", "n11", "n111", "n113", "n115", "n117", "n119", "n121", "n123", "n125", "n127", "n129", "n13", "n131", "n133", "n135", "n137", "n139", "n141", "n143", "n145", "n147", "n149", "n15", "n17", "n19", "n21", "n23", "n25", "n27", "n29", "n3", "n31", "n33", "n35", "n37", "n39", "n41", "n43", "n45", "n47", "n49", "n5", "n51", "n53", "n55", "n57", "n59", "n61", "n63", "n65", "n67", "n69", "n7", "n71", "n73", "n75", "n77", "n79", "n81", "n83", "n85", "n87", "n89", "n9", "n91", "n93", "n95", "n97", "n99"]
+      "answers": ["abra", "alakazam", "arbok", "arcanine", "beedrill", "bellsprout", "blastoise", "bulbasaur", "butterfree", "caterpie", "charizard", "charmander", "charmeleon", "clefable", "clefairy", "diglett", "dugtrio", "ekans", "fearow", "geodude", "gloom", "golbat", "golduck", "graveler", "growlithe", "ivysaur", "jigglypuff", "kadabra", "kakuna", "machamp", "machoke", "machop", "mankey", "meowth", "metapod", "nidoking", "nidoqueen", "nidoran-f", "nidoran-m", "nidorina", "nidorino", "ninetales", "oddish", "paras", "parasect", "persian", "pidgeot", "pidgeotto", "pidgey", "pikachu", "poliwag", "poliwhirl", "poliwrath", "primeape", "psyduck", "raichu", "raticate", "rattata", "sandshrew", "sandslash", "spearow", "squirtle", "tentacool", "tentacruel", "venomoth", "venonat", "venusaur", "victreebel", "vileplume", "vulpix", "wartortle", "weedle", "weepinbell", "wigglytuff", "zubat"]
     },
     {
       "round": 2,
-      "questionId": "mexico_states:lacks:c",
-      "datasetId": "mexico_states",
-      "prompt": "Name a Mexican state (or Mexico City) with no letter C in its name",
-      "size": 14,
-      "answers": ["durango", "guanajuato", "guerrero", "hidalgo", "morelos", "nayarit", "nuevo-leon", "puebla", "queretaro", "quintana-roo", "san-luis-potosi", "sinaloa", "sonora", "tamaulipas"]
+      "questionId": "nato_alphabet:all",
+      "datasetId": "nato_alphabet",
+      "prompt": "Name a word from the NATO phonetic alphabet",
+      "size": 26,
+      "answers": ["alfa", "bravo", "charlie", "delta", "echo", "foxtrot", "golf", "hotel", "india", "juliett", "kilo", "lima", "mike", "november", "oscar", "papa", "quebec", "romeo", "sierra", "tango", "uniform", "victor", "whiskey", "x-ray", "yankee", "zulu"]
     },
     {
       "round": 3,
-      "questionId": "space:tag:saturn-moon",
-      "datasetId": "space",
-      "prompt": "Name one of Saturn's seven major moons",
-      "size": 7,
-      "answers": ["dione", "enceladus", "iapetus", "mimas", "rhea", "tethys", "titan"]
+      "questionId": "disney:range:year:2010-2019",
+      "datasetId": "disney",
+      "prompt": "Name a Walt Disney Animation Studios feature released in the 2010s",
+      "size": 9,
+      "answers": ["big-hero-6", "frozen", "frozen-ii", "moana", "ralph-breaks-the-internet", "tangled", "winnie-the-pooh-2011", "wreck-it-ralph", "zootopia"]
     },
     {
       "round": 4,
-      "questionId": "famous_groups:tag:friends",
-      "datasetId": "famous_groups",
-      "prompt": "Name one of the six main characters of Friends",
-      "size": 6,
-      "answers": ["friends-chandler-bing", "friends-joey-tribbiani", "friends-monica-geller", "friends-phoebe-buffay", "friends-rachel-green", "friends-ross-geller"]
+      "questionId": "mlb:tag:div:nl-central",
+      "datasetId": "mlb",
+      "prompt": "Name a team in the NL Central",
+      "size": 5,
+      "answers": ["chicago-cubs", "cincinnati-reds", "milwaukee-brewers", "pittsburgh-pirates", "st-louis-cardinals"]
     },
     {
       "round": 5,
-      "questionId": "nba:tag:div:northwest",
-      "datasetId": "nba",
-      "prompt": "Name an NBA team in the Northwest Division",
-      "size": 5,
-      "answers": ["denver-nuggets", "minnesota-timberwolves", "oklahoma-city-thunder", "portland-trail-blazers", "utah-jazz"]
+      "questionId": "calendar:tag:days-30",
+      "datasetId": "calendar",
+      "prompt": "Name a month with exactly 30 days",
+      "size": 4,
+      "answers": ["april", "june", "november", "september"]
     },
     {
       "round": 6,
-      "questionId": "world_capitals:starts:d@continent:africa",
-      "datasetId": "world_capitals",
-      "prompt": "Name an African capital that starts with the letter D",
+      "questionId": "german_states:contains:p",
+      "datasetId": "german_states",
+      "prompt": "Name a German state with the letter P in its English name",
       "size": 3,
-      "answers": ["dakar", "djibouti", "dodoma"]
+      "answers": ["mecklenburg-western-pomerania", "north-rhine-westphalia", "rhineland-palatinate"]
     }
   ]
 }

@@ -1,56 +1,56 @@
 {
   "date": "2026-11-20",
   "approved": false,
-  "activity": "draw-straws",
-  "winRate": 0.6406,
+  "activity": "stop-the-needle",
+  "winRate": 0.6249,
   "rounds": [
     {
       "round": 1,
-      "questionId": "pokemon_gen1:lacks:k",
-      "datasetId": "pokemon_gen1",
-      "prompt": "Name an original-151 Pokémon with no letter K in its name",
-      "size": 128,
-      "answers": ["abra", "aerodactyl", "arcanine", "articuno", "beedrill", "bellsprout", "blastoise", "bulbasaur", "butterfree", "caterpie", "chansey", "charizard", "charmander", "charmeleon", "clefable", "clefairy", "cloyster", "cubone", "dewgong", "diglett", "ditto", "dodrio", "doduo", "dragonair", "dragonite", "dratini", "drowzee", "dugtrio", "eevee", "electabuzz", "electrode", "exeggcute", "exeggutor", "farfetch-d", "fearow", "flareon", "gastly", "gengar", "geodude", "gloom", "golbat", "goldeen", "golem", "graveler", "grimer", "growlithe", "gyarados", "haunter", "hitmonchan", "hitmonlee", "horsea", "hypno", "ivysaur", "jigglypuff", "jolteon", "jynx", "lapras", "machamp", "machop", "magmar", "magnemite", "magneton", "meowth", "metapod", "mew", "mewtwo", "moltres", "mr-mime", "nidoqueen", "nidoran-f", "nidoran-m", "nidorina", "nidorino", "ninetales", "oddish", "omanyte", "omastar", "onix", "paras", "parasect", "persian", "pidgeot", "pidgeotto", "pidgey", "pinsir", "poliwag", "poliwhirl", "poliwrath", "ponyta", "porygon", "primeape", "raichu", "rapidash", "raticate", "rattata", "rhydon", "rhyhorn", "sandshrew", "sandslash", "scyther", "seadra", "seel", "shellder", "slowbro", "snorlax", "spearow", "squirtle", "starmie", "staryu", "tangela", "tauros", "tentacool", "tentacruel", "vaporeon", "venomoth", "venonat", "venusaur", "victreebel", "vileplume", "voltorb", "vulpix", "wartortle", "weedle", "weepinbell", "weezing", "wigglytuff", "zapdos", "zubat"]
+      "questionId": "pokemon_gen2:lacks:r",
+      "datasetId": "pokemon_gen2",
+      "prompt": "Name a Johto Pokémon (#152 to #251) with no letter R in its name",
+      "size": 55,
+      "answers": ["aipom", "bayleef", "bellossom", "blissey", "celebi", "chinchou", "cleffa", "cyndaquil", "donphan", "elekid", "entei", "espeon", "flaaffy", "hitmontop", "ho-oh", "hoothoot", "hoppip", "houndoom", "igglybuff", "jumpluff", "ledian", "ledyba", "lugia", "magby", "mantine", "meganium", "miltank", "natu", "noctowl", "phanpy", "pichu", "piloswine", "pineco", "politoed", "quilava", "qwilfish", "shuckle", "skiploom", "slowking", "slugma", "smoochum", "sneasel", "snubbull", "steelix", "sudowoodo", "suicune", "swinub", "togepi", "togetic", "totodile", "typhlosion", "unown", "wobbuffet", "xatu", "yanma"]
     },
     {
       "round": 2,
-      "questionId": "zodiac:tag:western",
-      "datasetId": "zodiac",
-      "prompt": "Name a Western zodiac sign",
-      "size": 12,
-      "answers": ["aquarius", "aries", "cancer", "capricorn", "gemini", "leo", "libra", "pisces", "sagittarius", "scorpio", "taurus", "virgo"]
+      "questionId": "mexico_states:contains:u",
+      "datasetId": "mexico_states",
+      "prompt": "Name a Mexican state (or Mexico City) with the letter U in its name",
+      "size": 15,
+      "answers": ["aguascalientes", "baja-california-sur", "chihuahua", "coahuila", "durango", "guanajuato", "guerrero", "nuevo-leon", "puebla", "queretaro", "quintana-roo", "san-luis-potosi", "tamaulipas", "veracruz", "yucatan"]
     },
     {
       "round": 3,
-      "questionId": "best_picture:starts:b",
-      "datasetId": "best_picture",
-      "prompt": "Name a Best Picture winner whose title starts with the letter B (ignore \"The\")",
-      "size": 7,
-      "answers": ["a-beautiful-mind", "ben-hur", "birdman", "braveheart", "the-best-years-of-our-lives", "the-bridge-on-the-river-kwai", "the-broadway-melody"]
+      "questionId": "board_games:tag:clue-room",
+      "datasetId": "board_games",
+      "prompt": "Name one of the nine rooms in classic Clue (Cluedo)",
+      "size": 9,
+      "answers": ["clue-ballroom", "clue-billiard-room", "clue-conservatory", "clue-dining-room", "clue-hall", "clue-kitchen", "clue-library", "clue-lounge", "clue-study"]
     },
     {
       "round": 4,
-      "questionId": "board_games:tag:clue-suspect",
-      "datasetId": "board_games",
-      "prompt": "Name one of the six classic Clue (Cluedo) suspects",
-      "size": 6,
-      "answers": ["clue-colonel-mustard", "clue-miss-scarlett", "clue-mrs-peacock", "clue-mrs-white", "clue-professor-plum", "clue-reverend-green"]
+      "questionId": "cards:tag:uno-action",
+      "datasetId": "cards",
+      "prompt": "Name one of the five UNO action cards",
+      "size": 5,
+      "answers": ["uno-draw-two", "uno-reverse", "uno-skip", "uno-wild", "uno-wild-draw-four"]
     },
     {
       "round": 5,
-      "questionId": "greek_myth:contains:i@olympian",
-      "datasetId": "greek_myth",
-      "prompt": "Name an Olympian god with the letter I in their Greek name",
-      "size": 5,
-      "answers": ["olympian-aphrodite", "olympian-artemis", "olympian-dionysus", "olympian-hestia", "olympian-poseidon"]
+      "questionId": "music:tag:satb",
+      "datasetId": "music",
+      "prompt": "Name one of the four voice parts in an SATB choir",
+      "size": 4,
+      "answers": ["alto", "bass-voice", "soprano", "tenor"]
     },
     {
       "round": 6,
-      "questionId": "national_parks:starts:d",
-      "datasetId": "national_parks",
-      "prompt": "Name a US national park that starts with the letter D",
+      "questionId": "countries:tag:iberia",
+      "datasetId": "countries",
+      "prompt": "Name one of the three countries on the Iberian Peninsula",
       "size": 3,
-      "answers": ["death-valley", "denali", "dry-tortugas"]
+      "answers": ["andorra", "portugal", "spain"]
     }
   ]
 }

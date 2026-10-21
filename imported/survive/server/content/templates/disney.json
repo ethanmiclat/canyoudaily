@@ -1,0 +1,68 @@
+{
+  "dataset": "disney",
+  "templates": [
+    {
+      "type": "range",
+      "prop": "year",
+      "min": 1937,
+      "max": 1959,
+      "prompt": "Name a Walt Disney Animation Studios feature released 1937 to 1959"
+    },
+    {
+      "type": "range",
+      "prop": "year",
+      "min": 1960,
+      "max": 1989,
+      "prompt": "Name a Walt Disney Animation Studios feature released 1960 to 1989"
+    },
+    {
+      "type": "range",
+      "prop": "year",
+      "min": 1990,
+      "max": 1999,
+      "prompt": "Name a Walt Disney Animation Studios feature released in the 1990s"
+    },
+    {
+      "type": "range",
+      "prop": "year",
+      "min": 2000,
+      "max": 2004,
+      "prompt": "Name a Walt Disney Animation Studios feature released 2000 to 2004"
+    },
+    {
+      "type": "range",
+      "prop": "year",
+      "min": 2005,
+      "max": 2009,
+      "prompt": "Name a Walt Disney Animation Studios feature released 2005 to 2009"
+    },
+    {
+      "type": "range",
+      "prop": "year",
+      "min": 2010,
+      "max": 2019,
+      "prompt": "Name a Walt Disney Animation Studios feature released in the 2010s"
+    },
+    {
+      "type": "range",
+      "prop": "year",
+      "min": 2020,
+      "max": 2025,
+      "prompt": "Name a Walt Disney Animation Studios feature released 2020 to 2025"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "renaissance"
+      ],
+      "prompt": "Name a film from the Disney Renaissance (The Little Mermaid through Tarzan, 1989 to 1999)"
+    },
+    {
+      "type": "range",
+      "prop": "year",
+      "min": 1937,
+      "max": 2025,
+      "prompt": "Name a Walt Disney Animation Studios feature released 1937 to 2025"
+    }
+  ]
+}

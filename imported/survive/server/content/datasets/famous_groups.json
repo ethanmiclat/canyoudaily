@@ -1,6 +1,7 @@
 {
   "id": "famous_groups",
   "title": "Famous groups",
+  "theme": "screen",
   "entities": [
     {"id": "dwarf-doc", "name": "Doc", "tags": ["dwarf"]},
     {"id": "dwarf-grumpy", "name": "Grumpy", "tags": ["dwarf"]},

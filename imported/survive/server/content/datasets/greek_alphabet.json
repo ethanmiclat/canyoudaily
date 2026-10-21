@@ -1,6 +1,7 @@
 {
   "id": "greek_alphabet",
   "title": "Greek alphabet",
+  "theme": "symbols",
   "entities": [
     {"id": "alpha", "name": "Alpha", "tags": ["vowel"], "props": {"pos": 1}},
     {"id": "beta", "name": "Beta", "props": {"pos": 2}},

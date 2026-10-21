@@ -1,0 +1,54 @@
+{
+  "dataset": "body",
+  "templates": [
+    {
+      "type": "tag",
+      "tags": [
+        "sense"
+      ],
+      "prompt": "Name one of the five traditional senses"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "heart-chamber"
+      ],
+      "prompt": "Name one of the four chambers of the human heart"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "tooth"
+      ],
+      "prompt": "Name one of the four types of adult human teeth"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "ossicle"
+      ],
+      "prompt": "Name one of the three tiny bones of the middle ear"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "finger"
+      ],
+      "prompt": "Name one of the five fingers (thumb included)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "vessel"
+      ],
+      "prompt": "Name one of the three main types of blood vessel"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "lobe"
+      ],
+      "prompt": "Name one of the four lobes of the brain's cerebral cortex"
+    }
+  ]
+}

@@ -174,6 +174,18 @@
         "contains": "Name a Johto Pokémon (#152 to #251) with the letter {L} in its name",
         "lacks": "Name a Johto Pokémon (#152 to #251) with no letter {L} in its name"
       }
+    },
+    {
+      "type": "letters",
+      "noun": "Pokémon",
+      "modes": [
+        "ends"
+      ]
+    },
+    {
+      "type": "length",
+      "noun": "Pokémon",
+      "prompt": "Name a Pokémon with exactly {N} letters in its name"
     }
   ]
 }

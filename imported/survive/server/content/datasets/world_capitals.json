@@ -1,6 +1,7 @@
 {
   "id": "world_capitals",
   "title": "World capitals",
+  "theme": "geography",
   "entities": [
     {"id": "algiers", "name": "Algiers", "tags": ["continent:africa"], "props": {"country": "Algeria"}},
     {"id": "luanda", "name": "Luanda", "tags": ["continent:africa"], "props": {"country": "Angola"}},

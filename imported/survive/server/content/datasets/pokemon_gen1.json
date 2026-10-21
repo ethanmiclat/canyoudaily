@@ -1,6 +1,7 @@
 {
   "id": "pokemon_gen1",
   "title": "Pok\u00e9mon (original 151)",
+  "theme": "pokemon",
   "entities": [
     {"id": "bulbasaur", "name": "Bulbasaur", "tags": ["type:grass", "type:poison", "starter-line"], "props": {"dex": 1}},
     {"id": "ivysaur", "name": "Ivysaur", "tags": ["type:grass", "type:poison", "starter-line"], "props": {"dex": 2}},

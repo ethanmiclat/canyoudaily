@@ -1,56 +1,56 @@
 {
   "date": "2026-11-15",
   "approved": false,
-  "activity": "glass-bridge",
-  "winRate": 0.6449,
+  "activity": "catapult",
+  "winRate": 0.615,
   "rounds": [
     {
       "round": 1,
-      "questionId": "pokemon_gen1:lacks:o",
-      "datasetId": "pokemon_gen1",
-      "prompt": "Name an original-151 Pokémon with no letter O in its name",
-      "size": 76,
-      "answers": ["abra", "alakazam", "arcanine", "beedrill", "bulbasaur", "butterfree", "caterpie", "chansey", "charizard", "charmander", "clefable", "clefairy", "diglett", "dratini", "eevee", "ekans", "electabuzz", "exeggcute", "farfetch-d", "gastly", "gengar", "graveler", "grimer", "haunter", "ivysaur", "jigglypuff", "jynx", "kadabra", "kakuna", "kangaskhan", "kingler", "krabby", "lapras", "lickitung", "machamp", "magikarp", "magmar", "magnemite", "mankey", "mew", "mr-mime", "muk", "ninetales", "paras", "parasect", "persian", "pidgey", "pikachu", "pinsir", "primeape", "psyduck", "raichu", "rapidash", "raticate", "rattata", "sandshrew", "sandslash", "scyther", "seadra", "seaking", "seel", "shellder", "squirtle", "starmie", "staryu", "tangela", "tentacruel", "venusaur", "victreebel", "vileplume", "vulpix", "weedle", "weepinbell", "weezing", "wigglytuff", "zubat"]
+      "questionId": "bible_books:lacks:p~base",
+      "datasetId": "bible_books",
+      "prompt": "Name a book of the Bible with no letter P in its name (ignore any number in front)",
+      "size": 58,
+      "answers": ["1-chronicles", "1-corinthians", "1-john", "1-kings", "1-samuel", "1-thessalonians", "1-timothy", "2-chronicles", "2-corinthians", "2-john", "2-kings", "2-samuel", "2-thessalonians", "2-timothy", "3-john", "acts", "amos", "colossians", "daniel", "deuteronomy", "ecclesiastes", "esther", "exodus", "ezekiel", "ezra", "galatians", "genesis", "habakkuk", "haggai", "hebrews", "hosea", "isaiah", "james", "jeremiah", "job", "joel", "john", "jonah", "joshua", "jude", "judges", "lamentations", "leviticus", "luke", "malachi", "mark", "matthew", "micah", "nahum", "nehemiah", "numbers", "obadiah", "revelation", "romans", "ruth", "song-of-solomon", "titus", "zechariah"]
     },
     {
       "round": 2,
-      "questionId": "si_units:tag:prefix+small",
-      "datasetId": "si_units",
-      "prompt": "Name an SI prefix for a fraction smaller than one (deci- and down)",
+      "questionId": "nato_alphabet:contains:a",
+      "datasetId": "nato_alphabet",
+      "prompt": "Name a NATO phonetic alphabet word containing the letter A",
       "size": 12,
-      "answers": ["prefix-atto", "prefix-centi", "prefix-deci", "prefix-femto", "prefix-micro", "prefix-milli", "prefix-nano", "prefix-pico", "prefix-quecto", "prefix-ronto", "prefix-yocto", "prefix-zepto"]
+      "answers": ["alfa", "bravo", "charlie", "delta", "india", "lima", "oscar", "papa", "sierra", "tango", "x-ray", "yankee"]
     },
     {
       "round": 3,
-      "questionId": "greek_myth:contains:s@olympian",
-      "datasetId": "greek_myth",
-      "prompt": "Name an Olympian god with the letter S in their Greek name",
+      "questionId": "world_cup:tag:mw",
+      "datasetId": "world_cup",
+      "prompt": "Name a nation that won the men's FIFA World Cup before 2026 (West Germany counts as Germany)",
       "size": 8,
-      "answers": ["olympian-ares", "olympian-artemis", "olympian-dionysus", "olympian-hephaestus", "olympian-hermes", "olympian-hestia", "olympian-poseidon", "olympian-zeus"]
+      "answers": ["argentina", "brazil", "england", "france", "germany", "italy", "spain", "uruguay"]
     },
     {
       "round": 4,
-      "questionId": "board_games:tag:chess",
-      "datasetId": "board_games",
-      "prompt": "Name a chess piece",
-      "size": 6,
-      "answers": ["chess-bishop", "chess-king", "chess-knight", "chess-pawn", "chess-queen", "chess-rook"]
+      "questionId": "us_states:tag:borders-new-york",
+      "datasetId": "us_states",
+      "prompt": "Name a state that shares a land border with New York",
+      "size": 5,
+      "answers": ["connecticut", "massachusetts", "new-jersey", "pennsylvania", "vermont"]
     },
     {
       "round": 5,
-      "questionId": "nba:tag:div:central",
-      "datasetId": "nba",
-      "prompt": "Name an NBA team in the Central Division",
-      "size": 5,
-      "answers": ["chicago-bulls", "cleveland-cavaliers", "detroit-pistons", "indiana-pacers", "milwaukee-bucks"]
+      "questionId": "music:tag:orchestral-brass",
+      "datasetId": "music",
+      "prompt": "Name one of the four standard brass instruments of the orchestra",
+      "size": 4,
+      "answers": ["french-horn", "trombone", "trumpet", "tuba"]
     },
     {
       "round": 6,
-      "questionId": "zodiac:contains:s@chinese",
-      "datasetId": "zodiac",
-      "prompt": "Name a Chinese zodiac animal with the letter S in it",
+      "questionId": "pokemon_gen2:tag:type:fighting",
+      "datasetId": "pokemon_gen2",
+      "prompt": "Name a Fighting-type Johto Pokémon (#152 to #251, current typings)",
       "size": 3,
-      "answers": ["chinese-horse", "chinese-rooster", "chinese-snake"]
+      "answers": ["heracross", "hitmontop", "tyrogue"]
     }
   ]
 }

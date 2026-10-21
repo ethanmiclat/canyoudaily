@@ -1,6 +1,7 @@
 {
   "id": "world_cup",
   "title": "FIFA World Cup nations",
+  "theme": "sports",
   "entities": [
     {"id": "brazil", "name": "Brazil", "tags": ["mw", "mh"]},
     {"id": "germany", "name": "Germany", "aliases": ["West Germany"], "tags": ["mw", "mh", "ww", "wh"]},

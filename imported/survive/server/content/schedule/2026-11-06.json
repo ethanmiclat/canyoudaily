@@ -1,56 +1,56 @@
 {
   "date": "2026-11-06",
   "approved": false,
-  "activity": "elevator",
-  "winRate": 0.6327,
+  "activity": "mimic-chests",
+  "winRate": 0.6411,
   "rounds": [
     {
       "round": 1,
-      "questionId": "constellations:all",
-      "datasetId": "constellations",
-      "prompt": "Name one of the 88 official constellations",
-      "size": 88,
-      "answers": ["andromeda", "antlia", "apus", "aquarius", "aquila", "ara", "aries", "auriga", "bootes", "caelum", "camelopardalis", "cancer", "canes-venatici", "canis-major", "canis-minor", "capricornus", "carina", "cassiopeia", "centaurus", "cepheus", "cetus", "chamaeleon", "circinus", "columba", "coma-berenices", "corona-australis", "corona-borealis", "corvus", "crater", "crux", "cygnus", "delphinus", "dorado", "draco", "equuleus", "eridanus", "fornax", "gemini", "grus", "hercules", "horologium", "hydra", "hydrus", "indus", "lacerta", "leo", "leo-minor", "lepus", "libra", "lupus", "lynx", "lyra", "mensa", "microscopium", "monoceros", "musca", "norma", "octans", "ophiuchus", "orion", "pavo", "pegasus", "perseus", "phoenix", "pictor", "pisces", "piscis-austrinus", "puppis", "pyxis", "reticulum", "sagitta", "sagittarius", "scorpius", "sculptor", "scutum", "serpens", "sextans", "taurus", "telescopium", "triangulum", "triangulum-australe", "tucana", "ursa-major", "ursa-minor", "vela", "virgo", "volans", "vulpecula"]
+      "questionId": "world_capitals:any:continent:africa+continent:asia",
+      "datasetId": "world_capitals",
+      "prompt": "Name the capital of a country in Africa or Asia",
+      "size": 106,
+      "answers": ["abu-dhabi", "abuja", "accra", "addis-ababa", "algiers", "amman", "ankara", "antananarivo", "ashgabat", "asmara", "astana", "baghdad", "baku", "bamako", "bandar-seri-begawan", "bangkok", "bangui", "banjul", "beijing", "beirut", "bishkek", "bissau", "bloemfontein", "brazzaville", "cairo", "cape-town", "conakry", "dakar", "damascus", "dhaka", "dili", "djibouti", "dodoma", "doha", "dushanbe", "freetown", "gaborone", "gitega", "hanoi", "harare", "islamabad", "jakarta", "jerusalem", "juba", "kabul", "kampala", "kathmandu", "khartoum", "kigali", "kinshasa", "kuala-lumpur", "kuwait-city", "libreville", "lilongwe", "lobamba", "lome", "luanda", "lusaka", "malabo", "male", "manama", "manila", "maputo", "maseru", "mbabane", "mogadishu", "monrovia", "moroni", "moscow", "muscat", "n-djamena", "nairobi", "naypyidaw", "new-delhi", "niamey", "nicosia", "nouakchott", "ouagadougou", "phnom-penh", "port-louis", "porto-novo", "praia", "pretoria", "pyongyang", "rabat", "ramallah", "riyadh", "sanaa", "sao-tome", "seoul", "singapore", "sri-jayawardenepura-kotte", "tashkent", "tbilisi", "tehran", "thimphu", "tokyo", "tripoli", "tunis", "ulaanbaatar", "victoria", "vientiane", "windhoek", "yamoussoukro", "yaounde", "yerevan"]
     },
     {
       "round": 2,
-      "questionId": "nfl:tag:super-bowl-winner",
-      "datasetId": "nfl",
-      "prompt": "Name an NFL team that has won at least one Super Bowl",
-      "size": 20,
-      "answers": ["baltimore-ravens", "chicago-bears", "dallas-cowboys", "denver-broncos", "green-bay-packers", "indianapolis-colts", "kansas-city-chiefs", "las-vegas-raiders", "los-angeles-rams", "miami-dolphins", "new-england-patriots", "new-orleans-saints", "new-york-giants", "new-york-jets", "philadelphia-eagles", "pittsburgh-steelers", "san-francisco-49ers", "seattle-seahawks", "tampa-bay-buccaneers", "washington-commanders"]
+      "questionId": "alphabet:all",
+      "datasetId": "alphabet",
+      "prompt": "Name a letter of the English alphabet",
+      "size": 26,
+      "answers": ["letter-a", "letter-b", "letter-c", "letter-d", "letter-e", "letter-f", "letter-g", "letter-h", "letter-i", "letter-j", "letter-k", "letter-l", "letter-m", "letter-n", "letter-o", "letter-p", "letter-q", "letter-r", "letter-s", "letter-t", "letter-u", "letter-v", "letter-w", "letter-x", "letter-y", "letter-z"]
     },
     {
       "round": 3,
-      "questionId": "film_series:tag:star-wars",
-      "datasetId": "film_series",
-      "prompt": "Name one of the nine numbered Star Wars saga films",
-      "size": 9,
-      "answers": ["star-wars-star-wars-episode-i-the-phantom-menace", "star-wars-star-wars-episode-ii-attack-of-the-clones", "star-wars-star-wars-episode-iii-revenge-of-the-sith", "star-wars-star-wars-episode-iv-a-new-hope", "star-wars-star-wars-episode-ix-the-rise-of-skywalker", "star-wars-star-wars-episode-v-the-empire-strikes-back", "star-wars-star-wars-episode-vi-return-of-the-jedi", "star-wars-star-wars-episode-vii-the-force-awakens", "star-wars-star-wars-episode-viii-the-last-jedi"]
+      "questionId": "zodiac:lacks:k@chinese",
+      "datasetId": "zodiac",
+      "prompt": "Name a Chinese zodiac animal with no letter K in it",
+      "size": 10,
+      "answers": ["chinese-dog", "chinese-dragon", "chinese-goat", "chinese-horse", "chinese-ox", "chinese-pig", "chinese-rabbit", "chinese-rat", "chinese-rooster", "chinese-tiger"]
     },
     {
       "round": 4,
-      "questionId": "tarot:contains:p",
-      "datasetId": "tarot",
-      "prompt": "Name a Major Arcana card with the letter P in its name",
+      "questionId": "calendar:contains:b@month",
+      "datasetId": "calendar",
+      "prompt": "Name a month with the letter B in its name",
       "size": 5,
-      "answers": ["temperance", "the-emperor", "the-empress", "the-hierophant", "the-high-priestess"]
+      "answers": ["december", "february", "november", "october", "september"]
     },
     {
       "round": 5,
-      "questionId": "calendar:tag:days-30",
-      "datasetId": "calendar",
-      "prompt": "Name a month with exactly 30 days",
+      "questionId": "cards:tag:suit",
+      "datasetId": "cards",
+      "prompt": "Name a suit in a standard deck of cards",
       "size": 4,
-      "answers": ["april", "june", "november", "september"]
+      "answers": ["clubs", "diamonds", "hearts", "spades"]
     },
     {
       "round": 6,
-      "questionId": "us_presidents:starts:r~first",
-      "datasetId": "us_presidents",
-      "prompt": "Name a US president whose first name starts with the letter R",
+      "questionId": "elements:tag:coinage-metal",
+      "datasetId": "elements",
+      "prompt": "Name one of the three classic coinage metals",
       "size": 3,
-      "answers": ["richard-nixon", "ronald-reagan", "rutherford-b-hayes"]
+      "answers": ["copper", "gold", "silver"]
     }
   ]
 }

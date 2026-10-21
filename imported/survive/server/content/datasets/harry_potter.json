@@ -1,6 +1,7 @@
 {
   "id": "harry_potter",
   "title": "Harry Potter",
+  "theme": "screen",
   "entities": [
     {"id": "book-harry-potter-and-the-philosopher-s-stone", "name": "Harry Potter and the Philosopher's Stone", "aliases": ["Philosopher's Stone", "Sorcerer's Stone", "Harry Potter and the Sorcerer's Stone"], "tags": ["book"]},
     {"id": "book-harry-potter-and-the-chamber-of-secrets", "name": "Harry Potter and the Chamber of Secrets", "aliases": ["Chamber of Secrets"], "tags": ["book"]},

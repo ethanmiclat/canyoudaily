@@ -1,6 +1,7 @@
 {
   "id": "pixar",
   "title": "Pixar films",
+  "theme": "screen",
   "entities": [
     {"id": "toy-story", "name": "Toy Story", "tags": ["original"], "props": {"year": 1995}},
     {"id": "a-bug-s-life", "name": "A Bug's Life", "aliases": ["Bugs Life"], "tags": ["original"], "props": {"year": 1998}},

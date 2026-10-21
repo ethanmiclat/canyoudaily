@@ -1,56 +1,56 @@
 {
   "date": "2026-11-17",
   "approved": false,
-  "activity": "poison-cups",
-  "winRate": 0.6277,
+  "activity": "scratch-cards",
+  "winRate": 0.6093,
   "rounds": [
     {
       "round": 1,
-      "questionId": "bible_books:lacks:g~base",
-      "datasetId": "bible_books",
-      "prompt": "Name a book of the Bible with no letter G in its name (ignore any number in front)",
-      "size": 59,
-      "answers": ["1-chronicles", "1-corinthians", "1-john", "1-peter", "1-samuel", "1-thessalonians", "1-timothy", "2-chronicles", "2-corinthians", "2-john", "2-peter", "2-samuel", "2-thessalonians", "2-timothy", "3-john", "acts", "amos", "colossians", "daniel", "deuteronomy", "ecclesiastes", "ephesians", "esther", "exodus", "ezekiel", "ezra", "habakkuk", "hebrews", "hosea", "isaiah", "james", "jeremiah", "job", "joel", "john", "jonah", "joshua", "jude", "lamentations", "leviticus", "luke", "malachi", "mark", "matthew", "micah", "nahum", "nehemiah", "numbers", "obadiah", "philemon", "philippians", "proverbs", "psalms", "revelation", "romans", "ruth", "titus", "zechariah", "zephaniah"]
+      "questionId": "best_picture:contains:n",
+      "datasetId": "best_picture",
+      "prompt": "Name a Best Picture winner with the letter N in its title",
+      "size": 62,
+      "answers": ["a-beautiful-mind", "a-man-for-all-seasons", "all-quiet-on-the-western-front", "all-the-king-s-men", "american-beauty", "an-american-in-paris", "annie-hall", "anora", "around-the-world-in-80-days", "ben-hur", "birdman", "casablanca", "cimarron", "dances-with-wolves", "driving-miss-daisy", "everything-everywhere-all-at-once", "from-here-to-eternity", "gandhi", "gentleman-s-agreement", "going-my-way", "gone-with-the-wind", "grand-hotel", "green-book", "how-green-was-my-valley", "in-the-heat-of-the-night", "it-happened-one-night", "lawrence-of-arabia", "midnight-cowboy", "million-dollar-baby", "moonlight", "mrs-miniver", "mutiny-on-the-bounty", "no-country-for-old-men", "nomadland", "on-the-waterfront", "one-flew-over-the-cuckoo-s-nest", "oppenheimer", "ordinary-people", "patton", "platoon", "rain-man", "schindler-s-list", "shakespeare-in-love", "slumdog-millionaire", "terms-of-endearment", "the-apartment", "the-bridge-on-the-river-kwai", "the-deer-hunter", "the-english-patient", "the-french-connection", "the-greatest-show-on-earth", "the-king-s-speech", "the-lord-of-the-rings-the-return-of-the-king", "the-lost-weekend", "the-silence-of-the-lambs", "the-sound-of-music", "the-sting", "titanic", "tom-jones", "unforgiven", "wings", "you-can-t-take-it-with-you"]
     },
     {
       "round": 2,
-      "questionId": "olympics:tag:winter",
-      "datasetId": "olympics",
-      "prompt": "Name a city that has hosted the Winter Olympics (through 2026, co-hosts count)",
-      "size": 22,
-      "answers": ["albertville", "beijing", "calgary", "chamonix", "cortina-d-ampezzo", "garmisch-partenkirchen", "grenoble", "innsbruck", "lake-placid", "lillehammer", "milan", "nagano", "oslo", "pyeongchang", "salt-lake-city", "sapporo", "sarajevo", "sochi", "squaw-valley", "st-moritz", "turin", "vancouver"]
+      "questionId": "si_units:range:exp:-12-12",
+      "datasetId": "si_units",
+      "prompt": "Name an SI prefix from pico- (10^-12) to tera- (10^12)",
+      "size": 12,
+      "answers": ["prefix-centi", "prefix-deca", "prefix-deci", "prefix-giga", "prefix-hecto", "prefix-kilo", "prefix-mega", "prefix-micro", "prefix-milli", "prefix-nano", "prefix-pico", "prefix-tera"]
     },
     {
       "round": 3,
-      "questionId": "us_states:range:admitted:1890-1959",
-      "datasetId": "us_states",
-      "prompt": "Name a US state admitted in 1890 or later",
-      "size": 8,
-      "answers": ["alaska", "arizona", "hawaii", "idaho", "new-mexico", "oklahoma", "utah", "wyoming"]
+      "questionId": "us_presidents:tag:born-ohio",
+      "datasetId": "us_presidents",
+      "prompt": "Name a US president born in Ohio",
+      "size": 7,
+      "answers": ["benjamin-harrison", "james-a-garfield", "rutherford-b-hayes", "ulysses-s-grant", "warren-g-harding", "william-howard-taft", "william-mckinley"]
     },
     {
       "round": 4,
-      "questionId": "us_presidents:range:start:1789-1817",
-      "datasetId": "us_presidents",
-      "prompt": "Name one of the first five US presidents",
+      "questionId": "food:tag:taste",
+      "datasetId": "food",
+      "prompt": "Name one of the five basic tastes",
       "size": 5,
-      "answers": ["george-washington", "james-madison", "james-monroe", "john-adams", "thomas-jefferson"]
+      "answers": ["bitter", "salty", "sour", "sweet", "umami"]
     },
     {
       "round": 5,
-      "questionId": "nfl:tag:div:nfc-north",
-      "datasetId": "nfl",
-      "prompt": "Name a team in the NFC North",
+      "questionId": "body:tag:heart-chamber",
+      "datasetId": "body",
+      "prompt": "Name one of the four chambers of the human heart",
       "size": 4,
-      "answers": ["chicago-bears", "detroit-lions", "green-bay-packers", "minnesota-vikings"]
+      "answers": ["left-atrium", "left-ventricle", "right-atrium", "right-ventricle"]
     },
     {
       "round": 6,
-      "questionId": "tarot:contains:w",
-      "datasetId": "tarot",
-      "prompt": "Name a Major Arcana card with the letter W in its name",
+      "questionId": "zodiac:lacks:i@western",
+      "datasetId": "zodiac",
+      "prompt": "Name a Western zodiac sign with no letter I in it",
       "size": 3,
-      "answers": ["the-tower", "the-world", "wheel-of-fortune"]
+      "answers": ["cancer", "leo", "taurus"]
     }
   ]
 }

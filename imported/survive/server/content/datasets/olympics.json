@@ -1,6 +1,7 @@
 {
   "id": "olympics",
   "title": "Olympic host cities",
+  "theme": "sports",
   "entities": [
     {"id": "athens", "name": "Athens", "tags": ["continent:europe", "summer", "summer-repeat"], "props": {"first": 1896}},
     {"id": "paris", "name": "Paris", "tags": ["continent:europe", "summer", "summer-repeat"], "props": {"first": 1900}},

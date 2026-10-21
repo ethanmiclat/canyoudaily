@@ -1,0 +1,30 @@
+{
+  "id": "music",
+  "title": "Music",
+  "theme": "arts",
+  "entities": [
+    {"id": "do", "name": "Do", "alt": ["Doh"], "aliases": ["Ut"], "tags": ["solfege"]},
+    {"id": "re", "name": "Re", "alt": ["Ray"], "tags": ["solfege"]},
+    {"id": "mi", "name": "Mi", "alt": ["Me"], "tags": ["solfege"]},
+    {"id": "fa", "name": "Fa", "alt": ["Fah"], "tags": ["solfege"]},
+    {"id": "sol", "name": "Sol", "alt": ["So", "Soh"], "tags": ["solfege"]},
+    {"id": "la", "name": "La", "alt": ["Lah"], "tags": ["solfege"]},
+    {"id": "ti", "name": "Ti", "alt": ["Si", "Te"], "tags": ["solfege"]},
+    {"id": "soprano", "name": "Soprano", "tags": ["satb"]},
+    {"id": "alto", "name": "Alto", "tags": ["satb"]},
+    {"id": "tenor", "name": "Tenor", "tags": ["satb"]},
+    {"id": "bass-voice", "name": "Bass", "tags": ["satb"]},
+    {"id": "violin", "name": "Violin", "aliases": ["Fiddle"], "tags": ["bowed-string"]},
+    {"id": "viola", "name": "Viola", "tags": ["bowed-string"]},
+    {"id": "cello", "name": "Cello", "alt": ["Violoncello"], "tags": ["bowed-string"]},
+    {"id": "double-bass", "name": "Double Bass", "alt": ["Contrabass", "Upright Bass", "String Bass"], "tags": ["bowed-string"]},
+    {"id": "trumpet", "name": "Trumpet", "tags": ["orchestral-brass"]},
+    {"id": "trombone", "name": "Trombone", "tags": ["orchestral-brass"]},
+    {"id": "french-horn", "name": "French Horn", "aliases": ["Horn"], "tags": ["orchestral-brass"]},
+    {"id": "tuba", "name": "Tuba", "tags": ["orchestral-brass"]},
+    {"id": "strings", "name": "Strings", "alt": ["String Section", "String"], "tags": ["section"]},
+    {"id": "woodwinds", "name": "Woodwinds", "alt": ["Woodwind", "Woodwind Section"], "tags": ["section"]},
+    {"id": "brass", "name": "Brass", "alt": ["Brass Section"], "tags": ["section"]},
+    {"id": "percussion", "name": "Percussion", "alt": ["Percussion Section"], "tags": ["section"]}
+  ]
+}

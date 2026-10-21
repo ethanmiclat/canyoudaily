@@ -2,55 +2,55 @@
   "date": "2026-12-04",
   "approved": false,
   "activity": "bomb-wires",
-  "winRate": 0.6163,
+  "winRate": 0.6294,
   "rounds": [
     {
       "round": 1,
-      "questionId": "pokemon_gen2:lacks:y",
-      "datasetId": "pokemon_gen2",
-      "prompt": "Name a Johto Pokémon (#152 to #251) with no letter Y in its name",
-      "size": 85,
-      "answers": ["aipom", "ampharos", "ariados", "azumarill", "bellossom", "celebi", "chikorita", "chinchou", "cleffa", "corsola", "crobat", "croconaw", "delibird", "donphan", "dunsparce", "elekid", "entei", "espeon", "feraligatr", "forretress", "furret", "girafarig", "gligar", "granbull", "heracross", "hitmontop", "ho-oh", "hoothoot", "hoppip", "houndoom", "houndour", "jumpluff", "kingdra", "lanturn", "larvitar", "ledian", "lugia", "magcargo", "mantine", "mareep", "marill", "meganium", "miltank", "misdreavus", "murkrow", "natu", "noctowl", "pichu", "piloswine", "pineco", "politoed", "pupitar", "quagsire", "quilava", "qwilfish", "raikou", "remoraid", "scizor", "sentret", "shuckle", "skiploom", "slowking", "slugma", "smeargle", "smoochum", "sneasel", "snubbull", "spinarak", "stantler", "steelix", "sudowoodo", "suicune", "sunflora", "sunkern", "swinub", "teddiursa", "togepi", "togetic", "totodile", "umbreon", "unown", "ursaring", "wobbuffet", "wooper", "xatu"]
+      "questionId": "numbers:range:n:1-250@even",
+      "datasetId": "numbers",
+      "prompt": "Name an even number from 1 to 250",
+      "size": 125,
+      "answers": ["n10", "n100", "n102", "n104", "n106", "n108", "n110", "n112", "n114", "n116", "n118", "n12", "n120", "n122", "n124", "n126", "n128", "n130", "n132", "n134", "n136", "n138", "n14", "n140", "n142", "n144", "n146", "n148", "n150", "n152", "n154", "n156", "n158", "n16", "n160", "n162", "n164", "n166", "n168", "n170", "n172", "n174", "n176", "n178", "n18", "n180", "n182", "n184", "n186", "n188", "n190", "n192", "n194", "n196", "n198", "n2", "n20", "n200", "n202", "n204", "n206", "n208", "n210", "n212", "n214", "n216", "n218", "n22", "n220", "n222", "n224", "n226", "n228", "n230", "n232", "n234", "n236", "n238", "n24", "n240", "n242", "n244", "n246", "n248", "n250", "n26", "n28", "n30", "n32", "n34", "n36", "n38", "n4", "n40", "n42", "n44", "n46", "n48", "n50", "n52", "n54", "n56", "n58", "n6", "n60", "n62", "n64", "n66", "n68", "n70", "n72", "n74", "n76", "n78", "n8", "n80", "n82", "n84", "n86", "n88", "n90", "n92", "n94", "n96", "n98"]
     },
     {
       "round": 2,
-      "questionId": "shakespeare:contains:m",
-      "datasetId": "shakespeare",
-      "prompt": "Name a Shakespeare play with the letter M in its title",
-      "size": 15,
-      "answers": ["a-midsummer-night-s-dream", "cymbeline", "hamlet", "macbeth", "measure-for-measure", "much-ado-about-nothing", "romeo-and-juliet", "the-comedy-of-errors", "the-merchant-of-venice", "the-merry-wives-of-windsor", "the-taming-of-the-shrew", "the-tempest", "the-two-gentlemen-of-verona", "the-two-noble-kinsmen", "timon-of-athens"]
+      "questionId": "constellations:tag:zodiac",
+      "datasetId": "constellations",
+      "prompt": "Name a constellation of the zodiac (the traditional 12)",
+      "size": 12,
+      "answers": ["aquarius", "aries", "cancer", "capricornus", "gemini", "leo", "libra", "pisces", "sagittarius", "scorpius", "taurus", "virgo"]
     },
     {
       "round": 3,
-      "questionId": "greek_alphabet:contains:e",
-      "datasetId": "greek_alphabet",
-      "prompt": "Name a Greek letter with the letter E in its name",
-      "size": 7,
-      "answers": ["beta", "delta", "epsilon", "eta", "omega", "theta", "zeta"]
+      "questionId": "india_states:tag:ut",
+      "datasetId": "india_states",
+      "prompt": "Name one of India's eight union territories",
+      "size": 8,
+      "answers": ["andaman-and-nicobar-islands", "chandigarh", "dadra-and-nagar-haveli-and-daman-and-diu", "delhi", "jammu-and-kashmir", "ladakh", "lakshadweep", "puducherry"]
     },
     {
       "round": 4,
-      "questionId": "tarot:contains:l",
-      "datasetId": "tarot",
-      "prompt": "Name a Major Arcana card with the letter L in its name",
-      "size": 5,
-      "answers": ["the-devil", "the-fool", "the-lovers", "the-world", "wheel-of-fortune"]
+      "questionId": "zodiac:any:element:earth+element:air",
+      "datasetId": "zodiac",
+      "prompt": "Name an earth or air sign of the Western zodiac",
+      "size": 6,
+      "answers": ["aquarius", "capricorn", "gemini", "libra", "taurus", "virgo"]
     },
     {
       "round": 5,
-      "questionId": "countries:tag:guinea",
-      "datasetId": "countries",
-      "prompt": "Name a country with \"Guinea\" in its name",
+      "questionId": "greek_alphabet:contains:s",
+      "datasetId": "greek_alphabet",
+      "prompt": "Name a Greek letter with the letter S in its name",
       "size": 4,
-      "answers": ["equatorial-guinea", "guinea", "guinea-bissau", "papua-new-guinea"]
+      "answers": ["epsilon", "psi", "sigma", "upsilon"]
     },
     {
       "round": 6,
-      "questionId": "calendar:contains:n@day",
-      "datasetId": "calendar",
-      "prompt": "Name a day of the week with the letter N in its name",
+      "questionId": "us_states:len:12",
+      "datasetId": "us_states",
+      "prompt": "Name a US state with exactly 12 letters in its name (spaces don't count)",
       "size": 3,
-      "answers": ["monday", "sunday", "wednesday"]
+      "answers": ["new-hampshire", "pennsylvania", "west-virginia"]
     }
   ]
 }

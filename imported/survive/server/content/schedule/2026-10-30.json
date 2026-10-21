@@ -1,56 +1,56 @@
 {
   "date": "2026-10-30",
   "approved": false,
-  "activity": "glass-bridge",
-  "winRate": 0.6091,
+  "activity": "five-keys",
+  "winRate": 0.6195,
   "rounds": [
     {
       "round": 1,
-      "questionId": "constellations:lacks:l",
-      "datasetId": "constellations",
-      "prompt": "Name a constellation with no letter L in its name",
-      "size": 60,
-      "answers": ["andromeda", "apus", "aquarius", "ara", "aries", "auriga", "bootes", "cancer", "canes-venatici", "canis-major", "canis-minor", "capricornus", "carina", "cassiopeia", "centaurus", "cepheus", "cetus", "circinus", "coma-berenices", "corvus", "crater", "crux", "cygnus", "dorado", "draco", "eridanus", "fornax", "gemini", "grus", "hydra", "hydrus", "indus", "mensa", "microscopium", "monoceros", "musca", "norma", "octans", "ophiuchus", "orion", "pavo", "pegasus", "perseus", "phoenix", "pictor", "pisces", "piscis-austrinus", "puppis", "pyxis", "sagitta", "sagittarius", "scorpius", "scutum", "serpens", "sextans", "taurus", "tucana", "ursa-major", "ursa-minor", "virgo"]
+      "questionId": "pokemon_gen1:range:dex:1-100",
+      "datasetId": "pokemon_gen1",
+      "prompt": "Name a Pokémon numbered 1 to 100 in the National Pokédex",
+      "size": 100,
+      "answers": ["abra", "alakazam", "arbok", "arcanine", "beedrill", "bellsprout", "blastoise", "bulbasaur", "butterfree", "caterpie", "charizard", "charmander", "charmeleon", "clefable", "clefairy", "cloyster", "dewgong", "diglett", "dodrio", "doduo", "drowzee", "dugtrio", "ekans", "farfetch-d", "fearow", "gastly", "gengar", "geodude", "gloom", "golbat", "golduck", "golem", "graveler", "grimer", "growlithe", "haunter", "hypno", "ivysaur", "jigglypuff", "kadabra", "kakuna", "kingler", "krabby", "machamp", "machoke", "machop", "magnemite", "magneton", "mankey", "meowth", "metapod", "muk", "nidoking", "nidoqueen", "nidoran-f", "nidoran-m", "nidorina", "nidorino", "ninetales", "oddish", "onix", "paras", "parasect", "persian", "pidgeot", "pidgeotto", "pidgey", "pikachu", "poliwag", "poliwhirl", "poliwrath", "ponyta", "primeape", "psyduck", "raichu", "rapidash", "raticate", "rattata", "sandshrew", "sandslash", "seel", "shellder", "slowbro", "slowpoke", "spearow", "squirtle", "tentacool", "tentacruel", "venomoth", "venonat", "venusaur", "victreebel", "vileplume", "voltorb", "vulpix", "wartortle", "weedle", "weepinbell", "wigglytuff", "zubat"]
     },
     {
       "round": 2,
-      "questionId": "olympics:tag:summer+continent:europe",
-      "datasetId": "olympics",
-      "prompt": "Name a European city that has hosted the Summer Olympics (through 2024)",
-      "size": 12,
-      "answers": ["amsterdam", "antwerp", "athens", "barcelona", "berlin", "helsinki", "london", "moscow", "munich", "paris", "rome", "stockholm"]
+      "questionId": "cards:tag:rank",
+      "datasetId": "cards",
+      "prompt": "Name a card rank in a standard deck (Ace through King)",
+      "size": 13,
+      "answers": ["ace", "eight", "five", "four", "jack", "king", "nine", "queen", "seven", "six", "ten", "three", "two"]
     },
     {
       "round": 3,
-      "questionId": "greek_alphabet:tag:vowel",
-      "datasetId": "greek_alphabet",
-      "prompt": "Name a Greek vowel letter",
-      "size": 7,
-      "answers": ["alpha", "epsilon", "eta", "iota", "omega", "omicron", "upsilon"]
+      "questionId": "calendar:contains:r@month",
+      "datasetId": "calendar",
+      "prompt": "Name a month with the letter R in its name",
+      "size": 8,
+      "answers": ["april", "december", "february", "january", "march", "november", "october", "september"]
     },
     {
       "round": 4,
-      "questionId": "calendar:contains:b@month",
-      "datasetId": "calendar",
-      "prompt": "Name a month with the letter B in its name",
+      "questionId": "animals:tag:big-five",
+      "datasetId": "animals",
+      "prompt": "Name one of Africa's \"Big Five\" game animals",
       "size": 5,
-      "answers": ["december", "february", "november", "october", "september"]
+      "answers": ["african-elephant", "cape-buffalo", "leopard", "lion", "rhinoceros"]
     },
     {
       "round": 5,
-      "questionId": "board_games:tag:monopoly-railroad",
-      "datasetId": "board_games",
-      "prompt": "Name a railroad in classic US Monopoly",
+      "questionId": "amino_acids:starts:a",
+      "datasetId": "amino_acids",
+      "prompt": "Name a standard amino acid that starts with the letter A",
       "size": 4,
-      "answers": ["monopoly-b-and-o-railroad", "monopoly-pennsylvania-railroad", "monopoly-reading-railroad", "monopoly-short-line"]
+      "answers": ["alanine", "arginine", "asparagine", "aspartic-acid"]
     },
     {
       "round": 6,
-      "questionId": "pokemon_gen2:tag:type:fighting",
-      "datasetId": "pokemon_gen2",
-      "prompt": "Name a Fighting-type Johto Pokémon (#152 to #251, current typings)",
+      "questionId": "us_states:tag:borders-california",
+      "datasetId": "us_states",
+      "prompt": "Name a state that borders California",
       "size": 3,
-      "answers": ["heracross", "hitmontop", "tyrogue"]
+      "answers": ["arizona", "nevada", "oregon"]
     }
   ]
 }

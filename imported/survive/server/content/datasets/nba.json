@@ -1,6 +1,7 @@
 {
   "id": "nba",
   "title": "NBA teams",
+  "theme": "sports",
   "entities": [
     {"id": "boston-celtics", "name": "Boston Celtics", "aliases": ["Celtics", "Boston"], "tags": ["conf:east", "div:atlantic"]},
     {"id": "brooklyn-nets", "name": "Brooklyn Nets", "aliases": ["Nets", "Brooklyn", "Brooklyn"], "tags": ["conf:east", "div:atlantic"]},

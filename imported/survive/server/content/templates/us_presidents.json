@@ -89,6 +89,48 @@
       "prompt": {
         "starts": "Name a US president whose first name starts with the letter {L}"
       }
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "born-virginia"
+      ],
+      "prompt": "Name a US president born in Virginia"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "born-ohio"
+      ],
+      "prompt": "Name a US president born in Ohio"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "died-in-office"
+      ],
+      "prompt": "Name a US president who died in office"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "assassinated"
+      ],
+      "prompt": "Name a US president who was assassinated"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "impeached"
+      ],
+      "prompt": "Name a US president who was impeached by the House"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "rushmore"
+      ],
+      "prompt": "Name a president carved into Mount Rushmore"
     }
   ]
 }

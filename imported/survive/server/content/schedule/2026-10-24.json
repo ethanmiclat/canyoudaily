@@ -1,56 +1,56 @@
 {
   "date": "2026-10-24",
   "approved": false,
-  "activity": "poison-cups",
-  "winRate": 0.6384,
+  "activity": "scratch-cards",
+  "winRate": 0.6282,
   "rounds": [
     {
       "round": 1,
-      "questionId": "pokemon_gen1:contains:t",
-      "datasetId": "pokemon_gen1",
-      "prompt": "Name an original-151 Pokémon with the letter T in its name",
-      "size": 58,
-      "answers": ["aerodactyl", "articuno", "bellsprout", "blastoise", "butterfree", "caterpie", "cloyster", "diglett", "ditto", "dragonite", "dratini", "dugtrio", "electabuzz", "electrode", "exeggcute", "exeggutor", "farfetch-d", "gastly", "golbat", "growlithe", "haunter", "hitmonchan", "hitmonlee", "jolteon", "kabuto", "kabutops", "lickitung", "magnemite", "magneton", "meowth", "metapod", "mewtwo", "moltres", "ninetales", "omanyte", "omastar", "parasect", "pidgeot", "pidgeotto", "poliwrath", "ponyta", "raticate", "rattata", "scyther", "squirtle", "starmie", "staryu", "tangela", "tauros", "tentacool", "tentacruel", "venomoth", "venonat", "victreebel", "voltorb", "wartortle", "wigglytuff", "zubat"]
+      "questionId": "world_capitals:lacks:e",
+      "datasetId": "world_capitals",
+      "prompt": "Name a national capital with no letter E in its name",
+      "size": 124,
+      "answers": ["abu-dhabi", "abuja", "accra", "addis-ababa", "amman", "ankara", "antananarivo", "apia", "ashgabat", "asmara", "astana", "asuncion", "baghdad", "baku", "bamako", "bangkok", "bangui", "banjul", "bissau", "bogota", "brasilia", "bratislava", "cairo", "caracas", "chisinau", "conakry", "dakar", "damascus", "dhaka", "dili", "djibouti", "dodoma", "doha", "dublin", "funafuti", "hanoi", "havana", "honiara", "islamabad", "jakarta", "juba", "kabul", "kampala", "kathmandu", "khartoum", "kigali", "kingston", "kingstown", "kinshasa", "kuala-lumpur", "kuwait-city", "kyiv", "la-paz", "lima", "lisbon", "ljubljana", "lobamba", "london", "luanda", "lusaka", "madrid", "majuro", "malabo", "managua", "manama", "manila", "maputo", "minsk", "mogadishu", "monaco", "monrovia", "moroni", "moscow", "muscat", "nairobi", "nassau", "naypyidaw", "nicosia", "nouakchott", "nuku-alofa", "oslo", "ottawa", "ouagadougou", "palikir", "panama-city", "paramaribo", "paris", "podgorica", "port-louis", "port-of-spain", "port-vila", "porto-novo", "praia", "pyongyang", "quito", "rabat", "ramallah", "riga", "riyadh", "san-marino", "san-salvador", "sanaa", "santiago", "santo-domingo", "sofia", "south-tarawa", "st-john-s", "stockholm", "suva", "tallinn", "tbilisi", "thimphu", "tirana", "tokyo", "tripoli", "tunis", "ulaanbaatar", "vaduz", "vatican-city", "victoria", "vilnius", "warsaw", "washington-d-c", "yamoussoukro"]
     },
     {
       "round": 2,
-      "questionId": "mexico_states:lacks:h",
-      "datasetId": "mexico_states",
-      "prompt": "Name a Mexican state (or Mexico City) with no letter H in its name",
-      "size": 26,
-      "answers": ["aguascalientes", "baja-california", "baja-california-sur", "colima", "durango", "guanajuato", "guerrero", "jalisco", "mexico-city", "morelos", "nayarit", "nuevo-leon", "oaxaca", "puebla", "queretaro", "quintana-roo", "san-luis-potosi", "sinaloa", "sonora", "state-of-mexico", "tabasco", "tamaulipas", "tlaxcala", "veracruz", "yucatan", "zacatecas"]
+      "questionId": "world_cup:tag:mh",
+      "datasetId": "world_cup",
+      "prompt": "Name a country that has hosted (or co-hosted) the men's FIFA World Cup, through 2026",
+      "size": 19,
+      "answers": ["argentina", "brazil", "canada", "chile", "england", "france", "germany", "italy", "japan", "mexico", "qatar", "russia", "south-africa", "south-korea", "spain", "sweden", "switzerland", "united-states", "uruguay"]
     },
     {
       "round": 3,
-      "questionId": "canada:tag:province",
-      "datasetId": "canada",
-      "prompt": "Name a Canadian province (not a territory)",
-      "size": 10,
-      "answers": ["alberta", "british-columbia", "manitoba", "new-brunswick", "newfoundland-and-labrador", "nova-scotia", "ontario", "prince-edward-island", "quebec", "saskatchewan"]
+      "questionId": "animals:tag:bear",
+      "datasetId": "animals",
+      "prompt": "Name one of the eight living species of bear",
+      "size": 8,
+      "answers": ["american-black-bear", "asiatic-black-bear", "brown-bear", "giant-panda", "polar-bear", "sloth-bear", "spectacled-bear", "sun-bear"]
     },
     {
       "round": 4,
-      "questionId": "olympics:tag:summer-repeat",
-      "datasetId": "olympics",
-      "prompt": "Name a city that has hosted the Summer Olympics more than once (through 2024)",
+      "questionId": "alphabet:tag:vowel",
+      "datasetId": "alphabet",
+      "prompt": "Name a vowel (A, E, I, O or U)",
       "size": 5,
-      "answers": ["athens", "london", "los-angeles", "paris", "tokyo"]
+      "answers": ["letter-a", "letter-e", "letter-i", "letter-o", "letter-u"]
     },
     {
       "round": 5,
-      "questionId": "india_states:contains:j@state",
-      "datasetId": "india_states",
-      "prompt": "Name an Indian state with the letter J in its name",
+      "questionId": "greek_myth:contains:p@olympian",
+      "datasetId": "greek_myth",
+      "prompt": "Name an Olympian god with the letter P in their Greek name",
       "size": 4,
-      "answers": ["gujarat", "jharkhand", "punjab", "rajasthan"]
+      "answers": ["olympian-aphrodite", "olympian-apollo", "olympian-hephaestus", "olympian-poseidon"]
     },
     {
       "round": 6,
-      "questionId": "space:lacks:e@planet",
-      "datasetId": "space",
-      "prompt": "Name a planet with no letter E in its name",
+      "questionId": "mexico_states:tag:yucatan-peninsula",
+      "datasetId": "mexico_states",
+      "prompt": "Name one of the three Mexican states on the Yucatán Peninsula",
       "size": 3,
-      "answers": ["mars", "saturn", "uranus"]
+      "answers": ["campeche", "quintana-roo", "yucatan"]
     }
   ]
 }

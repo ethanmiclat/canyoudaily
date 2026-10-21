@@ -1,6 +1,7 @@
 {
   "id": "bible_books",
   "title": "Books of the Bible",
+  "theme": "lore",
   "entities": [
     {"id": "genesis", "name": "Genesis", "tags": ["ot", "pent"], "props": {"base": "Genesis"}},
     {"id": "exodus", "name": "Exodus", "tags": ["ot", "pent"], "props": {"base": "Exodus"}},

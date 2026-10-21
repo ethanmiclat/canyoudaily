@@ -16,6 +16,20 @@
         "contains": "Name a German state with the letter {L} in its English name",
         "lacks": "Name a German state with no letter {L} in its English name"
       }
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "borders-france"
+      ],
+      "prompt": "Name a German state that borders France"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "former-east"
+      ],
+      "prompt": "Name one of the five German states created from former East Germany (not Berlin)"
     }
   ]
 }

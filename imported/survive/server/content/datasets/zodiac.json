@@ -1,6 +1,7 @@
 {
   "id": "zodiac",
   "title": "Zodiac signs",
+  "theme": "lore",
   "entities": [
     {"id": "aries", "name": "Aries", "tags": ["western", "element:fire"]},
     {"id": "taurus", "name": "Taurus", "tags": ["western", "element:earth"]},

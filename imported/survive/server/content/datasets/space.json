@@ -1,6 +1,7 @@
 {
   "id": "space",
   "title": "Solar system",
+  "theme": "science",
   "entities": [
     {"id": "mercury", "name": "Mercury", "tags": ["planet", "rocky"]},
     {"id": "venus", "name": "Venus", "tags": ["planet", "rocky"]},

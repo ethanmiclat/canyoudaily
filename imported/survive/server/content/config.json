@@ -40,7 +40,15 @@
     0.65
   ],
   "datasetCooldownDays": 5,
-  "questionCooldownDays": 90,
+  "questionCooldownDays": 60,
+  "variety": {
+    "maxWordplayPerDay": 2,
+    "defaultThemeCap": 2,
+    "themeCaps": {
+      "sports": 1,
+      "pokemon": 1
+    }
+  },
   "aheadDays": 14,
   "typedRoundSeconds": 30,
   "generatorSeed": "cys-v1"

@@ -1,56 +1,56 @@
 {
   "date": "2026-11-22",
   "approved": false,
-  "activity": "elevator",
-  "winRate": 0.6258,
+  "activity": "bomb-wires",
+  "winRate": 0.6302,
   "rounds": [
     {
       "round": 1,
-      "questionId": "elements:lacks:b",
-      "datasetId": "elements",
-      "prompt": "Name an element with no letter B in its name",
-      "size": 100,
-      "answers": ["actinium", "aluminium", "americium", "antimony", "argon", "arsenic", "astatine", "cadmium", "caesium", "calcium", "californium", "cerium", "chlorine", "chromium", "copernicium", "copper", "curium", "darmstadtium", "dysprosium", "einsteinium", "europium", "fermium", "flerovium", "fluorine", "francium", "gadolinium", "gallium", "germanium", "gold", "hafnium", "hassium", "helium", "holmium", "hydrogen", "indium", "iodine", "iridium", "iron", "krypton", "lanthanum", "lawrencium", "lead", "lithium", "livermorium", "lutetium", "magnesium", "manganese", "meitnerium", "mendelevium", "mercury", "moscovium", "neodymium", "neon", "neptunium", "nickel", "nihonium", "nitrogen", "oganesson", "osmium", "oxygen", "palladium", "phosphorus", "platinum", "plutonium", "polonium", "potassium", "praseodymium", "promethium", "protactinium", "radium", "radon", "rhenium", "rhodium", "roentgenium", "ruthenium", "rutherfordium", "samarium", "scandium", "selenium", "silicon", "silver", "sodium", "strontium", "sulfur", "tantalum", "technetium", "tellurium", "tennessine", "thallium", "thorium", "thulium", "tin", "titanium", "tungsten", "uranium", "vanadium", "xenon", "yttrium", "zinc", "zirconium"]
+      "questionId": "world_capitals:not:continent:africa",
+      "datasetId": "world_capitals",
+      "prompt": "Name a national capital outside Africa",
+      "size": 142,
+      "answers": ["abu-dhabi", "amman", "amsterdam", "andorra-la-vella", "ankara", "apia", "ashgabat", "astana", "asuncion", "athens", "baghdad", "baku", "bandar-seri-begawan", "bangkok", "basseterre", "beijing", "beirut", "belgrade", "belmopan", "berlin", "bern", "bishkek", "bogota", "brasilia", "bratislava", "bridgetown", "brussels", "bucharest", "budapest", "buenos-aires", "canberra", "caracas", "castries", "chisinau", "copenhagen", "damascus", "dhaka", "dili", "doha", "dublin", "dushanbe", "funafuti", "georgetown", "guatemala-city", "hanoi", "havana", "helsinki", "honiara", "islamabad", "jakarta", "jerusalem", "kabul", "kathmandu", "kingston", "kingstown", "kuala-lumpur", "kuwait-city", "kyiv", "la-paz", "lima", "lisbon", "ljubljana", "london", "luxembourg-city", "madrid", "majuro", "male", "managua", "manama", "manila", "mexico-city", "minsk", "monaco", "montevideo", "moscow", "muscat", "nassau", "naypyidaw", "new-delhi", "ngerulmud", "nicosia", "nuku-alofa", "oslo", "ottawa", "palikir", "panama-city", "paramaribo", "paris", "phnom-penh", "podgorica", "port-au-prince", "port-moresby", "port-of-spain", "port-vila", "prague", "pyongyang", "quito", "ramallah", "reykjavik", "riga", "riyadh", "rome", "roseau", "san-jose", "san-marino", "san-salvador", "sanaa", "santiago", "santo-domingo", "sarajevo", "seoul", "singapore", "skopje", "sofia", "south-tarawa", "sri-jayawardenepura-kotte", "st-george-s", "st-john-s", "stockholm", "sucre", "suva", "tallinn", "tashkent", "tbilisi", "tegucigalpa", "tehran", "thimphu", "tirana", "tokyo", "ulaanbaatar", "vaduz", "valletta", "vatican-city", "vienna", "vientiane", "vilnius", "warsaw", "washington-d-c", "wellington", "yaren", "yerevan", "zagreb"]
     },
     {
       "round": 2,
-      "questionId": "tarot:contains:t",
-      "datasetId": "tarot",
-      "prompt": "Name a Major Arcana card with the letter T in its name",
-      "size": 12,
-      "answers": ["death", "judgement", "justice", "strength", "temperance", "the-chariot", "the-hermit", "the-hierophant", "the-high-priestess", "the-star", "the-tower", "wheel-of-fortune"]
+      "questionId": "alphabet:tag:consonant",
+      "datasetId": "alphabet",
+      "prompt": "Name a consonant (anything but A, E, I, O, U)",
+      "size": 21,
+      "answers": ["letter-b", "letter-c", "letter-d", "letter-f", "letter-g", "letter-h", "letter-j", "letter-k", "letter-l", "letter-m", "letter-n", "letter-p", "letter-q", "letter-r", "letter-s", "letter-t", "letter-v", "letter-w", "letter-x", "letter-y", "letter-z"]
     },
     {
       "round": 3,
-      "questionId": "pixar:contains:l",
-      "datasetId": "pixar",
-      "prompt": "Name a Pixar feature (before 2026) with the letter L in its title",
-      "size": 10,
-      "answers": ["a-bug-s-life", "elemental", "elio", "incredibles-2", "lightyear", "luca", "ratatouille", "soul", "the-incredibles", "wall-e"]
+      "questionId": "greek_myth:contains:s@olympian",
+      "datasetId": "greek_myth",
+      "prompt": "Name an Olympian god with the letter S in their Greek name",
+      "size": 8,
+      "answers": ["olympian-ares", "olympian-artemis", "olympian-dionysus", "olympian-hephaestus", "olympian-hermes", "olympian-hestia", "olympian-poseidon", "olympian-zeus"]
     },
     {
       "round": 4,
-      "questionId": "us_presidents:contains:f~surname",
-      "datasetId": "us_presidents",
-      "prompt": "Name a US president with the letter F in their last name",
+      "questionId": "food:tag:mother-sauce",
+      "datasetId": "food",
+      "prompt": "Name one of the five French \"mother sauces\"",
       "size": 5,
-      "answers": ["gerald-ford", "james-a-garfield", "millard-fillmore", "thomas-jefferson", "william-howard-taft"]
+      "answers": ["bechamel", "espagnole", "hollandaise", "sauce-tomate", "veloute"]
     },
     {
       "round": 5,
-      "questionId": "greek_alphabet:contains:n",
-      "datasetId": "greek_alphabet",
-      "prompt": "Name a Greek letter with the letter N in its name",
+      "questionId": "body:tag:lobe",
+      "datasetId": "body",
+      "prompt": "Name one of the four lobes of the brain's cerebral cortex",
       "size": 4,
-      "answers": ["epsilon", "nu", "omicron", "upsilon"]
+      "answers": ["frontal-lobe", "occipital-lobe", "parietal-lobe", "temporal-lobe"]
     },
     {
       "round": 6,
-      "questionId": "us_states:contains:p",
-      "datasetId": "us_states",
-      "prompt": "Name a US state with the letter P in its name",
+      "questionId": "zodiac:lacks:r@western",
+      "datasetId": "zodiac",
+      "prompt": "Name a Western zodiac sign with no letter R in it",
       "size": 3,
-      "answers": ["mississippi", "new-hampshire", "pennsylvania"]
+      "answers": ["gemini", "leo", "pisces"]
     }
   ]
 }

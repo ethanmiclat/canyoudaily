@@ -66,13 +66,25 @@ function tryGenerate({ date, config, catalog, activities, history }: GenerateInp
   // Round-1 sets are scarce, so lower rounds usually steer clear of datasets that can supply round 1.
   const reserved = new Set(pools[0].map((q) => q.dataset))
 
+  const { variety } = config
+  const themeCap = (theme: string) => variety.themeCaps[theme] ?? variety.defaultThemeCap
+
   for (let attempt = 0; attempt < MAX_ATTEMPTS; attempt++) {
     const chosen: CatalogQuestion[] = []
     const used = new Set<string>()
+    // Keep a day varied: few wordplay rounds, never the same wordplay shape twice, a cap per theme.
+    const shapes = new Set<string>()
+    const themes = new Map<string, number>()
     for (let i = 0; i < pools.length; i++) {
       const prev = chosen[chosen.length - 1]
       let cands = pools[i].filter(
-        (q) => !recentDatasets.has(q.dataset) && !used.has(q.dataset) && !recentQuestions.has(q.id) && (!prev || q.size < prev.size),
+        (q) =>
+          !recentDatasets.has(q.dataset) &&
+          !used.has(q.dataset) &&
+          !recentQuestions.has(q.id) &&
+          (!prev || q.size < prev.size) &&
+          (q.kind === 'curated' || (shapes.size < variety.maxWordplayPerDay && !shapes.has(q.shape))) &&
+          (themes.get(q.theme) ?? 0) < themeCap(q.theme),
       )
       if (!cands.length) break
       if (i > 0 && rng.below(4) !== 0) {
@@ -82,12 +94,20 @@ function tryGenerate({ date, config, catalog, activities, history }: GenerateInp
       const datasets = [...new Set(cands.map((q) => q.dataset))].sort()
       const ds = datasets[rng.below(datasets.length)]
       let qs = cands.filter((q) => q.dataset === ds)
-      // Hand-written filters read better than letter filters; favor them half the time.
+      // Hand-written filters read better than wordplay; favor them half the time. Otherwise pick a shape
+      // first, so 26 "contains" questions don't drown out the dataset's one "length" question.
       const curated = qs.filter((q) => q.kind === 'curated')
       if (curated.length && rng.below(2) === 0) qs = curated
+      else {
+        const kinds = [...new Set(qs.map((q) => q.shape))].sort()
+        const shape = kinds[rng.below(kinds.length)]
+        qs = qs.filter((q) => q.shape === shape)
+      }
       const q = qs[rng.below(qs.length)]
       chosen.push(q)
       used.add(ds)
+      if (q.kind !== 'curated') shapes.add(q.shape)
+      themes.set(q.theme, (themes.get(q.theme) ?? 0) + 1)
     }
     if (chosen.length !== pools.length) continue
     const wr = winRate(chosen.map((q) => q.size), config.activitySurvival, config.playerHits)

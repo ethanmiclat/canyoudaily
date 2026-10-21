@@ -1,6 +1,7 @@
 {
   "id": "india_states",
   "title": "Indian states and union territories",
+  "theme": "geography",
   "entities": [
     {"id": "andhra-pradesh", "name": "Andhra Pradesh", "tags": ["state", "pradesh"]},
     {"id": "arunachal-pradesh", "name": "Arunachal Pradesh", "tags": ["state", "pradesh"]},

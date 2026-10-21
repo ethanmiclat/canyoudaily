@@ -1,6 +1,7 @@
 {
   "id": "pokemon_gen2",
   "title": "Pok\u00e9mon (Johto, #152-251)",
+  "theme": "pokemon",
   "entities": [
     {"id": "chikorita", "name": "Chikorita", "tags": ["type:grass", "starter-line"], "props": {"dex": 152}},
     {"id": "bayleef", "name": "Bayleef", "tags": ["type:grass", "starter-line"], "props": {"dex": 153}},

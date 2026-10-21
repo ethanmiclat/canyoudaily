@@ -141,6 +141,50 @@
     {
       "type": "letters",
       "noun": "element"
+    },
+    {
+      "type": "letters",
+      "noun": "element",
+      "modes": [
+        "ends"
+      ]
+    },
+    {
+      "type": "length",
+      "noun": "element"
+    },
+    {
+      "type": "anyTag",
+      "tags": [
+        "period:1",
+        "period:2",
+        "period:3",
+        "period:4",
+        "period:5"
+      ],
+      "prompt": "Name an element in the first five rows (periods 1 to 5) of the periodic table"
+    },
+    {
+      "type": "anyTag",
+      "tags": [
+        "period:6",
+        "period:7"
+      ],
+      "prompt": "Name an element in period 6 or 7 of the periodic table (lanthanides and actinides included)"
+    },
+    {
+      "type": "notTag",
+      "tags": [
+        "transition-metal"
+      ],
+      "prompt": "Name a chemical element that is not a transition metal"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "coinage-metal"
+      ],
+      "prompt": "Name one of the three classic coinage metals"
     }
   ]
 }

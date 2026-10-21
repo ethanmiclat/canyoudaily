@@ -1,6 +1,7 @@
 {
   "id": "si_units",
   "title": "SI units and prefixes",
+  "theme": "science",
   "entities": [
     {"id": "unit-metre", "name": "Metre", "alt": ["Meter"], "tags": ["base-unit"]},
     {"id": "unit-kilogram", "name": "Kilogram", "tags": ["base-unit"]},

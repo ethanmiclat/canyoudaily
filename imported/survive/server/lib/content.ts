@@ -20,6 +20,14 @@ export interface Config {
   winRateGuard: [number, number]
   datasetCooldownDays: number
   questionCooldownDays: number
+  /** Per-day variety rules for the scheduler. */
+  variety: {
+    /** Wordplay (letter, length, word-count) rounds allowed in one day, each a different shape. */
+    maxWordplayPerDay: number
+    defaultThemeCap: number
+    /** Rounds allowed per dataset theme in one day, where it differs from the default. */
+    themeCaps: Record<string, number>
+  }
   aheadDays: number
   /** Time limit for each typed round, from the moment its question is shown. */
   typedRoundSeconds: number
@@ -29,7 +37,7 @@ export interface Config {
 export interface Entity {
   id: string
   name: string
-  /** Alternate full names. Used for matching and for letter filters. */
+  /** Alternate full names. Used for matching only: wordplay filters judge the displayed name. */
   alt?: string[]
   /** Short forms and abbreviations. Used for matching only. */
   aliases?: string[]
@@ -40,13 +48,19 @@ export interface Entity {
 export interface Dataset {
   id: string
   title: string
+  theme: string
   entities: Entity[]
 }
 
 export interface CatalogQuestion {
   id: string
   dataset: string
+  /** Hand-written filter, or wordplay on the name ('letters' covers letter, length and word-count questions). */
   kind: 'curated' | 'letters'
+  /** Dataset theme ("sports", "geography"), for the scheduler's per-day caps. */
+  theme: string
+  /** 'curated', or the wordplay kind: starts, ends, contains, lacks, length, words. */
+  shape: string
   prompt: string
   size: number
   answers: string[]

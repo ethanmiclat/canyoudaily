@@ -44,6 +44,13 @@
         "contains": "Name a Shakespeare play with the letter {L} in its title",
         "lacks": "Name a Shakespeare play with no letter {L} in its title"
       }
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "roman"
+      ],
+      "prompt": "Name one of Shakespeare's four Roman plays"
     }
   ]
 }

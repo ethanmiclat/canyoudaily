@@ -1,56 +1,56 @@
 {
   "date": "2026-11-29",
   "approved": false,
-  "activity": "spin-the-wheel",
-  "winRate": 0.616,
+  "activity": "scratch-cards",
+  "winRate": 0.6228,
   "rounds": [
     {
       "round": 1,
-      "questionId": "pokemon_gen2:lacks:l",
-      "datasetId": "pokemon_gen2",
-      "prompt": "Name a Johto Pokémon (#152 to #251) with no letter L in its name",
-      "size": 59,
-      "answers": ["aipom", "ampharos", "ariados", "chikorita", "chinchou", "crobat", "croconaw", "donphan", "dunsparce", "entei", "espeon", "forretress", "furret", "girafarig", "heracross", "hitmontop", "ho-oh", "hoothoot", "hoppip", "houndoom", "houndour", "kingdra", "magby", "magcargo", "mantine", "mareep", "meganium", "misdreavus", "murkrow", "natu", "phanpy", "pichu", "pineco", "porygon2", "pupitar", "quagsire", "raikou", "remoraid", "scizor", "sentret", "skarmory", "smoochum", "spinarak", "sudowoodo", "suicune", "sunkern", "swinub", "teddiursa", "togepi", "togetic", "tyranitar", "tyrogue", "umbreon", "unown", "ursaring", "wobbuffet", "wooper", "xatu", "yanma"]
+      "questionId": "constellations:contains:s",
+      "datasetId": "constellations",
+      "prompt": "Name a constellation with the letter S in its name",
+      "size": 53,
+      "answers": ["apus", "aquarius", "aries", "bootes", "camelopardalis", "canes-venatici", "canis-major", "canis-minor", "capricornus", "cassiopeia", "centaurus", "cepheus", "cetus", "circinus", "coma-berenices", "corona-australis", "corona-borealis", "corvus", "cygnus", "delphinus", "equuleus", "eridanus", "grus", "hercules", "hydrus", "indus", "lepus", "lupus", "mensa", "microscopium", "monoceros", "musca", "octans", "ophiuchus", "pegasus", "perseus", "pisces", "piscis-austrinus", "puppis", "pyxis", "sagitta", "sagittarius", "scorpius", "sculptor", "scutum", "serpens", "sextans", "taurus", "telescopium", "triangulum-australe", "ursa-major", "ursa-minor", "volans"]
     },
     {
       "round": 2,
-      "questionId": "nfl:tag:conf:nfc",
-      "datasetId": "nfl",
-      "prompt": "Name an NFC team in the NFL",
-      "size": 16,
-      "answers": ["arizona-cardinals", "atlanta-falcons", "carolina-panthers", "chicago-bears", "dallas-cowboys", "detroit-lions", "green-bay-packers", "los-angeles-rams", "minnesota-vikings", "new-orleans-saints", "new-york-giants", "philadelphia-eagles", "san-francisco-49ers", "seattle-seahawks", "tampa-bay-buccaneers", "washington-commanders"]
+      "questionId": "olympics:tag:summer+continent:europe",
+      "datasetId": "olympics",
+      "prompt": "Name a European city that has hosted the Summer Olympics (through 2024)",
+      "size": 12,
+      "answers": ["amsterdam", "antwerp", "athens", "barcelona", "berlin", "helsinki", "london", "moscow", "munich", "paris", "rome", "stockholm"]
     },
     {
       "round": 3,
-      "questionId": "calendar:tag:days-31",
-      "datasetId": "calendar",
-      "prompt": "Name a month with 31 days",
-      "size": 7,
-      "answers": ["august", "december", "january", "july", "march", "may", "october"]
+      "questionId": "shakespeare:tag:tragedy",
+      "datasetId": "shakespeare",
+      "prompt": "Name a Shakespeare tragedy (Troilus and Cressida and Cymbeline don't count)",
+      "size": 10,
+      "answers": ["antony-and-cleopatra", "coriolanus", "hamlet", "julius-caesar", "king-lear", "macbeth", "othello", "romeo-and-juliet", "timon-of-athens", "titus-andronicus"]
     },
     {
       "round": 4,
-      "questionId": "mlb:tag:div:nl-central",
-      "datasetId": "mlb",
-      "prompt": "Name a team in the NL Central",
+      "questionId": "us_states:tag:division:pacific",
+      "datasetId": "us_states",
+      "prompt": "Name a US state in the Pacific Census division (including Alaska and Hawaii)",
       "size": 5,
-      "answers": ["chicago-cubs", "cincinnati-reds", "milwaukee-brewers", "pittsburgh-pirates", "st-louis-cardinals"]
+      "answers": ["alaska", "california", "hawaii", "oregon", "washington"]
     },
     {
       "round": 5,
-      "questionId": "shakespeare:lacks:e",
-      "datasetId": "shakespeare",
-      "prompt": "Name a Shakespeare play with no letter E in its title",
+      "questionId": "body:tag:tooth",
+      "datasetId": "body",
+      "prompt": "Name one of the four types of adult human teeth",
       "size": 4,
-      "answers": ["coriolanus", "king-john", "much-ado-about-nothing", "titus-andronicus"]
+      "answers": ["canine", "incisor", "molar", "premolar"]
     },
     {
       "round": 6,
-      "questionId": "nato_alphabet:contains:s",
-      "datasetId": "nato_alphabet",
-      "prompt": "Name a NATO phonetic alphabet word containing the letter S",
+      "questionId": "india_states:starts:a@state",
+      "datasetId": "india_states",
+      "prompt": "Name an Indian state that starts with the letter A",
       "size": 3,
-      "answers": ["oscar", "sierra", "whiskey"]
+      "answers": ["andhra-pradesh", "arunachal-pradesh", "assam"]
     }
   ]
 }

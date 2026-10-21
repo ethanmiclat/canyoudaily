@@ -1,56 +1,56 @@
 {
   "date": "2026-10-28",
   "approved": false,
-  "activity": "spin-the-wheel",
-  "winRate": 0.6185,
+  "activity": "poison-cups",
+  "winRate": 0.6174,
   "rounds": [
     {
       "round": 1,
-      "questionId": "national_parks:lacks:b",
-      "datasetId": "national_parks",
-      "prompt": "Name a US national park with no letter B in its name",
-      "size": 54,
-      "answers": ["acadia", "american-samoa", "arches", "canyonlands", "capitol-reef", "channel-islands", "congaree", "crater-lake", "cuyahoga-valley", "death-valley", "denali", "dry-tortugas", "everglades", "gates-of-the-arctic", "gateway-arch", "glacier", "grand-canyon", "grand-teton", "great-sand-dunes", "great-smoky-mountains", "guadalupe-mountains", "haleakala", "hawai-i-volcanoes", "hot-springs", "indiana-dunes", "isle-royale", "joshua-tree", "katmai", "kenai-fjords", "kings-canyon", "lake-clark", "lassen-volcanic", "mammoth-cave", "mesa-verde", "mount-rainier", "new-river-gorge", "north-cascades", "olympic", "petrified-forest", "pinnacles", "redwood", "rocky-mountain", "saguaro", "sequoia", "shenandoah", "theodore-roosevelt", "virgin-islands", "voyageurs", "white-sands", "wind-cave", "wrangell-st-elias", "yellowstone", "yosemite", "zion"]
+      "questionId": "elements:not:transition-metal",
+      "datasetId": "elements",
+      "prompt": "Name a chemical element that is not a transition metal",
+      "size": 80,
+      "answers": ["actinium", "aluminium", "americium", "antimony", "argon", "arsenic", "astatine", "barium", "berkelium", "beryllium", "bismuth", "boron", "bromine", "caesium", "calcium", "californium", "carbon", "cerium", "chlorine", "curium", "dysprosium", "einsteinium", "erbium", "europium", "fermium", "flerovium", "fluorine", "francium", "gadolinium", "gallium", "germanium", "helium", "holmium", "hydrogen", "indium", "iodine", "krypton", "lanthanum", "lawrencium", "lead", "lithium", "livermorium", "lutetium", "magnesium", "mendelevium", "moscovium", "neodymium", "neon", "neptunium", "nihonium", "nitrogen", "nobelium", "oganesson", "oxygen", "phosphorus", "plutonium", "polonium", "potassium", "praseodymium", "promethium", "protactinium", "radium", "radon", "rubidium", "samarium", "selenium", "silicon", "sodium", "strontium", "sulfur", "tellurium", "tennessine", "terbium", "thallium", "thorium", "thulium", "tin", "uranium", "xenon", "ytterbium"]
     },
     {
       "round": 2,
-      "questionId": "mountains:all",
-      "datasetId": "mountains",
-      "prompt": "Name one of the 14 mountains over 8,000 meters",
-      "size": 14,
-      "answers": ["annapurna", "broad-peak", "cho-oyu", "dhaulagiri", "gasherbrum-i", "gasherbrum-ii", "k2", "kangchenjunga", "lhotse", "makalu", "manaslu", "mount-everest", "nanga-parbat", "shishapangma"]
+      "questionId": "nhl:tag:conf:east",
+      "datasetId": "nhl",
+      "prompt": "Name an NHL team in the Eastern Conference",
+      "size": 16,
+      "answers": ["boston-bruins", "buffalo-sabres", "carolina-hurricanes", "columbus-blue-jackets", "detroit-red-wings", "florida-panthers", "montreal-canadiens", "new-jersey-devils", "new-york-islanders", "new-york-rangers", "ottawa-senators", "philadelphia-flyers", "pittsburgh-penguins", "tampa-bay-lightning", "toronto-maple-leafs", "washington-capitals"]
     },
     {
       "round": 3,
-      "questionId": "amino_acids:contains:s",
-      "datasetId": "amino_acids",
-      "prompt": "Name a standard amino acid with the letter S in its name",
-      "size": 8,
-      "answers": ["asparagine", "aspartic-acid", "cysteine", "histidine", "isoleucine", "lysine", "serine", "tyrosine"]
+      "questionId": "numbers:range:n:1-100@multiple:13",
+      "datasetId": "numbers",
+      "prompt": "Name a multiple of 13 from 1 to 100",
+      "size": 7,
+      "answers": ["n13", "n26", "n39", "n52", "n65", "n78", "n91"]
     },
     {
       "round": 4,
-      "questionId": "famous_groups:tag:simpsons",
-      "datasetId": "famous_groups",
-      "prompt": "Name a member of the Simpson family (Homer's household)",
+      "questionId": "holidays:tag:first-half",
+      "datasetId": "holidays",
+      "prompt": "Name a US federal holiday observed between January and June",
       "size": 5,
-      "answers": ["simpsons-bart-simpson", "simpsons-homer-simpson", "simpsons-lisa-simpson", "simpsons-maggie-simpson", "simpsons-marge-simpson"]
+      "answers": ["juneteenth", "memorial-day", "mlk-day", "new-years-day", "washingtons-birthday"]
     },
     {
       "round": 5,
-      "questionId": "bible_books:tag:gospel",
-      "datasetId": "bible_books",
-      "prompt": "Name one of the four Gospels",
+      "questionId": "nato_alphabet:contains:h",
+      "datasetId": "nato_alphabet",
+      "prompt": "Name a NATO phonetic alphabet word containing the letter H",
       "size": 4,
-      "answers": ["john", "luke", "mark", "matthew"]
+      "answers": ["charlie", "echo", "hotel", "whiskey"]
     },
     {
       "round": 6,
-      "questionId": "shakespeare:contains:p",
-      "datasetId": "shakespeare",
-      "prompt": "Name a Shakespeare play with the letter P in its title",
+      "questionId": "german_states:lacks:n",
+      "datasetId": "german_states",
+      "prompt": "Name a German state with no letter N in its English name",
       "size": 3,
-      "answers": ["antony-and-cleopatra", "pericles", "the-tempest"]
+      "answers": ["bavaria", "hamburg", "hesse"]
     }
   ]
 }

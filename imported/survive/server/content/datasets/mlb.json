@@ -1,6 +1,7 @@
 {
   "id": "mlb",
   "title": "MLB teams",
+  "theme": "sports",
   "entities": [
     {"id": "baltimore-orioles", "name": "Baltimore Orioles", "aliases": ["Orioles", "Baltimore"], "tags": ["conf:al", "div:al-east"]},
     {"id": "boston-red-sox", "name": "Boston Red Sox", "aliases": ["Red Sox", "Boston", "BoSox"], "tags": ["conf:al", "div:al-east"]},

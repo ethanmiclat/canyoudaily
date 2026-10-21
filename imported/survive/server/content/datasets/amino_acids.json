@@ -1,6 +1,7 @@
 {
   "id": "amino_acids",
   "title": "Amino acids",
+  "theme": "science",
   "entities": [
     {"id": "alanine", "name": "Alanine", "aliases": ["Ala"], "tags": ["nonessential"], "props": {"code": "Ala"}},
     {"id": "arginine", "name": "Arginine", "aliases": ["Arg"], "tags": ["nonessential"], "props": {"code": "Arg"}},

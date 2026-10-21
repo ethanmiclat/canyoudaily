@@ -1,56 +1,56 @@
 {
   "date": "2026-10-29",
   "approved": false,
-  "activity": "elevator",
-  "winRate": 0.6231,
+  "activity": "bomb-wires",
+  "winRate": 0.625,
   "rounds": [
     {
       "round": 1,
-      "questionId": "elements:lacks:a",
-      "datasetId": "elements",
-      "prompt": "Name an element with no letter A in its name",
-      "size": 76,
-      "answers": ["berkelium", "beryllium", "bismuth", "bohrium", "boron", "bromine", "cerium", "chlorine", "chromium", "copernicium", "copper", "curium", "dubnium", "dysprosium", "einsteinium", "erbium", "europium", "fermium", "flerovium", "fluorine", "gold", "helium", "holmium", "hydrogen", "indium", "iodine", "iridium", "iron", "krypton", "lithium", "livermorium", "lutetium", "meitnerium", "mendelevium", "mercury", "molybdenum", "moscovium", "neodymium", "neon", "neptunium", "nickel", "nihonium", "niobium", "nitrogen", "nobelium", "osmium", "oxygen", "phosphorus", "plutonium", "polonium", "promethium", "rhenium", "rhodium", "roentgenium", "rubidium", "ruthenium", "rutherfordium", "selenium", "silicon", "silver", "sodium", "strontium", "sulfur", "technetium", "tellurium", "tennessine", "terbium", "thorium", "thulium", "tin", "tungsten", "xenon", "ytterbium", "yttrium", "zinc", "zirconium"]
+      "questionId": "world_capitals:contains:r",
+      "datasetId": "world_capitals",
+      "prompt": "Name a national capital with the letter R in its name",
+      "size": 82,
+      "answers": ["accra", "algiers", "amsterdam", "andorra-la-vella", "ankara", "antananarivo", "asmara", "bandar-seri-begawan", "basseterre", "beirut", "belgrade", "berlin", "bern", "brasilia", "bratislava", "brazzaville", "bridgetown", "brussels", "bucharest", "buenos-aires", "cairo", "canberra", "caracas", "castries", "conakry", "dakar", "freetown", "gaborone", "georgetown", "harare", "honiara", "jakarta", "jerusalem", "khartoum", "kuala-lumpur", "libreville", "luxembourg-city", "madrid", "majuro", "maseru", "monrovia", "moroni", "nairobi", "ngerulmud", "palikir", "paramaribo", "paris", "podgorica", "port-au-prince", "port-louis", "port-moresby", "port-of-spain", "port-vila", "porto-novo", "prague", "praia", "pretoria", "rabat", "ramallah", "reykjavik", "riga", "riyadh", "rome", "roseau", "san-marino", "san-salvador", "sarajevo", "singapore", "south-tarawa", "sri-jayawardenepura-kotte", "st-george-s", "sucre", "tehran", "tirana", "tripoli", "ulaanbaatar", "victoria", "warsaw", "yamoussoukro", "yaren", "yerevan", "zagreb"]
     },
     {
       "round": 2,
-      "questionId": "german_states:lacks:x",
-      "datasetId": "german_states",
-      "prompt": "Name a German state with no letter X in its English name",
-      "size": 13,
-      "answers": ["baden-wurttemberg", "bavaria", "berlin", "brandenburg", "bremen", "hamburg", "hesse", "mecklenburg-western-pomerania", "north-rhine-westphalia", "rhineland-palatinate", "saarland", "schleswig-holstein", "thuringia"]
+      "questionId": "disney:range:year:1960-1989",
+      "datasetId": "disney",
+      "prompt": "Name a Walt Disney Animation Studios feature released 1960 to 1989",
+      "size": 12,
+      "answers": ["101-dalmatians", "many-adventures-of-winnie-the-pooh", "oliver-and-company", "robin-hood", "the-aristocats", "the-black-cauldron", "the-fox-and-the-hound", "the-great-mouse-detective", "the-jungle-book", "the-little-mermaid", "the-rescuers", "the-sword-in-the-stone"]
     },
     {
       "round": 3,
-      "questionId": "india_states:contains:m@state",
-      "datasetId": "india_states",
-      "prompt": "Name an Indian state with the letter M in its name",
-      "size": 9,
-      "answers": ["assam", "himachal-pradesh", "madhya-pradesh", "maharashtra", "manipur", "meghalaya", "mizoram", "sikkim", "tamil-nadu"]
+      "questionId": "canada:tag:province",
+      "datasetId": "canada",
+      "prompt": "Name a Canadian province (not a territory)",
+      "size": 10,
+      "answers": ["alberta", "british-columbia", "manitoba", "new-brunswick", "newfoundland-and-labrador", "nova-scotia", "ontario", "prince-edward-island", "quebec", "saskatchewan"]
     },
     {
       "round": 4,
-      "questionId": "nba:tag:div:atlantic",
-      "datasetId": "nba",
-      "prompt": "Name an NBA team in the Atlantic Division",
+      "questionId": "olympics:tag:summer-repeat",
+      "datasetId": "olympics",
+      "prompt": "Name a city that has hosted the Summer Olympics more than once (through 2024)",
       "size": 5,
-      "answers": ["boston-celtics", "brooklyn-nets", "new-york-knicks", "philadelphia-76ers", "toronto-raptors"]
+      "answers": ["athens", "london", "los-angeles", "paris", "tokyo"]
     },
     {
       "round": 5,
-      "questionId": "space:contains:n@planet",
+      "questionId": "space:lacks:t@planet",
       "datasetId": "space",
-      "prompt": "Name a planet with the letter N in its name",
+      "prompt": "Name a planet with no letter T in its name",
       "size": 4,
-      "answers": ["neptune", "saturn", "uranus", "venus"]
+      "answers": ["mars", "mercury", "uranus", "venus"]
     },
     {
       "round": 6,
-      "questionId": "mexico_states:contains:f",
-      "datasetId": "mexico_states",
-      "prompt": "Name a Mexican state (or Mexico City) with the letter F in its name",
+      "questionId": "body:tag:vessel",
+      "datasetId": "body",
+      "prompt": "Name one of the three main types of blood vessel",
       "size": 3,
-      "answers": ["baja-california", "baja-california-sur", "state-of-mexico"]
+      "answers": ["artery", "capillary", "vein"]
     }
   ]
 }

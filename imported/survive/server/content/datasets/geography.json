@@ -1,6 +1,7 @@
 {
   "id": "geography",
   "title": "Continents, oceans and lakes",
+  "theme": "geography",
   "entities": [
     {"id": "continent-africa", "name": "Africa", "tags": ["continent"]},
     {"id": "continent-antarctica", "name": "Antarctica", "tags": ["continent"]},

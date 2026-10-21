@@ -1,56 +1,56 @@
 {
   "date": "2026-10-23",
   "approved": false,
-  "activity": "stop-the-needle",
-  "winRate": 0.6156,
+  "activity": "safe-dial",
+  "winRate": 0.6115,
   "rounds": [
     {
       "round": 1,
-      "questionId": "bible_books:all",
-      "datasetId": "bible_books",
-      "prompt": "Name a book of the Bible (the 66-book Protestant canon)",
-      "size": 66,
-      "answers": ["1-chronicles", "1-corinthians", "1-john", "1-kings", "1-peter", "1-samuel", "1-thessalonians", "1-timothy", "2-chronicles", "2-corinthians", "2-john", "2-kings", "2-peter", "2-samuel", "2-thessalonians", "2-timothy", "3-john", "acts", "amos", "colossians", "daniel", "deuteronomy", "ecclesiastes", "ephesians", "esther", "exodus", "ezekiel", "ezra", "galatians", "genesis", "habakkuk", "haggai", "hebrews", "hosea", "isaiah", "james", "jeremiah", "job", "joel", "john", "jonah", "joshua", "jude", "judges", "lamentations", "leviticus", "luke", "malachi", "mark", "matthew", "micah", "nahum", "nehemiah", "numbers", "obadiah", "philemon", "philippians", "proverbs", "psalms", "revelation", "romans", "ruth", "song-of-solomon", "titus", "zechariah", "zephaniah"]
+      "questionId": "disney:range:year:1937-2025",
+      "datasetId": "disney",
+      "prompt": "Name a Walt Disney Animation Studios feature released 1937 to 2025",
+      "size": 63,
+      "answers": ["101-dalmatians", "aladdin", "alice-in-wonderland", "atlantis", "bambi", "beauty-and-the-beast", "big-hero-6", "bolt", "brother-bear", "chicken-little", "cinderella", "dinosaur", "dumbo", "encanto", "fantasia", "frozen", "frozen-ii", "fun-and-fancy-free", "hercules", "home-on-the-range", "hunchback-of-notre-dame", "ichabod-and-mr-toad", "lady-and-the-tramp", "lilo-and-stitch", "make-mine-music", "many-adventures-of-winnie-the-pooh", "meet-the-robinsons", "melody-time", "moana", "moana-2", "mulan", "oliver-and-company", "peter-pan", "pinocchio", "pocahontas", "ralph-breaks-the-internet", "raya-and-the-last-dragon", "robin-hood", "saludos-amigos", "sleeping-beauty", "snow-white", "strange-world", "tangled", "tarzan", "the-aristocats", "the-black-cauldron", "the-emperors-new-groove", "the-fox-and-the-hound", "the-great-mouse-detective", "the-jungle-book", "the-lion-king", "the-little-mermaid", "the-princess-and-the-frog", "the-rescuers", "the-rescuers-down-under", "the-sword-in-the-stone", "the-three-caballeros", "treasure-planet", "winnie-the-pooh-2011", "wish", "wreck-it-ralph", "zootopia", "zootopia-2"]
     },
     {
       "round": 2,
-      "questionId": "si_units:range:exp:-12-12",
-      "datasetId": "si_units",
-      "prompt": "Name an SI prefix from pico- (10^-12) to tera- (10^12)",
-      "size": 12,
-      "answers": ["prefix-centi", "prefix-deca", "prefix-deci", "prefix-giga", "prefix-hecto", "prefix-kilo", "prefix-mega", "prefix-micro", "prefix-milli", "prefix-nano", "prefix-pico", "prefix-tera"]
+      "questionId": "space:any:planet+dwarf",
+      "datasetId": "space",
+      "prompt": "Name a planet or one of the five recognized dwarf planets",
+      "size": 13,
+      "answers": ["ceres", "earth", "eris", "haumea", "jupiter", "makemake", "mars", "mercury", "neptune", "pluto", "saturn", "uranus", "venus"]
     },
     {
       "round": 3,
-      "questionId": "australia:all",
-      "datasetId": "australia",
-      "prompt": "Name one of Australia's six states or two mainland territories",
-      "size": 8,
-      "answers": ["australian-capital-territory", "new-south-wales", "northern-territory", "queensland", "south-australia", "tasmania", "victoria", "western-australia"]
+      "questionId": "music:tag:solfege",
+      "datasetId": "music",
+      "prompt": "Name a syllable of the do-re-mi solfège scale",
+      "size": 7,
+      "answers": ["do", "fa", "la", "mi", "re", "sol", "ti"]
     },
     {
       "round": 4,
-      "questionId": "world_cup:tag:ww",
-      "datasetId": "world_cup",
-      "prompt": "Name a nation that has won the FIFA Women's World Cup (through 2023)",
+      "questionId": "body:tag:finger",
+      "datasetId": "body",
+      "prompt": "Name one of the five fingers (thumb included)",
       "size": 5,
-      "answers": ["germany", "japan", "norway", "spain", "united-states"]
+      "answers": ["index-finger", "little-finger", "middle-finger", "ring-finger", "thumb"]
     },
     {
       "round": 5,
-      "questionId": "amino_acids:contains:u",
-      "datasetId": "amino_acids",
-      "prompt": "Name a standard amino acid with the letter U in its name",
+      "questionId": "harry_potter:tag:marauder",
+      "datasetId": "harry_potter",
+      "prompt": "Name one of the Marauders (nickname or real name)",
       "size": 4,
-      "answers": ["glutamic-acid", "glutamine", "isoleucine", "leucine"]
+      "answers": ["marauder-moony", "marauder-padfoot", "marauder-prongs", "marauder-wormtail"]
     },
     {
       "round": 6,
-      "questionId": "world_capitals:starts:p@continent:europe",
-      "datasetId": "world_capitals",
-      "prompt": "Name a European capital that starts with the letter P",
+      "questionId": "cards:tag:face",
+      "datasetId": "cards",
+      "prompt": "Name a face card",
       "size": 3,
-      "answers": ["paris", "podgorica", "prague"]
+      "answers": ["jack", "king", "queen"]
     }
   ]
 }

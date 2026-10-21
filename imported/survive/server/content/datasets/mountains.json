@@ -1,6 +1,7 @@
 {
   "id": "mountains",
   "title": "Eight-thousanders",
+  "theme": "geography",
   "entities": [
     {"id": "mount-everest", "name": "Mount Everest", "aliases": ["Everest", "Sagarmatha", "Chomolungma"], "tags": ["eight-thousander", "himalaya"]},
     {"id": "k2", "name": "K2", "aliases": ["Godwin-Austen", "Chhogori"], "tags": ["eight-thousander", "karakoram"]},

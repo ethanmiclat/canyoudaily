@@ -1,6 +1,7 @@
 {
   "id": "board_games",
   "title": "Board game pieces and places",
+  "theme": "games",
   "entities": [
     {"id": "chess-king", "name": "King", "tags": ["chess"]},
     {"id": "chess-queen", "name": "Queen", "tags": ["chess"]},

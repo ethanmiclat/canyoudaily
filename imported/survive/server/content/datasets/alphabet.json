@@ -1,6 +1,7 @@
 {
   "id": "alphabet",
   "title": "English alphabet",
+  "theme": "symbols",
   "entities": [
     {"id": "letter-a", "name": "A", "aliases": ["letter A", "ay"], "tags": ["vowel", "scrabble-1"], "props": {"pos": 1}},
     {"id": "letter-b", "name": "B", "aliases": ["letter B", "bee"], "tags": ["consonant"], "props": {"pos": 2}},

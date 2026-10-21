@@ -84,6 +84,41 @@
       "prompt": {
         "starts": "Name an Asian capital that starts with the letter {L}"
       }
+    },
+    {
+      "type": "letters",
+      "noun": "national capital",
+      "modes": [
+        "ends"
+      ]
+    },
+    {
+      "type": "length",
+      "noun": "national capital",
+      "prompt": "Name a national capital with exactly {N} letters in its name (spaces and punctuation don't count)"
+    },
+    {
+      "type": "anyTag",
+      "tags": [
+        "continent:africa",
+        "continent:asia"
+      ],
+      "prompt": "Name the capital of a country in Africa or Asia"
+    },
+    {
+      "type": "anyTag",
+      "tags": [
+        "continent:europe",
+        "continent:asia"
+      ],
+      "prompt": "Name the capital of a country in Europe or Asia"
+    },
+    {
+      "type": "notTag",
+      "tags": [
+        "continent:asia"
+      ],
+      "prompt": "Name a national capital outside Asia"
     }
   ]
 }

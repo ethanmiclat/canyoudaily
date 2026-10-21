@@ -1,6 +1,7 @@
 {
   "id": "national_parks",
   "title": "US national parks",
+  "theme": "geography",
   "entities": [
     {"id": "acadia", "name": "Acadia", "aliases": ["Acadia National Park"], "tags": ["state:me"]},
     {"id": "american-samoa", "name": "American Samoa", "aliases": ["American Samoa National Park"], "tags": ["state:as"]},

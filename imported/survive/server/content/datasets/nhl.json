@@ -1,6 +1,7 @@
 {
   "id": "nhl",
   "title": "NHL teams",
+  "theme": "sports",
   "entities": [
     {"id": "boston-bruins", "name": "Boston Bruins", "aliases": ["Bruins", "Boston"], "tags": ["conf:east", "div:atlantic", "original-six"]},
     {"id": "buffalo-sabres", "name": "Buffalo Sabres", "aliases": ["Sabres", "Buffalo"], "tags": ["conf:east", "div:atlantic"]},
