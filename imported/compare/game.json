@@ -5,6 +5,9 @@
   "kind": "knowledge",
   "accentColor": "#365f88",
   "launchDate": "2026-10-08",
+  "resets": {
+    "2026-10-22": "2026-10-22T18:36:35Z"
+  },
   "href": "/compare/",
   "envPrefix": "CYC",
   "apiDir": "api/compare",
@@ -23,5 +26,5 @@
     "commit": null,
     "dirty": null
   },
-  "importedAt": "2026-10-22T18:29:08.692Z"
+  "importedAt": "2026-10-22T18:33:29.288Z"
 }

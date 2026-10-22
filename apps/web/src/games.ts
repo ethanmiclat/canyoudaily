@@ -19,7 +19,7 @@ export const games: GameManifest[] = importedGames.map((g) => ({
   slug: g.id,
   accent: g.id,
   api: `/api/${g.id}`,
-  getTodayState: (date) => readTodayState(g.id, date),
+  getTodayState: (date) => readTodayState(g.id, date, g.resets?.[date]),
   buildShareText: () => [],
 }));
 

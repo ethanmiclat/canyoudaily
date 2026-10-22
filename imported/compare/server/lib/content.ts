@@ -36,6 +36,8 @@ export interface Config {
   /** Answers a pair needs before the reveal shows "X% got this right". */
   crowdMinAnswers?: number
   categories: Record<string, { label: string; icon: string }>
+  /** Days whose runs were reset, with when: everyone starts that day over (see runKey and web/src/lib/hub.ts). */
+  resets?: Record<string, string>
 }
 
 export interface Format {

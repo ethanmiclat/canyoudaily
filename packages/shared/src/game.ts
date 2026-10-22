@@ -53,6 +53,8 @@ export type ImportedGame = {
   kind: GameKind;
   accentColor: string;
   launchDate: string;
+  /** Days whose runs the game reset, with when (the game's config `resets`). */
+  resets?: Record<string, string>;
   href: string;
 };
 
@@ -60,12 +62,15 @@ export type ImportedGame = {
 export type StoredDayState = {
   status?: 'in_progress' | 'done';
   score?: string | number;
+  startedAt?: string;
   finishedAt?: string;
 };
 
 /** Default getTodayState: reads the game's own day key. Games may override for richer summaries. */
-export function readTodayState(gameId: string, date: string): TodayState {
-  const s = readJSON<StoredDayState>(dayKey(gameId, date));
+export function readTodayState(gameId: string, date: string, resetAt?: string): TodayState {
+  let s = readJSON<StoredDayState>(dayKey(gameId, date));
+  // A run recorded before the day was reset no longer counts. The game clears it too once the player opens it.
+  if (resetAt && s && !((s.startedAt ?? s.finishedAt ?? '') > resetAt)) s = null;
   if (s?.status === 'done') return { status: 'done', summary: 'Done', score: s.score };
   if (s?.status === 'in_progress') return { status: 'in_progress', summary: 'In progress' };
   return { status: 'not_started', summary: 'Not started' };

@@ -59,6 +59,7 @@ export function publicToday(date: string) {
     revealMs: config.revealMs,
     nextResetAt: nextMidnight(date, config.timezone).toISOString(),
     categories: config.categories,
+    ...(config.resets?.[date] ? { resetAt: config.resets[date] } : {}),
   }
 }
 
@@ -178,7 +179,11 @@ export function shareText(day: ScheduleDay, run: Run): string {
 
 /* ---------- runs ---------- */
 
-const runKey = (date: string, token: string) => `run:${date}:${token}`
+/** A reset day's runs live under a new key, so everyone starts that day over. */
+const runKey = (date: string, token: string) => {
+  const reset = loadConfig().resets?.[date]
+  return reset ? `run:${date}@${reset}:${token}` : `run:${date}:${token}`
+}
 
 export function validToken(token: unknown): token is string {
   return typeof token === 'string' && /^[A-Za-z0-9_-]{16,64}$/.test(token)

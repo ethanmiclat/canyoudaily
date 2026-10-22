@@ -18,6 +18,9 @@ export const importedGames: ImportedGame[] = [
     "kind": "knowledge",
     "accentColor": "#365f88",
     "launchDate": "2026-10-08",
+    "resets": {
+      "2026-10-22": "2026-10-22T18:36:35Z"
+    },
     "href": "/compare/"
   },
   {

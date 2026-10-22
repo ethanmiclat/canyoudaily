@@ -131,15 +131,21 @@ function checkContract(src) {
   // Daily system: one reset for every game, and puzzle #1 on the launch date.
   let launchDate = m.launchDate;
   let timezone = m.timezone;
+  let resets = m.resets;
   if (m.config) {
     const cfgFile = path.join(src, m.config);
     if (fs.existsSync(cfgFile)) {
       const cfg = readJson(cfgFile);
       launchDate ??= cfg.launchDate;
       timezone ??= cfg.timezone;
+      resets ??= cfg.resets;
     } else problems.push(`config: ${m.config} does not exist`);
   }
   need(/^\d{4}-\d{2}-\d{2}$/.test(launchDate ?? ''), 'launchDate (in cyd.game.json or its config file) must be YYYY-MM-DD');
+  need(
+    resets === undefined || Object.values(resets).every((t) => typeof t === 'string' && !Number.isNaN(Date.parse(t))),
+    'resets must map YYYY-MM-DD days to ISO times',
+  );
   need(timezone === HUB_TIMEZONE, `timezone must be ${HUB_TIMEZONE} so every game resets together (got ${timezone})`);
 
   // Hooks the hub relies on (see docs/GAME_CONTRACT.md).
@@ -158,7 +164,7 @@ function checkContract(src) {
   if (problems.length) {
     throw new ContractError(`${rel(src)} does not meet the game contract:\n${problems.map((p) => `    - ${p}`).join('\n')}`);
   }
-  return { ...m, launchDate, timezone, server: { ...server, contentDir } };
+  return { ...m, launchDate, timezone, resets, server: { ...server, contentDir } };
 }
 
 // ---------- import --------------------------------------------------------------
@@ -255,6 +261,7 @@ function importGame(src, { skipChecks }) {
     kind: m.kind,
     accentColor: m.accentColor,
     launchDate: m.launchDate,
+    ...(m.resets ? { resets: m.resets } : {}),
     href: `/${m.id}/`,
     envPrefix: m.envPrefix,
     apiDir: m.server.apiDir,
@@ -367,13 +374,14 @@ function generateVercel(games) {
 }
 
 function generateRegistry(games) {
-  const entries = games.map(({ id, name, tagline, kind, accentColor, launchDate, href }) => ({
+  const entries = games.map(({ id, name, tagline, kind, accentColor, launchDate, resets, href }) => ({
     id,
     name,
     tagline,
     kind,
     accentColor,
     launchDate,
+    ...(resets ? { resets } : {}),
     href,
   }));
   writeFile(
