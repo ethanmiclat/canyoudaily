@@ -1,0 +1,554 @@
+{
+ "abra-pokemon": [
+  "psychic"
+ ],
+ "aerodactyl-pokemon": [
+  "rock",
+  "flying"
+ ],
+ "alakazam-pokemon": [
+  "psychic"
+ ],
+ "arbok-pokemon": [
+  "poison"
+ ],
+ "arcanine-pokemon": [
+  "fire"
+ ],
+ "articuno-pokemon": [
+  "ice",
+  "flying"
+ ],
+ "beedrill-pokemon": [
+  "bug",
+  "poison"
+ ],
+ "bellsprout-pokemon": [
+  "grass",
+  "poison"
+ ],
+ "blastoise-pokemon": [
+  "water"
+ ],
+ "bulbasaur-pokemon": [
+  "grass",
+  "poison"
+ ],
+ "butterfree-pokemon": [
+  "bug",
+  "flying"
+ ],
+ "caterpie-pokemon": [
+  "bug"
+ ],
+ "chansey-pokemon": [
+  "normal"
+ ],
+ "charizard-pokemon": [
+  "fire",
+  "flying"
+ ],
+ "charmander-pokemon": [
+  "fire"
+ ],
+ "charmeleon-pokemon": [
+  "fire"
+ ],
+ "clefable-pokemon": [
+  "fairy"
+ ],
+ "clefairy-pokemon": [
+  "fairy"
+ ],
+ "cloyster-pokemon": [
+  "water",
+  "ice"
+ ],
+ "cubone-pokemon": [
+  "ground"
+ ],
+ "dewgong-pokemon": [
+  "water",
+  "ice"
+ ],
+ "diglett-pokemon": [
+  "ground"
+ ],
+ "ditto-pokemon": [
+  "normal"
+ ],
+ "dodrio-pokemon": [
+  "normal",
+  "flying"
+ ],
+ "doduo-pokemon": [
+  "normal",
+  "flying"
+ ],
+ "dragonair-pokemon": [
+  "dragon"
+ ],
+ "dragonite-pokemon": [
+  "dragon",
+  "flying"
+ ],
+ "dratini-pokemon": [
+  "dragon"
+ ],
+ "drowzee-pokemon": [
+  "psychic"
+ ],
+ "dugtrio-pokemon": [
+  "ground"
+ ],
+ "eevee-pokemon": [
+  "normal"
+ ],
+ "ekans-pokemon": [
+  "poison"
+ ],
+ "electabuzz-pokemon": [
+  "electric"
+ ],
+ "electrode-pokemon": [
+  "electric"
+ ],
+ "espeon-pokemon": [
+  "psychic"
+ ],
+ "exeggcute-pokemon": [
+  "grass",
+  "psychic"
+ ],
+ "exeggutor-pokemon": [
+  "grass",
+  "psychic"
+ ],
+ "farfetchd-pokemon": [
+  "normal",
+  "flying"
+ ],
+ "fearow-pokemon": [
+  "normal",
+  "flying"
+ ],
+ "flareon-pokemon": [
+  "fire"
+ ],
+ "gastly-pokemon": [
+  "ghost",
+  "poison"
+ ],
+ "gengar-pokemon": [
+  "ghost",
+  "poison"
+ ],
+ "geodude-pokemon": [
+  "rock",
+  "ground"
+ ],
+ "gloom-pokemon": [
+  "grass",
+  "poison"
+ ],
+ "golbat-pokemon": [
+  "poison",
+  "flying"
+ ],
+ "goldeen-pokemon": [
+  "water"
+ ],
+ "golduck-pokemon": [
+  "water"
+ ],
+ "golem-pokemon": [
+  "rock",
+  "ground"
+ ],
+ "graveler-pokemon": [
+  "rock",
+  "ground"
+ ],
+ "greninja-pokemon": [
+  "water",
+  "dark"
+ ],
+ "grimer-pokemon": [
+  "poison"
+ ],
+ "growlithe-pokemon": [
+  "fire"
+ ],
+ "gyarados-pokemon": [
+  "water",
+  "flying"
+ ],
+ "haunter-pokemon": [
+  "ghost",
+  "poison"
+ ],
+ "hitmonchan-pokemon": [
+  "fighting"
+ ],
+ "hitmonlee-pokemon": [
+  "fighting"
+ ],
+ "ho-oh-pokemon": [
+  "fire",
+  "flying"
+ ],
+ "horsea-pokemon": [
+  "water"
+ ],
+ "hypno-pokemon": [
+  "psychic"
+ ],
+ "ivysaur-pokemon": [
+  "grass",
+  "poison"
+ ],
+ "jigglypuff-pokemon": [
+  "normal",
+  "fairy"
+ ],
+ "jolteon-pokemon": [
+  "electric"
+ ],
+ "jynx-pokemon": [
+  "ice",
+  "psychic"
+ ],
+ "kabuto-pokemon": [
+  "rock",
+  "water"
+ ],
+ "kabutops-pokemon": [
+  "rock",
+  "water"
+ ],
+ "kadabra-pokemon": [
+  "psychic"
+ ],
+ "kakuna-pokemon": [
+  "bug",
+  "poison"
+ ],
+ "kangaskhan-pokemon": [
+  "normal"
+ ],
+ "kingler-pokemon": [
+  "water"
+ ],
+ "koffing-pokemon": [
+  "poison"
+ ],
+ "krabby-pokemon": [
+  "water"
+ ],
+ "lapras-pokemon": [
+  "water",
+  "ice"
+ ],
+ "lickitung-pokemon": [
+  "normal"
+ ],
+ "lucario-pokemon": [
+  "fighting",
+  "steel"
+ ],
+ "lugia-pokemon": [
+  "psychic",
+  "flying"
+ ],
+ "machamp-pokemon": [
+  "fighting"
+ ],
+ "machoke-pokemon": [
+  "fighting"
+ ],
+ "machop-pokemon": [
+  "fighting"
+ ],
+ "magikarp-pokemon": [
+  "water"
+ ],
+ "magmar-pokemon": [
+  "fire"
+ ],
+ "magnemite-pokemon": [
+  "electric",
+  "steel"
+ ],
+ "magneton-pokemon": [
+  "electric",
+  "steel"
+ ],
+ "mankey-pokemon": [
+  "fighting"
+ ],
+ "marowak-pokemon": [
+  "ground"
+ ],
+ "meowth-pokemon": [
+  "normal"
+ ],
+ "metapod-pokemon": [
+  "bug"
+ ],
+ "mew-pokemon": [
+  "psychic"
+ ],
+ "mewtwo-pokemon": [
+  "psychic"
+ ],
+ "moltres-pokemon": [
+  "fire",
+  "flying"
+ ],
+ "mr-mime-pokemon": [
+  "psychic",
+  "fairy"
+ ],
+ "muk-pokemon": [
+  "poison"
+ ],
+ "nidoking-pokemon": [
+  "poison",
+  "ground"
+ ],
+ "nidoqueen-pokemon": [
+  "poison",
+  "ground"
+ ],
+ "nidoran-f-pokemon": [
+  "poison"
+ ],
+ "nidoran-m-pokemon": [
+  "poison"
+ ],
+ "nidorina-pokemon": [
+  "poison"
+ ],
+ "nidorino-pokemon": [
+  "poison"
+ ],
+ "ninetales-pokemon": [
+  "fire"
+ ],
+ "oddish-pokemon": [
+  "grass",
+  "poison"
+ ],
+ "omanyte-pokemon": [
+  "rock",
+  "water"
+ ],
+ "omastar-pokemon": [
+  "rock",
+  "water"
+ ],
+ "onix-pokemon": [
+  "rock",
+  "ground"
+ ],
+ "paras-pokemon": [
+  "bug",
+  "grass"
+ ],
+ "parasect-pokemon": [
+  "bug",
+  "grass"
+ ],
+ "persian-pokemon": [
+  "normal"
+ ],
+ "pichu-pokemon": [
+  "electric"
+ ],
+ "pidgeot-pokemon": [
+  "normal",
+  "flying"
+ ],
+ "pidgeotto-pokemon": [
+  "normal",
+  "flying"
+ ],
+ "pidgey-pokemon": [
+  "normal",
+  "flying"
+ ],
+ "pikachu-pokemon": [
+  "electric"
+ ],
+ "pinsir-pokemon": [
+  "bug"
+ ],
+ "poliwag-pokemon": [
+  "water"
+ ],
+ "poliwhirl-pokemon": [
+  "water"
+ ],
+ "poliwrath-pokemon": [
+  "water",
+  "fighting"
+ ],
+ "ponyta-pokemon": [
+  "fire"
+ ],
+ "porygon-pokemon": [
+  "normal"
+ ],
+ "primeape-pokemon": [
+  "fighting"
+ ],
+ "psyduck-pokemon": [
+  "water"
+ ],
+ "raichu-pokemon": [
+  "electric"
+ ],
+ "rapidash-pokemon": [
+  "fire"
+ ],
+ "raticate-pokemon": [
+  "normal"
+ ],
+ "rattata-pokemon": [
+  "normal"
+ ],
+ "rayquaza-pokemon": [
+  "dragon",
+  "flying"
+ ],
+ "rhydon-pokemon": [
+  "ground",
+  "rock"
+ ],
+ "rhyhorn-pokemon": [
+  "ground",
+  "rock"
+ ],
+ "sandshrew-pokemon": [
+  "ground"
+ ],
+ "sandslash-pokemon": [
+  "ground"
+ ],
+ "scyther-pokemon": [
+  "bug",
+  "flying"
+ ],
+ "seadra-pokemon": [
+  "water"
+ ],
+ "seaking-pokemon": [
+  "water"
+ ],
+ "seel-pokemon": [
+  "water"
+ ],
+ "shellder-pokemon": [
+  "water"
+ ],
+ "slowbro-pokemon": [
+  "water",
+  "psychic"
+ ],
+ "slowpoke-pokemon": [
+  "water",
+  "psychic"
+ ],
+ "snorlax-pokemon": [
+  "normal"
+ ],
+ "spearow-pokemon": [
+  "normal",
+  "flying"
+ ],
+ "squirtle-pokemon": [
+  "water"
+ ],
+ "starmie-pokemon": [
+  "water",
+  "psychic"
+ ],
+ "staryu-pokemon": [
+  "water"
+ ],
+ "tangela-pokemon": [
+  "grass"
+ ],
+ "tauros-pokemon": [
+  "normal"
+ ],
+ "tentacool-pokemon": [
+  "water",
+  "poison"
+ ],
+ "tentacruel-pokemon": [
+  "water",
+  "poison"
+ ],
+ "togepi-pokemon": [
+  "fairy"
+ ],
+ "umbreon-pokemon": [
+  "dark"
+ ],
+ "vaporeon-pokemon": [
+  "water"
+ ],
+ "venomoth-pokemon": [
+  "bug",
+  "poison"
+ ],
+ "venonat-pokemon": [
+  "bug",
+  "poison"
+ ],
+ "venusaur-pokemon": [
+  "grass",
+  "poison"
+ ],
+ "victreebel-pokemon": [
+  "grass",
+  "poison"
+ ],
+ "vileplume-pokemon": [
+  "grass",
+  "poison"
+ ],
+ "voltorb-pokemon": [
+  "electric"
+ ],
+ "vulpix-pokemon": [
+  "fire"
+ ],
+ "wartortle-pokemon": [
+  "water"
+ ],
+ "weedle-pokemon": [
+  "bug",
+  "poison"
+ ],
+ "weepinbell-pokemon": [
+  "grass",
+  "poison"
+ ],
+ "weezing-pokemon": [
+  "poison"
+ ],
+ "wigglytuff-pokemon": [
+  "normal",
+  "fairy"
+ ],
+ "zapdos-pokemon": [
+  "electric",
+  "flying"
+ ],
+ "zubat-pokemon": [
+  "poison",
+  "flying"
+ ]
+}

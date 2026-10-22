@@ -24,6 +24,8 @@ export interface Config {
   itemCooldownDays: number
   /** Days a question family sits out after it is asked (1 = never on back-to-back days). */
   familyCooldownDays?: number
+  /** A question type's weight in the draw is the days since it was last asked, up to this many. */
+  metricRestDays?: number
   pairCooldownDays: number
   toleranceMargin: number
   /** Share of pairs asked the "lower" way round (shorter, fewer...) when the metric has that wording. */
@@ -46,6 +48,8 @@ export interface Format {
 }
 
 export interface PoolMetric {
+  /** Set on crossover bouts (content/crossovers.json), which ask one question across two metrics. */
+  crossover?: boolean
   /** Look-alike metrics share a family; a day asks at most one per family. */
   family?: string
   /** What the question is about (film, country, coaster...); a day asks about each subject once. */
@@ -70,6 +74,8 @@ export interface PoolValue {
   ok: boolean
   fact?: string
   note?: string
+  /** Crossover bouts: what the card says, e.g. "Chile's coastline" (content/crossovers.json). */
+  label?: string
 }
 
 /** [metric, itemA, itemB, gap, band index], itemA < itemB, sorted by metric then items. */

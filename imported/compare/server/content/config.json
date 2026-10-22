@@ -28,6 +28,7 @@
   "maxPerCategory": 2,
   "itemCooldownDays": 30,
   "familyCooldownDays": 1,
+  "metricRestDays": 7,
   "pairCooldownDays": 365,
   "toleranceMargin": 2,
   "lowQuestionShare": 0.3,
@@ -83,6 +84,10 @@
     "places": {
       "label": "Places",
       "icon": "map-pin"
+    },
+    "crossover": {
+      "label": "Crossover",
+      "icon": "swords"
     }
   },
   "calibration": {

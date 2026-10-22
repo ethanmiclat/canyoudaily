@@ -70,12 +70,17 @@ function cardImage(id: string): { image?: { src: string; w: number; h: number; f
   return types ? { types } : {}
 }
 
+/** The name on a card: a crossover's label ("Chile's coastline"), else the item's name. */
+function cardName(pool: ReturnType<typeof loadPool>, metric: string, id: string): string {
+  return pool.values[metric]?.[id]?.label ?? pool.items[id]?.name ?? id
+}
+
 /** What the client sees while a pair is live: names, question and ids only. Values stay on the server. */
 export function publicPair(day: ScheduleDay, run: Run) {
   const pair = day.pairs[run.index]
   const pool = loadPool()
   const deadline = (run.servedAt ?? Date.now()) + loadConfig().pairSeconds * 1000
-  const card = (id: string) => ({ id, name: pool.items[id]?.name ?? id, ...cardImage(id) })
+  const card = (id: string) => ({ id, name: cardName(pool, pair.metric, id), ...cardImage(id) })
   return {
     index: run.index,
     pairId: pair.id,
@@ -120,7 +125,7 @@ export function reveal(day: ScheduleDay, index: number): Reveal {
   const metric = pool.metrics[pair.metric]
   const side = (id: string, value: number) => {
     const note = pool.values[pair.metric]?.[id]?.note
-    return { id, name: pool.items[id]?.name ?? id, value, ...(note ? { note } : {}), ...cardImage(id) }
+    return { id, name: cardName(pool, pair.metric, id), value, ...(note ? { note } : {}), ...cardImage(id) }
   }
   return {
     index,

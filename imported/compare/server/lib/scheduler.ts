@@ -39,6 +39,16 @@ export function assembleDay(day: string, pool: Pool, config: Config, history: Hi
     const age = daysBetween(h.date, day)
     if (age >= 1 && age <= famCd) for (const p of h.pairs) for (const k of families.get(p.metric) ?? [p.metric]) recentFamilies.add(k)
   }
+  // A question type is more likely the longer it has rested: weight = (days since it was last asked, up to
+  // metricRestDays) squared, never asked counting as fully rested. Keeps the same few types from coming back
+  // every other day.
+  const rest = config.metricRestDays ?? 1
+  const lastSeen = new Map<string, number>()
+  for (const h of history) {
+    const age = daysBetween(h.date, day)
+    if (age >= 1) for (const p of h.pairs) lastSeen.set(p.metric, Math.min(lastSeen.get(p.metric) ?? age, age))
+  }
+  const weights = new Map(sorted(Object.keys(pool.metrics)).map((mid) => [mid, Math.max(1, Math.min(lastSeen.get(mid) ?? rest, rest)) ** 2]))
   for (const strict of recentFamilies.size ? [true, false] : [false]) {
     for (let relaxed = 0; relaxed < levels.length; relaxed++) {
       const [itemCd, pairCd] = levels[relaxed]
@@ -67,7 +77,7 @@ export function assembleDay(day: string, pool: Pool, config: Config, history: Hi
         ;(byCat[mid] ??= []).push(p)
       }
       for (let attempt = 0; attempt < 40; attempt++) {
-        const picked = tryAssemble(rng, groups, mix, config, families)
+        const picked = tryAssemble(rng, groups, mix, config, families, weights)
         if (picked) {
           const out = finishDay(day, picked, pool, config, rng, relaxed)
           if (recentFamilies.size && !strict) out.familyRepeat = true
@@ -85,8 +95,11 @@ export function metricKeys(mid: string, m: PoolMetric): string[] {
   return m.subject ? [...keys, `s:${m.subject}`] : keys
 }
 
-/** `families` maps metric id to its keys (family and subject, see metricKeys); a day uses each key once. */
-function tryAssemble(rng: SeededRng, groups: Groups, mix: Band[], config: Config, families = new Map<string, string[]>()): PoolPair[] | null {
+/**
+ * `families` maps metric id to its keys (family and subject, see metricKeys); a day uses each key once.
+ * Each slot picks a question type (weighted by `weights`), not a category, so small categories don't repeat.
+ */
+function tryAssemble(rng: SeededRng, groups: Groups, mix: Band[], config: Config, families = new Map<string, string[]>(), weights = new Map<string, number>()): PoolPair[] | null {
   const slots = rng.shuffle([...mix])
   const chosen: PoolPair[] = []
   const usedItems = new Set<string>()
@@ -99,17 +112,27 @@ function tryAssemble(rng: SeededRng, groups: Groups, mix: Band[], config: Config
     const cats = sorted(Object.keys(groups[band])).filter(
       (c) => (catCount.get(c) ?? 0) < config.maxPerCategory && !(needNew && catCount.has(c)),
     )
+    // One metric per family a day, so no question type repeats (state and city census count as one).
+    const cands: [string, string][] = cats.flatMap((c) =>
+      sorted(Object.keys(groups[band][c]))
+        .filter((m) => !(families.get(m) ?? [m]).some((k) => usedMetrics.has(k)))
+        .map((m): [string, string] => [c, m]),
+    )
+    const w = (m: string) => weights.get(m) ?? 1
     let pick: PoolPair | null = null
     let pickCat: string | null = null
-    while (cats.length && pick === null) {
-      const cat = cats.splice(rng.below(cats.length), 1)[0]
-      pickCat = cat
-      // One metric per family a day, so no question type repeats (state and city census count as one).
-      const mids = sorted(Object.keys(groups[band][cat])).filter((m) => !(families.get(m) ?? [m]).some((k) => usedMetrics.has(k)))
-      while (mids.length && pick === null) {
-        const mid = mids.splice(rng.below(mids.length), 1)[0]
-        const options = groups[band][cat][mid].filter((p) => !usedItems.has(p[1]) && !usedItems.has(p[2]))
-        if (options.length) pick = options[rng.below(options.length)]
+    while (cands.length && pick === null) {
+      let r = rng.below(cands.reduce((sum, [, m]) => sum + w(m), 0))
+      let i = 0
+      while (r >= w(cands[i][1])) {
+        r -= w(cands[i][1])
+        i++
+      }
+      const [cat, mid] = cands.splice(i, 1)[0]
+      const options = groups[band][cat][mid].filter((p) => !usedItems.has(p[1]) && !usedItems.has(p[2]))
+      if (options.length) {
+        pick = options[rng.below(options.length)]
+        pickCat = cat
       }
     }
     if (pick === null || pickCat === null) return null
